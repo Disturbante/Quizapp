@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Quiz di Farmacologia con ripasso personale delle domande sbagliate.">
+  <title>Quiz Farmacologia</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-frame">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Quiz Farmacologia - home">
+        <span class="brand-mark" aria-hidden="true">Q</span>
+        <span class="brand-copy"><strong>Quiz</strong><span>Farmacologia</span></span>
+      </a>
+      <div id="signed-in-bar" class="signed-in-bar" hidden>
+        <span class="user-avatar" aria-hidden="true">U</span>
+        <span id="user-email" class="user-email"></span>
+        <button id="sign-out" class="button button-quiet button-small" type="button">Esci</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="auth-view" class="auth-layout">
+        <div class="auth-intro">
+          <p class="eyebrow">IL TUO SPAZIO DI RIPASSO</p>
+          <h1>Un passo alla volta.<br><span>Una domanda alla volta.</span></h1>
+          <p class="intro-copy">Esercitati con il tuo archivio di Farmacologia e torna sulle domande che sbagli, finché non le padroneggi.</p>
+          <div class="feature-list">
+            <div class="feature-item"><span class="feature-icon">✓</span><span><strong>289 domande</strong><small>Caricate dal tuo file JSON</small></span></div>
+            <div class="feature-item"><span class="feature-icon">↻</span><span><strong>Ripasso mirato</strong><small>Un contenitore separato per gli errori</small></span></div>
+            <div class="feature-item"><span class="feature-icon">⌁</span><span><strong>Progressi personali</strong><small>Separati per account su questo browser</small></span></div>
+          </div>
+        </div>
+
+        <div class="auth-card card">
+          <div class="card-topline"></div>
+          <p class="eyebrow">AREA PERSONALE</p>
+          <h2 id="auth-title">Accedi al tuo account</h2>
+          <p id="auth-subtitle" class="muted">Riprendi da dove avevi lasciato.</p>
+          <div id="config-warning" class="notice notice-warning" hidden>
+            <strong>Firebase non è ancora configurato.</strong>
+            <span>Apri <code>firebase-config.js</code>, inserisci i dati della tua app Firebase e abilita Email/Password in Authentication.</span>
+          </div>
+          <form id="auth-form" novalidate>
+            <label for="email">Indirizzo email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="nome@esempio.it" required>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Almeno 6 caratteri" minlength="6" required>
+            <button id="auth-submit" class="button button-primary button-full" type="submit">Accedi</button>
+          </form>
+          <div class="auth-extras">
+            <button id="reset-password" class="text-button" type="button">Password dimenticata?</button>
+            <p id="auth-switch-line"><span id="auth-switch-prompt">Non hai un account?</span> <button id="auth-switch" class="text-button" type="button">Registrati</button></p>
+          </div>
+          <p id="auth-message" class="form-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section id="app-view" hidden>
+        <section id="home-screen" class="home-screen">
+          <div class="page-heading">
+            <div>
+              <p class="eyebrow">PANORAMICA</p>
+              <h1>Il tuo ripasso</h1>
+              <p class="muted">Le risposte e il contenitore degli errori vengono salvati in questo browser per il tuo account.</p>
+            </div>
+            <div class="subject-badge"><span class="subject-dot"></span> Farmacologia</div>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card card"><span class="stat-label">Archivio</span><strong id="total-questions" class="stat-value">289</strong><span class="stat-caption">domande disponibili</span><span class="stat-icon purple">▤</span></article>
+            <article class="stat-card card"><span class="stat-label">Domande sbagliate</span><strong id="wrong-count" class="stat-value">0</strong><span class="stat-caption">da ripassare</span><span class="stat-icon orange">↻</span></article>
+            <article class="stat-card card"><span class="stat-label">Risposte corrette</span><strong id="correct-count" class="stat-value">0</strong><span class="stat-caption">in totale</span><span class="stat-icon green">✓</span></article>
+            <article class="stat-card card"><span class="stat-label">Precisione</span><strong id="accuracy" class="stat-value">—</strong><span class="stat-caption">sulle risposte date</span><span class="stat-icon blue">◒</span></article>
+          </div>
+
+          <div class="dashboard-grid">
+            <section class="card session-card">
+              <div class="section-heading"><div><p class="eyebrow">NUOVA SESSIONE</p><h2>Inizia a esercitarti</h2></div><span class="heading-symbol">↗</span></div>
+              <p class="muted">Scegli da quale contenitore estrarre le domande e quante farne in questa sessione.</p>
+              <form id="session-form" class="session-form">
+                <fieldset class="source-fieldset">
+                  <legend>Contenitore</legend>
+                  <label class="source-option selected" for="source-general">
+                    <input id="source-general" type="radio" name="source" value="general" checked>
+                    <span class="source-check" aria-hidden="true">✓</span><span class="source-text"><strong>Tutte le domande</strong><small>Estrazione casuale dall'archivio completo</small></span><span id="general-pool-count" class="source-count">289</span>
+                  </label>
+                  <label class="source-option" for="source-wrong">
+                    <input id="source-wrong" type="radio" name="source" value="wrong">
+                    <span class="source-check" aria-hidden="true">✓</span><span class="source-text"><strong>Domande sbagliate</strong><small>Ripassa i quesiti ancora nel contenitore errori</small></span><span id="wrong-pool-count" class="source-count">0</span>
+                  </label>
+                </fieldset>
+                <label class="field-label" for="question-count">Numero di domande</label>
+                <select id="question-count" name="count">
+                  <option value="10" selected>10 domande</option>
+                  <option value="20">20 domande</option>
+                  <option value="30">30 domande</option>
+                  <option value="all">Tutte quelle disponibili</option>
+                </select>
+                <button id="start-session" class="button button-primary button-full" type="submit">Inizia esercitazione <span aria-hidden="true">→</span></button>
+              </form>
+              <button id="reset-progress" class="text-button danger-button" type="button">Azzera i progressi locali</button>
+            </section>
+
+            <aside class="card rules-card">
+              <p class="eyebrow">COME FUNZIONA</p>
+              <h2>Un metodo semplice</h2>
+              <div class="rule-list">
+                <div class="rule-item"><span class="rule-number">01</span><div><strong>Rispondi</strong><p>Scegli una delle opzioni e controlla il risultato.</p></div></div>
+                <div class="rule-item"><span class="rule-number">02</span><div><strong>Se sbagli</strong><p>La domanda entra nel contenitore “Domande sbagliate”.</p></div></div>
+                <div class="rule-item"><span class="rule-number">03</span><div><strong>Se la correggi</strong><p>La domanda viene rimossa dal contenitore degli errori.</p></div></div>
+              </div>
+              <div class="privacy-note"><span aria-hidden="true">ⓘ</span><p>L'account è gestito da Firebase. Il progresso è salvato solo localmente: non viene sincronizzato con altri dispositivi.</p></div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="quiz-screen" class="quiz-screen" hidden>
+          <button id="back-home" class="back-link" type="button">← Torna alla panoramica</button>
+          <div class="quiz-topline"><div><span id="quiz-mode-badge" class="mode-badge">Tutte le domande</span><p id="quiz-progress-label" class="muted">Domanda 1 di 10</p></div><div id="quiz-score-label" class="score-label">0 corrette</div></div>
+          <div class="progress-track" aria-label="Avanzamento sessione"><div id="quiz-progress-bar" class="progress-fill"></div></div>
+          <article class="card question-card">
+            <div class="question-meta"><span>DOMANDA <strong id="question-number">01</strong></span><span id="question-id">ID 12462684</span></div>
+            <h1 id="question-text">Caricamento domanda…</h1>
+            <p class="answer-instruction">Seleziona una risposta.</p>
+            <div id="option-list" class="option-list"></div>
+            <div id="answer-feedback" class="answer-feedback" hidden aria-live="polite"></div>
+            <div class="question-actions"><span id="question-state-label" class="muted small-text">La risposta verrà verificata subito.</span><button id="next-question" class="button button-primary" type="button" disabled>Conferma risposta</button></div>
+          </article>
+        </section>
+
+        <section id="result-screen" class="result-screen" hidden>
+          <div class="result-hero"><span class="result-symbol">✓</span><p class="eyebrow">SESSIONE COMPLETATA</p><h1>Hai terminato l'esercitazione</h1><p id="result-summary" class="muted">Ecco il riepilogo delle risposte.</p></div>
+          <div class="result-stats-grid">
+            <article class="card result-stat"><span>Corrette</span><strong id="result-correct">0</strong></article>
+            <article class="card result-stat"><span>Sbagliate</span><strong id="result-wrong">0</strong></article>
+            <article class="card result-stat"><span>Precisione sessione</span><strong id="result-accuracy">0%</strong></article>
+          </div>
+          <div class="result-actions"><button id="result-home" class="button button-primary" type="button">Torna alla panoramica</button><button id="retry-wrong" class="button button-secondary" type="button">Ripassa le domande sbagliate</button></div>
+        </section>
+      </section>
+
+      <div id="global-message" class="global-message" role="status" aria-live="polite" hidden></div>
+    </main>
+    <footer class="footer"><span>Quiz Farmacologia</span><span>Static frontend · Firebase Authentication</span></footer>
+  </div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

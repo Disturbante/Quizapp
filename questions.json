@@ -1,0 +1,3477 @@
+{
+ "source": "Prof O.tter",
+ "quiz_id": 85,
+ "name": "Farmacologia",
+ "fetched_at": "2026-10-15",
+ "count": 289,
+ "questions": [
+  {
+   "id": 12462684,
+   "text": "In un paziente con asma bronchiale o BPCO il farmaco da usarsi per l'angina pectoris è:",
+   "options": [
+    "verapamil",
+    "un beta-bloccante",
+    "aspirina",
+    "warfarin",
+    "amlodipina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462685,
+   "text": "Depositi corneali, alterazioni della vista e fotofobia sono effetti collaterali che si associano all'uso di:",
+   "options": [
+    "Lidocaina",
+    "Amiodarone",
+    "Adenosina",
+    "Procainamide",
+    "Diltiazem"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462686,
+   "text": "Causa blocco dei recettori alfa-adrenergici postsinaptici e riduce la pressione arteriosa:",
+   "options": [
+    "fenilefrina",
+    "chinidina",
+    "mazindolo",
+    "noradrenalina",
+    "prazosina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462687,
+   "text": "La nitroglicerina:",
+   "options": [
+    "aumenta il postcarico",
+    "non provoca tolleranza",
+    "non deve essere associata ad un beta-bloccante",
+    "dilata prevalentemente le arteriole",
+    "dilata prevalentemente le vene"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462688,
+   "text": "Quale delle seguenti e' un'indicazione clinica dei farmaci antistaminici H1?",
+   "options": [
+    "ansia",
+    "convulsioni",
+    "rinite stagionale",
+    "diarrea",
+    "ulcera gastrica"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462689,
+   "text": "Il salbutamolo è un:",
+   "options": [
+    "Anticolinergico",
+    "Antiserotoninico",
+    "beta-bloccante",
+    "beta2-adrenergico stimolante",
+    "Antistaminico"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462690,
+   "text": "Si prospetta la terapia genica in tutte le seguenti malattie, tranne",
+   "options": [
+    "Fibrosi cistica",
+    "Ulcera gastrica",
+    "Emofilia",
+    "Tumori",
+    "AIDS"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462691,
+   "text": "Tutte le seguenti affermazioni relative alla terapia immunosoppressiva sono corrette, tranne:",
+   "options": [
+    "La terapia immunosoppressiva con farmaci citotossici può causare inibizione midollare",
+    "La terapia immunosoppressiva aumenta il rischio di insorgenza di linfomi",
+    "La terapia immunosoppressiva è più efficace se iniziata prima dell'esposizione all'antigene",
+    "La terapia immunosoppressiva è più efficace nei confronti della risposta secondaria all'antigene",
+    "La terapia immunosoppressiva aumenta il rischio di insorgenza di infezioni"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462692,
+   "text": "Un importante impiego clinico del metadone e' nella terapia sostitutiva nella dipendenza da:",
+   "options": [
+    "cannabinoidi",
+    "benzodiazepine",
+    "etanolo",
+    "cocaina",
+    "eroina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462693,
+   "text": "L'adrenalina può indurre tutti i seguenti effetti avversi tranne:",
+   "options": [
+    "aritmie ventricolari",
+    "aggravamento dei sintomi nei pazienti psicotici",
+    "aggravamento dei sintomi nei pazienti asmatici",
+    "emorragia cerebrale",
+    "ansietà"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462694,
+   "text": "Indicare quale tra i seguenti farmaci non appartiene alla classe degli antidepressivi triciclici:",
+   "options": [
+    "fluoxetina",
+    "imipramina",
+    "doxepina",
+    "amitriptilina",
+    "desipramina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462695,
+   "text": "Il meccanismo più importante per l'azione gastrolesiva dei FANS è rappresentato:",
+   "options": [
+    "dalla loro acidità",
+    "dal blocco della sintesi di prostaglandine",
+    "dalla stimolazione dei recettori dell'istamina a livello della mucosa gastrica",
+    "dalla stimolazione della gastrina",
+    "dal blocco della secrezione di muco gastrico"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462696,
+   "text": "Si definisce tolleranza quel fenomeno per cui l'effetto di un farmaco diminuisce gradualmente in seguito a somministrazioni ripetute. Tutti i seguenti meccanismi sono coinvolti, tranne:",
+   "options": [
+    "Aumento della degradazione metabolica del farmaco",
+    "Aumento dei recettori",
+    "Alterazioni a carico dei recettori",
+    "Deplezione dei mediatori",
+    "Riduzione del numero dei recettori"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462697,
+   "text": "L'eparina",
+   "options": [
+    "Agisce legandosi all'antitrombina III",
+    "Inibisce l'aggregazione piastrinica da trombossano A2",
+    "Possiede attività trombolitica",
+    "Agisce bloccando la sintesi di trombossano A2",
+    "Blocca la rigenerazione epatica di vitamina K"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462698,
+   "text": "L'uso dei beta-bloccanti è da sconsigliare:",
+   "options": [
+    "nello scompenso cardiaco congestizio",
+    "nelle tireotossicosi",
+    "nell'asma bronchiale",
+    "nell'ipertensione nefrogena",
+    "nel diabete di tipo due"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462699,
+   "text": "Una donna con irsutismo presenta alti livelli sierici di diidrotestosterone come probabile causa della sua manifestazione clinica. Quale dei seguenti farmaci sarebbe il più indicato nell'inibire la formazione del diidrotestosterone?",
+   "options": [
+    "Tamoxifene",
+    "Ciproterone",
+    "Flutamide",
+    "Finasteride",
+    "Ketoconazolo"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462700,
+   "text": "La meperidina è un farmaco:",
+   "options": [
+    "Analgesico non stupefacente",
+    "Antialdosteronico",
+    "Analgesico stupefacente",
+    "Antinfiammatorio analgesico",
+    "Antistaminico"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462701,
+   "text": "Gli effetti gastrointestinali di metoclopramide e cisapride sono antagonizzati da farmaci che bloccano i recettori di:",
+   "options": [
+    "serotonina",
+    "muscarinici",
+    "acetilcolina",
+    "dopamina",
+    "motilina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462702,
+   "text": "E' un impiego clinico delle benzodiazepine:",
+   "options": [
+    "cefalea",
+    "insonnia",
+    "ulcera peptica",
+    "morbo di Parkinson",
+    "glaucoma"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462703,
+   "text": "Quale delle seguenti affermazioni riferite alla fase III della sperimentazione clinica dei farmaci è corretta?",
+   "options": [
+    "Prevede un gruppo di controllo",
+    "Si esegue su volontari sani",
+    "Serve a stabilire la dose massima tollerata",
+    "Si esegue su un piccolo numero (50-60) di pazienti",
+    "Serve a stabilire la dose minima tossica"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462704,
+   "text": "La cocaina ha azioni di tipo:",
+   "options": [
+    "simpaticolitiche",
+    "spasmolitica",
+    "anestetico locale",
+    "parasimpaticomimetico",
+    "miorilassante"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462705,
+   "text": "Tutti i seguenti rappresentano importanti effetti avversi della ciclosporina eccetto:",
+   "options": [
+    "tossicità gastrointestinale",
+    "alopecia",
+    "nefrotossicità",
+    "epatotossicità",
+    "ipertensione"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462706,
+   "text": "Nel vomito da cinetopatia l'antiemetico da prescrivere è:",
+   "options": [
+    "la metoclopramide",
+    "la scopolamina",
+    "un antagonista dei recettori H2 per l'istamina",
+    "un antagonista dei recettori 5-HT3",
+    "la clorpromazina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462707,
+   "text": "Affinché compaia l'effetto terapeutico degli antidepressivi triciclici, è necessario che dall'assunzione del farmaco trascorrano:",
+   "options": [
+    "2-3 settimane",
+    "2 mesi",
+    "3 ore",
+    "3 minuti",
+    "1 giorno"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462708,
+   "text": "Il mannitolo è:",
+   "options": [
+    "un diuretico osmotico",
+    "un beta-bloccante",
+    "un calcio-antagonista",
+    "un antidoto che chela il piombo",
+    "un anticoagulante orale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462709,
+   "text": "Un paziente lamenta disuria e pollacchiuria. L'analisi delle urine mostra un'ematuria microscopica ma nessuna batteriuria. Quale dei seguenti farmaci che sta assumendo è quello più probabilmente responsabile per questo effetto avverso?",
+   "options": [
+    "Gentamicicina",
+    "Ciclofosfamide",
+    "Penicillina G",
+    "Ciclosporina",
+    "Naproxene"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462710,
+   "text": "Quale dei seguenti farmaci è un barbiturico usato come antiepilettico ?",
+   "options": [
+    "Pentobarbital",
+    "Tiopentale",
+    "Diazepam",
+    "Secobarbital",
+    "Fenobarbital"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462711,
+   "text": "Quale tra i seguenti può essere considerato indicatore di efficacia clinica nella prevenzione delle malattie coronariche:",
+   "options": [
+    "Riduzione della pressione arteriosa",
+    "Miglioramento della perfusione cardiaca",
+    "Riduzione dell'incidenza di infarti",
+    "Riduzione della colesterolemia",
+    "Aumento della contrattilità miocardica"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462712,
+   "text": "In un paziente diabetico l'antiipertensivo da prescrivere è:",
+   "options": [
+    "un ACE-inibitore",
+    "un diuretico tiazidico",
+    "un alfa1-bloccante",
+    "un bloccante i canali del calcio",
+    "un beta-bloccante"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462713,
+   "text": "In caso di trattamento con anticolinergici, i seguenti sono tutti effetti collaterali prevedibili tranne:",
+   "options": [
+    "secchezza delle fauci",
+    "broncocostrizione",
+    "stipsi",
+    "riduzione del pH gastrico",
+    "tachicardia"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462714,
+   "text": "Tutte le seguenti affermazioni relative ai glucocorticoidi sono corrette tranne:",
+   "options": [
+    "Risultano utili nelle situazioni in cui la risposta dell'ospite è la causa della malattia",
+    "Mascherano i sintomi della malattia sottostante",
+    "La somministrazione acuta comporta sempre effetti indesiderati",
+    "La somministrazione cronica comporta sempre effetti indesiderati",
+    "La terapia con glucocorticoidi generalmente non è risolutiva"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462715,
+   "text": "Tutti i seguenti effetti collaterali sono propri dei nitrovasodilatatori tranne:",
+   "options": [
+    "Abitudine",
+    "Tachicardia riflessa",
+    "Cefalea",
+    "Ipotensione",
+    "Lupus iatrogeno"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462716,
+   "text": "I farmaci beta bloccanti (beta 1 selettivi) utilizzati in terapia possono indurre:",
+   "options": [
+    "riduzione della pressione arteriosa per azione diretta sui recettori del SNC",
+    "attivazione dei recettori beta presenti sulla muscolatura liscia bronchiale e conseguente broncodilatazione",
+    "allucinazioni e delirio in caso di sospensione brusca della terapia",
+    "effetto cronotropo e inotropo positivo con conseguente aumento della pressione arteriosa",
+    "effetto cronotropo e inotropo negativo con conseguente riduzione della pressione arteriosa"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462717,
+   "text": "I neurolettici sono farmaci indicati nel trattamento di:",
+   "options": [
+    "mania acuta",
+    "convulsioni",
+    "insonnia",
+    "ipertensione",
+    "dolore"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462718,
+   "text": "Da cosa può essere antagonizzata la depressione respiratoria indotta dalla morfina?",
+   "options": [
+    "Pentazocina",
+    "Buprenorfina",
+    "Naloxone",
+    "Metadone",
+    "Codeina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462719,
+   "text": "Indicare quale dei seguenti farmaci può provocare prolungamento del tratto QT dell'ECG:",
+   "options": [
+    "cisapride",
+    "doxorubicina",
+    "trinitrina",
+    "losartan",
+    "clozapina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462720,
+   "text": "Indicare fra i seguenti un glucocorticoide a durata d'azione intermedia:",
+   "options": [
+    "Betametasone",
+    "Metilprednisolone",
+    "Cortisone",
+    "Fludrocortisone",
+    "Idrocortisone"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462721,
+   "text": "Quale dei seguenti FANS viene utilizzato come antiaggregante piastrinico ?",
+   "options": [
+    "ibuprofene",
+    "nimesulide",
+    "nabumetone",
+    "aspirina",
+    "paracetamolo"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462722,
+   "text": "Una donna di 59 anni forte fumatrice è stata trovata affetta 2 mesi prima da tumore polmonare. Entra in ospedale in coma. Il calcio sierico è di 16 mg/dL. Quale dei seguenti farmaci potrebbe esser più utile per ridurre rapidamente il calcio sierico?",
+   "options": [
+    "mannitolo",
+    "idroclorotiazide",
+    "furosemide",
+    "spironolattone",
+    "acetazolamide"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462723,
+   "text": "Sono considerati sintomi di intossicazione da inibitori delle colinesterasi tutti, tranne?",
+   "options": [
+    "iposecrezione bronchiale",
+    "bradicardia",
+    "broncocostrizione",
+    "diarrea",
+    "miosi"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462724,
+   "text": "In un paziente affetto da glaucoma è controindicato l'uso:",
+   "options": [
+    "degli antibiotici",
+    "degli antipressivi triciclici",
+    "delle benzodiazepine ipnogene",
+    "delle amfetamine",
+    "dei barbiturici"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462725,
+   "text": "Quale tra i seguenti farmaci può causare sindrome muscarinica:",
+   "options": [
+    "Ganglioplegici",
+    "Inibitori delle colinesterasi",
+    "Vagolitici",
+    "Inibitori della monoaminossidasi",
+    "Curari"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462726,
+   "text": "Sono possibili effetti tossici per l'iperdosaggio di vitamina A:",
+   "options": [
+    "Solo negli animali",
+    "Si",
+    "Solo negli adulti",
+    "Solo nelle sindromi carenziali",
+    "No"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462727,
+   "text": "In un paziente con ipoacusia e/o vertigini non si dovrebbero somministrare:",
+   "options": [
+    "carbapenici",
+    "penicilline",
+    "macrolidi",
+    "cefalosporine",
+    "aminoglicosidi"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462728,
+   "text": "I farmaci della classe dei chinoloni:",
+   "options": [
+    "non sono soggetti a fenomeni di resistenza batterica noti",
+    "sono impiegati esclusivamente nella terapia delle infezioni urinarie",
+    "sono impiegati solo in associazione ad altri farmaci antibatterici",
+    "sono inibitori della sintesi proteica delle cellule batteriche",
+    "sono inibitori della DNA girasi, un enzima simile alla topoisomerasi II eucariota"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462729,
+   "text": "Un ACE-inibitore è indicato:",
+   "options": [
+    "nella nefropatia diabetica",
+    "nell'insufficienza ventricolare sistolica sinistra",
+    "nell'ipertenzione arteriosa",
+    "nell'infarto miocardico",
+    "in tutti i casi indicati"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462730,
+   "text": "Tutte le seguenti sono proprietà farmacologiche dei barbiturici, tranne:",
+   "options": [
+    "deprimono reversibilmente l'attività di tutti i tessuti eccitabili",
+    "possono sviluppare tolleranza farmacocinetica e/o farmacodinamica",
+    "hanno attività anestetica generale",
+    "aumentano la durata totale del sonno e ne alterano le fasi",
+    "a basse dosi riducono la reazione a stimoli dolorosi"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462731,
+   "text": "La secrezione acida gastrica può essere influenzata da:",
+   "options": [
+    "tutte le risposte indicate",
+    "alcool",
+    "antagonisti del recettore H2",
+    "inibitori della pompa protonica",
+    "antagonisti muscarinici, ad es., pirenzepina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462732,
+   "text": "Tutte le seguenti sono una indicazioni cliniche specifica delle benzodiazepine, tranne:",
+   "options": [
+    "attacchi di panico",
+    "insonnia",
+    "convulsioni",
+    "depressione",
+    "ansia"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462733,
+   "text": "La brusca sospensione della terapia antipertensiva con beta-bloccanti può essere associata con tutti questi effetti tranne:",
+   "options": [
+    "Angina pectoris",
+    "Tachicardia",
+    "Iperattività catecolaminergica",
+    "Infarto del miocardio",
+    "Ritenzione di sali e acqua"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462734,
+   "text": "Definisce il tempo necessario affinché la massima concentrazione plasmatica del farmaco si riduca della metà:",
+   "options": [
+    "il legame alle proteine plasmatiche",
+    "biodisponibilità",
+    "clearance",
+    "emivita",
+    "volume apparente di distribuzione"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462735,
+   "text": "Come è meglio impostare una terapia antiepilettica in una donna gravida in cui non è consigliabile sospendere del tutto l'uso dei farmaci?",
+   "options": [
+    "Utilizzare un unico farmaco al dosaggio più basso possibile",
+    "Somministrare i farmaci solo per via rettale",
+    "Utilizzare una terapia polifarmacologica, in modo da risparmiare sul dosaggio di ogni farmaco",
+    "Mantenere la terapia precedente, intensificando i controlli ematochimici",
+    "Utilizzare solo vie di somministrazione parenterali"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462736,
+   "text": "In una polmonite da Staphylococcus aureus meticillino-resistente l'antibiotico di scelta è:",
+   "options": [
+    "piperacillina",
+    "claritromicina",
+    "vancomicina",
+    "oxacillina",
+    "gentamicina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462737,
+   "text": "I bersagli molecolari di un farmaco sono costituiti da:",
+   "options": [
+    "recettori",
+    "enzimi",
+    "molecole di trasporto (cotrasportatori e antitrasportatori)",
+    "tutte le risposte indicate",
+    "acidi nucleici"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462738,
+   "text": "Quale dei seguenti effetti dei FANS è ridotto nel caso degli inibitori selettivi della COX-2?",
+   "options": [
+    "Rischio di sanguinamento gastro-intestinale",
+    "Rischio di nefropatia da analgesici",
+    "Rischio di reazioni idiosincrasiche",
+    "Efficacia anti-infiammatoria",
+    "Rischio di insufficienza renale acuta"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462739,
+   "text": "Il sistema ATC:",
+   "options": [
+    "E' una metodologia per la valutazione qualitativa delle terapie farmacologiche",
+    "Si articola su 3 livelli",
+    "E' un sistema internazionale per il monitoraggio delle segnalazioni spontanee di sospette reazioni avverse",
+    "E' un sistema di classificazione dei medicinali basato su criteri Anatomici, Terapeutici e Chimici",
+    "E' un sistema per la valutazione delle prescrizioni di farmaci basato sull'Attenzione per le Terapie Corrette"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462740,
+   "text": "Quale tra questi gruppi è solitamente maggiormente rappresentato negli studi sperimentali con farmaci?",
+   "options": [
+    "uomini adulti.",
+    "donne in età fertile.",
+    "neonati.",
+    "soggetti con più malattie.",
+    "soggetti anziani."
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462741,
+   "text": "L'effetto tossico principale degli inibitori dell'enzima HMG-CoA reduttasi è rappresentato da:",
+   "options": [
+    "gravi aritmie cardiache",
+    "pancreatite acuta",
+    "neuropatie periferiche",
+    "danno tissutale con elevati livelli di enzimi epatici e muscolari",
+    "calcoli biliari"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462742,
+   "text": "I seguenti farmaci sono utilizzati nell'ipertiroidismo ad eccezione di:",
+   "options": [
+    "carbimazolo",
+    "metimazolo",
+    "iodio",
+    "propiltiouracile",
+    "carbamazepina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462743,
+   "text": "Tutte le seguenti affermazioni riguardanti la farmacogenomica sono errate tranne:",
+   "options": [
+    "consiste nello studio dei fattori genetici ereditari che influiscono sulla risposta individuale ai farmaci (efficacia e tollerabilità) creando differenze tra un individuo e un altro",
+    "consiste nella produzione di nuovi farmaci con tecniche di ingegneria genetica.",
+    "consiste nello studio dei caratteri ereditari e della loro variabilità da un individuo all'altro",
+    "consiste nello studio del genoma (DNA) e dei suoi prodotti (RNA)",
+    "consiste nello studio della risposta ai farmaci nei diversi ceppi etnici"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462744,
+   "text": "Tutte le seguenti costituiscono una controindicazione all'uso dei salicilati, TRANNE:",
+   "options": [
+    "Depressione psichica",
+    "Disturbi della coagulazione",
+    "Diminuita funzionalità uditiva",
+    "Malattie ulcerative gastriche",
+    "Insufficienza renale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462745,
+   "text": "La rifampicina è un potente induttore del metabolismo ossidativo di molti farmaci. Si sono osservate interazioni di rilevanza clinica con:",
+   "options": [
+    "ciclosporina",
+    "ipoglicemizzanti orali",
+    "glucocorticoidi",
+    "chinidina",
+    "tutti i farmaci indicati"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462746,
+   "text": "Quale delle seguenti classi di farmaci inibisce la HMG-CoA reduttasi ?",
+   "options": [
+    "Fibrati",
+    "ACE inibitori",
+    "Betabloccanti",
+    "Statine",
+    "Estrogeni"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462747,
+   "text": "Quale dei seguenti farmaci anti-diarroici produce minori effetti collaterali legati al sistema nervoso centrale?",
+   "options": [
+    "Loperamide",
+    "Difenossilato",
+    "Codeina",
+    "Paracodeina",
+    "Morfina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462748,
+   "text": "Quale delle seguenti condizioni è associata maggiormente ad un problema di crescita piuttosto che di pigmentazione abnorme nella cavità orale?",
+   "options": [
+    "Malattia di Addison",
+    "Terapia con dintoina",
+    "Fluorosi",
+    "Tetracicline somministrate ad un bambino",
+    "Intossicazione da piombo"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462749,
+   "text": "Quale dei seguenti farmaci è un calcio antagonista che influenza sia il tessuto vascolare che quello cardiaco:",
+   "options": [
+    "Cerivastatina",
+    "Nimodipina",
+    "Verapamil",
+    "Teofillina",
+    "Ranitidina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462750,
+   "text": "L'intossicazione da sali di litio migliora con:",
+   "options": [
+    "urea, cloruro di sodio, acetazolamide, emodialisi",
+    "neurolettici",
+    "acqua in dosi abbondanti",
+    "ansiolitici",
+    "epatoprotettori"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462751,
+   "text": "I contraccettivi ormonali femminili possono provocare lo sviluppo di:",
+   "options": [
+    "carcinoma ovarico",
+    "cisti ovariche",
+    "adenoma epatico",
+    "gastrite",
+    "glaucoma"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462752,
+   "text": "Quale dei seguenti antibiotici è utilizzato per trattare la colite da Clostridium difficile?",
+   "options": [
+    "Eritromicina",
+    "Vancomicina",
+    "Tetraciclina",
+    "Cefazolina",
+    "Rifampicina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462753,
+   "text": "Quale delle seguenti affermazioni riguardanti le interazioni tra farmaci e' errata ?",
+   "options": [
+    "nessuna delle affermazioni riportate",
+    "in seguito ad un'interazioni tra farmaci puo' verificarsi una variazione della durata della risposta farmacologica",
+    "un farmaco puo' modificare la biodisponibilita' di un altro farmaco",
+    "un farmaco puo' interferire con l'escrezione di un altro farmaco",
+    "in seguito ad un' interazione tra farmaci puo' verificarsi variazione della risposta farmacologica"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462754,
+   "text": "Un paziente con uretrite causata da un ceppo di Neisseria gonorrhoeae che produce penicillinasi può essere efficacemente trattato con qualunque dei seguenti agenti, tranne:",
+   "options": [
+    "ceftriaxone",
+    "ciprofloxacina",
+    "ofloxacina",
+    "spectinomicina",
+    "trimetoprim-sulfametoxazolo"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462755,
+   "text": "Tutti i seguenti farmaci sono utilizzati nella terapia dell'asma tranne:",
+   "options": [
+    "prednisone",
+    "cromoglicato",
+    "teofillina",
+    "neostigmina",
+    "terbutalina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462756,
+   "text": "E' un effetto lamentato di frequente dai pazienti in terapia con enalapril:",
+   "options": [
+    "tosse",
+    "ipertensione",
+    "allucinazioni",
+    "rinorrea",
+    "anemia"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462757,
+   "text": "Un paziente trattato con anticoagulanti orali può andare incontro al rischio:",
+   "options": [
+    "Di trombosi",
+    "Di edema polmonare",
+    "Di infarto miocardico",
+    "Di aumento del numero di piastrine circolanti",
+    "Di emorragie"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462758,
+   "text": "Quale delle seguenti e' un'indicazione clinica dei farmaci antistaminici H2 ?",
+   "options": [
+    "rinite stagionale",
+    "ulcera gastrica",
+    "asma bronchiale",
+    "diarrea",
+    "ansia"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462759,
+   "text": "Un paziente con storia di ulcera gastrica è affetto da artrite reumatoide e pertanto va sottoposto a terapia con farmaci anti-infiammatori non-steroidei. Quale, tra i farmaci sottoindicati, potrebbe essere contemporaneamente prescritto per ridurre il rischio di formazione di ulcera peptica in questo paziente?",
+   "options": [
+    "famotidina",
+    "cimetidina",
+    "ranitidina",
+    "omeprazolo",
+    "misoprostolo"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462760,
+   "text": "L'eritromicina è un farmaco in grado di inibire potentemente il metabolismo ossidativo di diversi farmaci. Effetti indesiderati di rilevanza clinica possono verificarsi in seguito alla contemporanea assunzione di:",
+   "options": [
+    "valproato",
+    "tutti i farmaci indicati",
+    "ciclosporina",
+    "warfarin",
+    "triazolam"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462761,
+   "text": "Le seguenti tipologie di reazioni avverse sono tutte importanti da segnalare, tranne:",
+   "options": [
+    "note e di lieve entità.",
+    "inattese.",
+    "a nuovi farmaci.",
+    "a farmaci in sperimentazione.",
+    "gravi."
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462762,
+   "text": "Pazienti con ulcera peptica dovrebbero evitare tutti i seguenti farmaci, tranne:",
+   "options": [
+    "nicotina",
+    "FANS",
+    "caffeina",
+    "prednisone",
+    "metoclopramide"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462763,
+   "text": "Tutte le seguenti affermazioni relative agli steroidi della corteccia surrenale sono corrette, tranne:",
+   "options": [
+    "Le concentrazioni plasmatiche fisiologiche di cortisolo seguono un ritmo circadiano con un picco massimo nella mattinata",
+    "Il betametasone ha una potenza antiinfiammatoria più che doppia rispetto al fludrocortisone, che a sua volta è circa dieci volte più potente del cortisolo",
+    "Il prednisone ha un T½ intermedio rispetto al cortisone (breve) e al betametasone (lungo)",
+    "Tra gli effetti avversi conseguenti al trattamento con corticosteroidi possono essere compresi: irsutismo, acne, ecchimosi",
+    "La somministrazione esogena di ACTH può essere utilizzata per la diagnosi differenziale nella sindrome di Cushing"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462764,
+   "text": "I sali di litio sono principalmente impiegati in:",
+   "options": [
+    "intossicazione neurolettica",
+    "psicosi maniaco-depressiva",
+    "nevrastenia",
+    "schizofrenia",
+    "depressione endogena"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462765,
+   "text": "La lidocaina somministrata endovena ha tutti i seguenti effetti, tranne:",
+   "options": [
+    "Essere rapidamente metabolizzata a livello epatico",
+    "Ridurre la conduttanza al Na+ nelle cellule con automatismo",
+    "Sopprimere le extrasistoli ventricolari",
+    "Ristabilire il ritmo sinusale nella fibrillazione atriale",
+    "Non aver effetto sulla funzione segnapassi del nodo del seno"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462766,
+   "text": "Un antagonista completo è",
+   "options": [
+    "un farmaco con attività intrinseca pari a -1",
+    "un farmaco dotato di attività farmacologica opposta a quella dei farmaci agonisti",
+    "un farmaco con attività intrinseca pari a +1",
+    "un farmaco dotato di affinità per un recettore ma privo di attività intrinseca",
+    "un farmaco privo di affinità per un recettore ma dotato di attività intrinseca"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462767,
+   "text": "Indicare quale, tra quelli elencati, rappresenta un vantaggio della via di somministrazione sublinguale:",
+   "options": [
+    "l'assorbimento non è rapido",
+    "facilita l'assorbimento dei farmaci scarsamente liposolubili",
+    "permette un accurato controllo della posologia",
+    "i farmaci non subiscono il metabolismo di primo passaggio",
+    "presenta un basso rischio di effetti indesiderati"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462768,
+   "text": "Perché ad un paziente affetto da ulcera peptica ed in trattamento con sucralfato non è utile associare gli inibitori della pompa protonica?",
+   "options": [
+    "Perché competono con il sucralfato per il possesso del recettore",
+    "Perché il sucralfato li neutralizza",
+    "Perché il sucralfato ne riduce il metabolismo predisponendo allo sviluppo di reazioni avverse",
+    "Perché favoriscono il metabolismo del sucralfato",
+    "Perché l'aumento del pH indotto dagli inibitori della pompa riduce l'azione del sucralfato"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462769,
+   "text": "Quale dei seguenti farmaci è il più efficace nel trattare la nausea e il vomito associati a cinetosi?",
+   "options": [
+    "Cisapride",
+    "Ondansetrone",
+    "Difenilidramina",
+    "Proclorperazina",
+    "Scopolamina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462770,
+   "text": "Tutti i seguenti effetti sono manifestazioni da sovradosaggio delle benzodiazepine, tranne:",
+   "options": [
+    "sonnolenza",
+    "atassia",
+    "astenia",
+    "diarrea",
+    "marcato rilasciamento muscolare"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462771,
+   "text": "Attraverso quale dei seguenti meccanismi d'azione agisce la Metformina?",
+   "options": [
+    "Aumenta il rilascio di insulina dal pancreas",
+    "Aumenta la lipolisi e la glicogenolisi",
+    "Aumenta la produzione di acido lattico",
+    "Aumenta il numero di recettori dell'insulina",
+    "Aumenta l'uptake del glucosio da parte dei tessuti"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462772,
+   "text": "Qual è il meccanismo d'azione dei triciclici?",
+   "options": [
+    "Potenziano la trasmissione colinergica",
+    "Non agiscono a livello sinaptico",
+    "Stimolano la sintesi della serotonina",
+    "Bloccano il riassorbimento del GABA",
+    "Bloccano la ricaptazione di serotonina e noradrenalina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462773,
+   "text": "Quali dei seguenti farmaci possono determinare, in seguito ad uso prolungato, tolleranza ?",
+   "options": [
+    "benzodiazepine",
+    "betabloccanti",
+    "antidiabetici orali",
+    "statine",
+    "calcio antagonisti"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462774,
+   "text": "Tutti i seguenti farmaci inibiscono la secrezione dell'acido gastrico indotto dall'istamina, tranne:",
+   "options": [
+    "sucralfato",
+    "misoprostolo",
+    "cimetidina",
+    "ranitidina",
+    "omeprazolo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462775,
+   "text": "Quale tra i seguenti tipi cellulari rappresenta il principale bersaglio dell'azione farmacologica della ciclosporina e del tacrolimus?",
+   "options": [
+    "cellule NK",
+    "macrofagi",
+    "linfociti T",
+    "cellule dendritiche",
+    "linfociti B"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462776,
+   "text": "Quale tra i seguenti farmaci può causare una grave agranulocitosi ?",
+   "options": [
+    "carbossicisteina",
+    "codeina",
+    "nizatidina",
+    "clozapina",
+    "aloperidolo"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462777,
+   "text": "Un uomo di 23 anni lamenta impotenza sessuale e diminuita libidine. L'esame dell'ejaculato mostra oligospermia. Quale dei seguenti agenti farmacologici potrebbe essere responsabile di questo effetto avverso?",
+   "options": [
+    "Oxandrolone",
+    "Propiltiuracile",
+    "Etanolo",
+    "Noretindrone",
+    "Metimazolo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462778,
+   "text": "La farmacovigilanza è:",
+   "options": [
+    "L'ultima fase della sperimentazione preclinica dei farmaci",
+    "L'ente europeo responsabile dell'autorizzazione all'uso clinico dei nuovi farmaci",
+    "L'osservatorio nazionale per il monitoraggio della spesa farmaceutica",
+    "La fase IV della sperimentazione clinica dei farmaci (fase post-marketing)",
+    "La valutazione dell'efficacia clinica dei nuovi farmaci"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462779,
+   "text": "I sintomi più gravi dell'astinenza da morfina si verificano dopo:",
+   "options": [
+    "5-8 giorni",
+    "14 giorni",
+    "10-20 ore",
+    "2-4 ore",
+    "24-72 ore"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462780,
+   "text": "Il bromuro di pancuronio si utilizza a scopo:",
+   "options": [
+    "Miorilassante",
+    "Vagolitico",
+    "Analgesico",
+    "Anestetico",
+    "Sedativo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462781,
+   "text": "Quale dei farmaci riportati è responsabile di tossicità renale ?",
+   "options": [
+    "bicarbonato di sodio",
+    "diazepam",
+    "cimetidina",
+    "ciclosporina",
+    "azitromicina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462782,
+   "text": "Non va somministrato a pazienti con asma:",
+   "options": [
+    "salbuterolo",
+    "digossina",
+    "bretilio",
+    "lidocaina",
+    "propranololo"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462783,
+   "text": "Sono potenzialmente nefrotossici tutti i seguenti farmaci tranne:",
+   "options": [
+    "cis-platino",
+    "ciprofloxacina",
+    "vancomicina",
+    "streptomicina",
+    "amfotericina B"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462784,
+   "text": "La dose orale di morfina considerate equivalente a 10 mg intramuscolo è:",
+   "options": [
+    "20 mg",
+    "30 mg",
+    "50 mg",
+    "80 mg",
+    "15 mg"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462785,
+   "text": "Tutte le seguenti affermazioni riguardo alla digitale sono vere, tranne:",
+   "options": [
+    "ha effetto sulla velocità di conduzione dello stimolo",
+    "causa Na+ ritenzione",
+    "la sua principale proprietà terapeutica è l'effetto inotropo positivo",
+    "la struttura principale della molecola è un ciclopentanoperidrofenantrene",
+    "la sua tossicità è aumentata dall'ipopotassiemia"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462786,
+   "text": "In soggetti con storia di miopatie, gli inibitori della HMG-CoA reduttasi (statine):",
+   "options": [
+    "possono causare osteoporosi e danni endoteliali",
+    "non hanno alcun effetto sul profilo lipidico",
+    "non sono efficaci nell'abbassare il colesterolo LDL",
+    "non vanno mai somministrati",
+    "non debbono essere associati ai derivati dell'acido fibrico (clofibrato e congeneri)"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462787,
+   "text": "Tutti i seguenti farmaci sono un antitubercolari, tranne:",
+   "options": [
+    "Etambutolo",
+    "Rifabutina",
+    "Azitromicina",
+    "Isoniazide",
+    "Rifampicina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462788,
+   "text": "Un paziente di 72 anni con parkinsonismo presenta piedi edematosi di color rossastro, sensibili, molto dolorosi. Questi sintomi possono scomparire in pochi giorni se verrà detto al paziente di sospendere uno dei seguenti farmaci che sta eventualmente assumendo:",
+   "options": [
+    "bromocriptina",
+    "selegilina",
+    "levodopa",
+    "benztropina",
+    "amantadina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462789,
+   "text": "In un paziente in terapia con simvastatina la contemporanea assunzione di claritromicina puo' determinare :",
+   "options": [
+    "comparsa di miopatia e rabdomiolisi",
+    "disturbi dell'accomodazione",
+    "cefalea",
+    "vertigini",
+    "gastralgia"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462790,
+   "text": "Quale dei seguenti diuretici è il più appropriato nel trattare l'ipercalciuria?",
+   "options": [
+    "Triamterene",
+    "Acetazolamide",
+    "Idroclorotiazide",
+    "Furosemide",
+    "Mannitolo"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462791,
+   "text": "In pazienti asmatici, i farmaci beta-2 agonisti a breve durata d'azione, somministrati per via inalatoria:",
+   "options": [
+    "non manifestano effetti cardiaci",
+    "possono risultare bradicardizzanti, per stimolazione vagale",
+    "non attraversano il filtro alveolare e quindi non danno effetti sistemici di rilievo",
+    "possono dare tremore muscolare e possono risultare aritmogeni in una percentuale non trascurabile di pazienti",
+    "manifestano tossicità a livello cardiaco come quando somministrati per via endovenosa"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462792,
+   "text": "Qual è l'effetto indesiderato più grave della clozapina?",
+   "options": [
+    "segni extrapiramidali",
+    "discinesia tardiva",
+    "agranulocitosi",
+    "stipsi",
+    "aritmie"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462793,
+   "text": "I seguenti termini possono essere tutti utilizzati per indicare un disturbo causato da un medicinale in un determinato individuo, ad eccezione di:",
+   "options": [
+    "segnale.",
+    "reazione avversa",
+    "disturbo iatrogeno.",
+    "evento avverso.",
+    "adverse drug reaction."
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462794,
+   "text": "Tutte le seguenti affermazioni riguardanti l'utilizzo degli inibitori della pompa protonica nella terapia antiulcera sono errate, tranne:",
+   "options": [
+    "Sono importanti inbitori dell'attività del citocromo P450",
+    "Vengono somministrati per os come farmaci attivi",
+    "Sono indicati nell'ulcera duodenale e gastrica",
+    "Hanno un t1/2 di un'ora e quindi una durata d'azione molto breve (2h)",
+    "Sono acidi deboli, e quindi si accumulano negli spazi debolmente acidi"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462795,
+   "text": "L'intossicazione da sali di litio può verificarsi facilmente:",
+   "options": [
+    "nei soggetti maniacali",
+    "negli schizofrenici con patologia affettiva",
+    "nelle donne di età compresa fra 30 e 40 anni",
+    "nei soggetti depressi",
+    "nei soggetti con grave compromissione della funzionalità renale"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462796,
+   "text": "In un paziente con insufficienza ventricolare sistolica sinistra di grado lieve senza fibrillazione atriale quale dei seguenti farmaci è consigliabile:",
+   "options": [
+    "spironolattone",
+    "beta-bloccante",
+    "diuretico",
+    "digossina",
+    "warfarin"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462797,
+   "text": "Quale tra le seguenti procedure è necessaria per l'avvio di una sperimentazione di Fase IV?",
+   "options": [
+    "approvazione del Comitato Nazionale di Bioetica.",
+    "trasmissione al Ministero della sanità del protocollo sperimentale.",
+    "autorizzazione del Ministero della sanità.",
+    "esito favorevole degli accertamenti dell'ISS.",
+    "riconoscimento dell'idoneità da parte della ASL."
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462798,
+   "text": "Indicare quale delle seguenti condizioni costituisce una controindicazione per l'uso di metoclopramide:",
+   "options": [
+    "Nausea e vomito da chemioterapia",
+    "Artrite reumatoide",
+    "Malattia di Parkinson",
+    "Diabete",
+    "Patologie ansiose"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462799,
+   "text": "Il metabolismo di primo passaggio:",
+   "options": [
+    "riduce la biodisponibilità del farmaco",
+    "riduce sempre la tossicità del farmaco",
+    "aumenta sempre la tossicità del farmaco",
+    "aumenta la biodisponibilità del farmaco",
+    "ha una scarsa importanza metabolica"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462800,
+   "text": "La somministrazione ripetuta di furosemide può indurre tutti i seguenti effetti collaterali, tranne:",
+   "options": [
+    "ototossicità",
+    "iperuricemia",
+    "ipercalcemia",
+    "alcalosi",
+    "ipokalemia"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462801,
+   "text": "A proposito di un farmaco diuretico (ovvero in grado di indurre negativizzazione del bilancio idroelettrolitico), quale tra i seguenti può considerarsi indice diretto della sua attività?",
+   "options": [
+    "riduzione dell'incidenza di infarti del miocardio.",
+    "aumento dell'escrezione di sodio.",
+    "riduzione della pressione arteriosa.",
+    "riduzione della mortalità.",
+    "riduzione dell'edema."
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462802,
+   "text": "I farmaci più efficaci per ridurre le concentrazioni plasmatiche di trigliceridi sono:",
+   "options": [
+    "probucolo",
+    "fibrati",
+    "statine",
+    "resine sequestranti gli acidi biliari",
+    "inibitori della lipasi pancreatica"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462803,
+   "text": "I seguenti sono comuni effetti avversi delle benzodiazepine, tranne:",
+   "options": [
+    "amnesia anterograda",
+    "stipsi",
+    "vertigine",
+    "cefalea",
+    "incoordinazione motoria"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462804,
+   "text": "L'induzione enzimatica:",
+   "options": [
+    "Accelera il metabolismo dei farmaci",
+    "Avviene entro breve tempo dall'assunzione dal composto induttore",
+    "Non comporta la modificazione del dosaggio",
+    "É un effetto dovuto solo all'assunzione dei farmaci",
+    "Nessuna delle precedenti"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462805,
+   "text": "La somministrazione di ferro per via endovenosa è da preferirsi:",
+   "options": [
+    "in gravidanza",
+    "sempre",
+    "in pazienti con sindrome dell'intestino corto",
+    "negli anziani",
+    "se l'emoglobina è < di 10 g/dL"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462806,
+   "text": "Quale di questi antibiotici è da preferire in caso di polmonite da Legionella?",
+   "options": [
+    "Ampicillina",
+    "Fosfomicina",
+    "Oxacillina",
+    "Eritromicina",
+    "Vancomicina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462807,
+   "text": "Quale dei seguenti farmaci antiipertensivi può causare tosse?",
+   "options": [
+    "Antagonisti alpha-1 adrenergici",
+    "Sartani",
+    "ACE inibitori",
+    "Calcio-antagonisti",
+    "Nitroderivati"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462808,
+   "text": "Quale delle seguenti condizioni può essere indicazione al trattamento farmacologico con inibitori delle monoamine ossidasi di tipo B (MAO B)?",
+   "options": [
+    "ipertensione che non risponde al trattamento con beta-bloccanti",
+    "vomito da chemioterapici",
+    "schizofrenia",
+    "malattia di Parkinson",
+    "shock anafilattico"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462809,
+   "text": "Per avere una probabilità statisticamente significativa (P<0.05) di rilevare almeno un caso di reazione avversa ad un farmaco quando la reazione medesima abbia una frequenza attesa di 1 : 10.000, quanti soggetti devono essere inclusi nell'osservazione?",
+   "options": [
+    "3.000.000",
+    "300",
+    "3.000",
+    "30.000",
+    "300.000"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462810,
+   "text": "Quale dei seguenti farmaci dovrebbe essere PIÙ utile in un paziente con edema cerebrale?",
+   "options": [
+    "Furosemide.",
+    "Acetazolamide.",
+    "Mannitolo.",
+    "Amiloride.",
+    "Acido etacrinico."
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462811,
+   "text": "Quale dei seguenti agenti farmacologici è il più appropriato nel trattare un uomo di 58 anni con un PSA (Prostatic-specific antigen) notevolmente elevato e malattia metastatica?",
+   "options": [
+    "Leuprolide",
+    "Testosterone cerotto transdermico",
+    "Danazolo",
+    "Tamoxifene",
+    "Ciproterone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462812,
+   "text": "In caso di grave emorragia dovuta ad iperdosaggio di eparina:",
+   "options": [
+    "bisogna praticare una trasfusione di plasma fresco",
+    "bisogna facilitare l'eliminazione renale del farmaco con diuretici ad alta efficacia",
+    "bisogna somministrare fibrinogeno",
+    "è necessario somministrare vitamina K per via endovenosa",
+    "è necessario somministrare un antidoto specifico, quale la protamina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462813,
+   "text": "Quale di questi oppioidi non ha un alto rischio di dipendenza psicologica?",
+   "options": [
+    "metadone",
+    "codeina",
+    "oppio",
+    "morfina",
+    "eroina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462814,
+   "text": "I corticosteroidi sono indicati in tutte le seguenti condizioni, eccetto:",
+   "options": [
+    "Sindrome nefrosica",
+    "Collagenopatie",
+    "Stato asmatico",
+    "Herpes simplex oculare",
+    "Insufficienza renale cronica"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462815,
+   "text": "Tutte le seguenti condizioni rientrano tra le possibili indicazioni ad un uso di oppioidi, tanne:",
+   "options": [
+    "Diarrea",
+    "Tosse",
+    "Edema polmonare",
+    "Cefalea cronica",
+    "Dolore di origine tumorale"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462816,
+   "text": "Gli ACE-inibitori sono controindicati:",
+   "options": [
+    "in gravidanza",
+    "dopo la menopausa",
+    "nell'ipertiroidismo",
+    "nello scompenso cardiaco congestizio",
+    "nel diabete di tipo I"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462817,
+   "text": "Un garagista di 26 anni è a letto da 3 giorni con febbre, malessere, tosse e lieve affanno. Non si riscontrano faringite o linfoadenopatia, ma all'ascultazione del torace pochi ronchi e non sibili o rantoli. Una radiografia evidenzia un quadro broncopneumonico. Escludendo allergie a farmaci, quale dei seguenti antibiotici andrebbe inizialmente consigliato?",
+   "options": [
+    "cloramfenicolo",
+    "spiramicina",
+    "penicillina V potassica",
+    "cefalexina",
+    "claritromicina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462818,
+   "text": "Quale tra i seguenti è un farmaco utilizzato nel trattamento delle infezioni sistemiche da funghi:",
+   "options": [
+    "ciprofloxacina",
+    "penicillina",
+    "amiodarone",
+    "anfotericina B",
+    "streptomicina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462819,
+   "text": "L'inibizione enzimatica",
+   "options": [
+    "è sempre irreversibile",
+    "richiede un contatto ripetuto o protratto del farmaco con l'enzima",
+    "è un fenomeno di interesse tossicologico ma non terapeutico",
+    "determina gli effetti farmacologici e terapeutici di numerosi farmaci",
+    "è un fenomeno privo di interesse pratico"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462820,
+   "text": "In quale tra i seguenti tessuti i farmaci si distribuiscono in generale più lentamente?",
+   "options": [
+    "muscolo scheletrico",
+    "tessuto osseo",
+    "polmoni",
+    "fegato",
+    "tiroide"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462821,
+   "text": "L'acido acetilsalicilico si differenzia dagli altri FANS:",
+   "options": [
+    "per la capacità di prevenire il cancro del colon",
+    "per inibire selettivamente la cicloossigenasi-2",
+    "per essere meno ulcerogeno",
+    "per inibire la cicloossigenasi in modo irreversibile",
+    "per l'inibizione delle lipoossigenasi"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462822,
+   "text": "Quale di questi farmaci può essere considerato un agente di prima scelta per la terapia ambulatoriale del paziente con scompenso cardiaco?",
+   "options": [
+    "Digitossina",
+    "Dobutamina",
+    "Amrinone",
+    "Enalapril",
+    "Sodio nitroprussiato"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462823,
+   "text": "I benefici, ormai stabiliti, della terapia sostitutiva con estrogeni in donne in menopausa includono una riduzione di tutte le seguenti condizioni, tranne:",
+   "options": [
+    "depressione mentale",
+    "vampate di calore",
+    "LDL (low-density lipoprotein) colesterolo",
+    "osteoporosi",
+    "vaginite atrofica"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462824,
+   "text": "Quale tra le seguenti procedure è necessaria per l'avvio di una sperimentazione di Fase III?",
+   "options": [
+    "riconoscimento dell'idoneità da parte della ASL.",
+    "trasmissione al Ministero della sanità del protocollo sperimentale.",
+    "esito favorevole degli accertamenti dell'ISS.",
+    "approvazione del Comitato Etico locale.",
+    "autorizzazione del Ministero della sanità."
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462825,
+   "text": "Qual è l'antipiretico di scelta per una sindrome febbrile di probabile natura virale in un bambino di 5 anni?",
+   "options": [
+    "Acido acetil salicilico",
+    "Celecoxib",
+    "Paracetamolo",
+    "Piroxicam",
+    "Fenilbutazone"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462826,
+   "text": "Nella terapia del dolore cronico le linee guida indicano:",
+   "options": [
+    "morfina per via sottocutanea",
+    "la sequenza FANS - oppioide debole - oppioide forte",
+    "morfina per via orale",
+    "buprenorfina",
+    "un FANS"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462827,
+   "text": "Tutte le seguenti affermazioni sono corrette tranne:",
+   "options": [
+    "il verapamil può convertire la fibrillazione atriale in flutter",
+    "la chinidina solfato raggiunge raggiunge il picco di concentrazione plasmatica 1,5 h dopo una somministrazione orale",
+    "la procainamide è un antiaritmico di classe I",
+    "la disopiramide non va somministrata in caso di insufficienza cardiaca congestizia",
+    "la chinidina glucuronata raggiunge il picco di concentrazione plasmatica 4 h dopo una somministrazione orale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462828,
+   "text": "I farmaci anestetici passano la barriera placentare:",
+   "options": [
+    "Si",
+    "Solo quelli somministrati per via e.v.",
+    "Solo quelli somministrati per via parenterale",
+    "No",
+    "Solo quelli somministrati per via inalatoria"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462829,
+   "text": "E' un farmaco anticoagulante:",
+   "options": [
+    "warfarin",
+    "carbonato di litio",
+    "teofillina",
+    "digossina",
+    "penicillina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462830,
+   "text": "In un paziente scompensato in trattamento di digitossina, la comparsa di nausea e vomito è molto probabilmente espressione di",
+   "options": [
+    "un aggravamento dello scompenso",
+    "una ritenzione urinaria",
+    "una reazione allergica alla digitossina",
+    "un effetto tossico dovuto alla somministrazione di dosi troppo elevate del farmaco",
+    "un'intolleranza al farmaco genericamente determinata"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462831,
+   "text": "L'omeprazolo è indicato per il trattamento di tutte le seguenti condizioni/patologie, tranne:",
+   "options": [
+    "sindrome di Zollinger-Ellison",
+    "ulcera gastrica",
+    "esofagite da reflusso",
+    "diarrea",
+    "ulcera peptica"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462832,
+   "text": "Quali dei seguenti agenti antimicrobici è assolutamente controindicato in gravidanza e nei bambini di età inferiore agli 8 anni ?",
+   "options": [
+    "penicilline",
+    "cefalosporine",
+    "tetracicline",
+    "eritromicina",
+    "cotrimossazolo"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462833,
+   "text": "Tutti i seguenti effetti sono manifestazioni da sovradosaggio da barbiturici, tranne:",
+   "options": [
+    "confusione mentale",
+    "letargia",
+    "ipotensione",
+    "eccitazione",
+    "ipotermia"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462834,
+   "text": "Quale delle seguenti non e' una indicazione clinica delle benzodiazepine",
+   "options": [
+    "ansia",
+    "sedazione preoperatoria",
+    "convulsioni",
+    "astinenza acuta da etanolo",
+    "cinetosi"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462835,
+   "text": "Tutti i seguenti fattori tendono ad abbassare la concentrazione plasmatica di un farmaco tranne:",
+   "options": [
+    "l'escrezione biliare",
+    "la ridotta biodisponibilità orale",
+    "il riassorbimento tubulare renale",
+    "la biotrasformazione metabolica",
+    "la distribuzione tissutale"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462836,
+   "text": "I seguenti sono criteri utili alla definizione del rapporto di causalità tra assunzione di un farmaco e verificarsi di un evento avverso, ad eccezione di:",
+   "options": [
+    "esito della risomministrazione.",
+    "notorietà della correlazione.",
+    "correlazione temporale.",
+    "gravità della reazione.",
+    "esito della sospensione."
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462837,
+   "text": "L'uso di contraccettivi orali è stato associato ad un'aumentata incidenza di tutte le seguenti condizioni cardiovascolari, tranne:",
+   "options": [
+    "emorragia subaracnoidea",
+    "ipotensione",
+    "ictus trombotico",
+    "malattia tromboembolica venosa",
+    "infarto del miocardio"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462838,
+   "text": "L'associazione di trimetoprim e sulfametossazolo è efficace contro quale delle seguenti infezioni opportuniste nei pazienti con AIDS?",
+   "options": [
+    "Candidosi orale.",
+    "Herpes simplex disseminato.",
+    "Pneumocistosi e Toxoplasmosi.",
+    "Meningite criptococcica.",
+    "Tubercolosi."
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462839,
+   "text": "Una reazione allergica a un farmaco:",
+   "options": [
+    "è sempre di entità lieve o moderata",
+    "è indotta solo dalla somministrazione di farmaci di sintesi",
+    "è sempre mediata dalla produzione di anticorpi",
+    "di solito è dose-indipendente",
+    "è dose-dipendente solo quando il farmaco è somministrato per via sistemica ma non topica"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462840,
+   "text": "Sono gli effetti indesiderati più importanti delle fenotiazine:",
+   "options": [
+    "paralisi spastica",
+    "corea",
+    "fotofobia",
+    "disturbi extrapiramidali",
+    "cefalea"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462841,
+   "text": "Quale tra i seguenti farmaci è analgesico:",
+   "options": [
+    "Kanamicina",
+    "Aloperidolo",
+    "Succinilcolina",
+    "Pentazocina",
+    "Adrenalina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462842,
+   "text": "Attualmente tutti i seguenti farmaci sono utilizzati nella cardiopatia ischemica, tranne:",
+   "options": [
+    "cortisonici",
+    "nitroderivati",
+    "beta-bloccanti",
+    "ACE inibitori",
+    "antiaggreganti piastrinici"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462843,
+   "text": "Il principale effetto collaterale della terapia con ferro e' ?",
+   "options": [
+    "ipertensione",
+    "sonnolenza",
+    "alterazione della diuresi",
+    "disturbi gastrointestinale",
+    "tosse"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462844,
+   "text": "Quale dei seguenti farmaci viene utilizzato per la profilassi della malattia delle membrane ialine?",
+   "options": [
+    "beta 2 stimolanti",
+    "corticosteroidi",
+    "ormoni tiroidei",
+    "insulina",
+    "androgeni"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462845,
+   "text": "Quali tra i seguenti sono potenziali effetti collaterali dei diuretici tiazidici:",
+   "options": [
+    "Iperkalemia, alcalosi, nausea/vomito",
+    "Aumento dell'azoto ureico plasmatici, iperkalemia, acidosi metabolica",
+    "Ipermagnesemia, ipercalcemia, febbre",
+    "Ipokalemia, iperglicemia, iperlipidemia",
+    "Ipokalemia, ototossicità,iperuricemia"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462846,
+   "text": "Il warfarin:",
+   "options": [
+    "È antagonizzato dalla portamina solfato",
+    "Agisce sull'attività dei fattori della coagulazione",
+    "Agisce rapidamente se somministrato per via orale",
+    "È potenziato dal fattore 4 piastrinico",
+    "È potenziato dai barbiturici"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462847,
+   "text": "Quale di questi farmaci può essere considerato un agente di prima scelta per la terapia ambulatoriale del paziente con scompenso cardiaco non fibrillante?",
+   "options": [
+    "Dobutamina",
+    "Sodio nitroprussiato",
+    "Amrinone",
+    "Enalapril",
+    "Digitossina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462848,
+   "text": "Tutte le seguenti affermazioni sul warfarin sono false, tranne:",
+   "options": [
+    "Agisce rapidamente se somministrato per via orale",
+    "È potenziato dai barbiturici",
+    "È antagonizzato dalla protamina solfato",
+    "Agisce sull'attività dei fattori della coagulazione",
+    "È potenziato dal fattore 4 piastrinico"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462849,
+   "text": "L'atropina è:",
+   "options": [
+    "Vagomimetico",
+    "Parasimpaticomimetico",
+    "Vagolitico",
+    "Simpaticolitico",
+    "Simpaticomimetico"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462850,
+   "text": "Uno dei farmaci seguenti può essere utilizzato nel trattamento della tachicardia parossistica sopraventricolare.",
+   "options": [
+    "Propranololo",
+    "Chinidina",
+    "Verapamile",
+    "Nifedipina",
+    "Amiodarone"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462851,
+   "text": "Nel caso in cui sia necessario sottoporre a trattamento farmacologico con FANS un soggetto con pregressa ulcera peptica, è opportuno un trattamento combinato con:",
+   "options": [
+    "diuretici per facilitare l'eliminazione dei FANS",
+    "antispastici per prevenire gli spasmi dello sfintere esofageo",
+    "calcio-antagonisti per ridurre la gastrolesività dei FANS",
+    "glucocorticoidi per ridurre la dose dei FANS",
+    "analoghi delle prostaglandine come protettori della mucosa gastrica"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462852,
+   "text": "Quale dei seguenti effetti è comune sia all'alendronato che alla calcitonina?",
+   "options": [
+    "Inibisce il paratormone",
+    "Inibisce il riassorbimento dell'osso",
+    "Aumenta l'assorbimento del calcio dall'intestino",
+    "Stimola l'attivazione della vitamina D",
+    "Inibisce l'escrezione del calcio"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462853,
+   "text": "La succinilcolina è utilizzata come:",
+   "options": [
+    "bloccante dei recettori alfa adrenergici",
+    "bloccante neuromuscolare",
+    "ganglioplegico",
+    "vagolitico",
+    "bloccante dei recettori beta adrenergici"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462854,
+   "text": "Per effetto di primo passaggio si intende:",
+   "options": [
+    "Gli effetti neurologici che un farmaco dà nel suo primo passaggio nel sistema nervoso centrale",
+    "L'estesa biotrasformazione che il farmaco subisce nel suo primo passaggio attraverso il fegato",
+    "L'effeto intestinale di un farmaco somministrato per os",
+    "Il primo effetto che un farmaco determina quando ha raggiunto la sede d'azione",
+    "L'estesa eliminazione del farmaco nel suo primo passaggio attraverso il rene"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462855,
+   "text": "Le seguenti caratteristiche sono proprie dei farmaci \"generici\" tranne:",
+   "options": [
+    "sono utili per molteplici patologie in quanto non specifici.",
+    "non sono protetti da brevetto.",
+    "sono prodotti industrialmente.",
+    "sono bioequivalenti rispetto alla specialità di riferimento.",
+    "sono senza obbligo di prescrizione."
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462856,
+   "text": "Tutte le seguenti affermazioni riferite al verapamil sono corrette tranne:",
+   "options": [
+    "È utile nel trattamento della fibrillazione striale",
+    "è utile nel trattamento della tachicardia sopraventricolare parossistica",
+    "È utile nel trattamento del flutter striale",
+    "la sua azione inotropa negativa ne limita l'impiego in casi di danno cardiaco",
+    "Può essere tranquillamente somministrato in associazione con b-bloccanti adrenergici"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462857,
+   "text": "I farmaci ipoglicemizzanti orali della classe delle sulfaniluree:",
+   "options": [
+    "possono antagonizzare l'effetto ipoglicemizzante delle biguanidi",
+    "stimolano la secrezione di insulina e possono causare una grave ipoglicemia",
+    "sono sempre impiegati in monoterapia",
+    "sono indicati nel diabete giovanile (tipo I)",
+    "a differenza delle biguanidi, non necessitano della presenza di cellule beta pancreatiche funzionanti"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462858,
+   "text": "Se la dose indicata di prednisone è di 10 mg, quella equiattiva di desametasone è:",
+   "options": [
+    "10 mg",
+    "20 mg",
+    "1,5 mg",
+    "5 mg",
+    "0,5 mg"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462859,
+   "text": "Quale dei seguenti farmaci è associato con effetti femmninilizzanti negli uomini nel corso di una terapia cronica?",
+   "options": [
+    "Nizatidina",
+    "Famotidina",
+    "Ranitidina",
+    "Omeprazolo",
+    "Cimetidina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462860,
+   "text": "Tutte le seguenti condizioni rientrano tra le indicazioni alla somministrazione di iodio, tranne:",
+   "options": [
+    "Contaminazione accidentale con isotopi radioattivi",
+    "Crisi tireotossica",
+    "Preparazione ad interventi chirurgici sulla tiroide",
+    "Tiroidite di Hashimoto",
+    "Gozzo endemico"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462861,
+   "text": "Il farmaco più attivo nell'interrompere un attacco di emicrania è:",
+   "options": [
+    "Clonidina",
+    "Metisergide",
+    "Triptani",
+    "Amitriptilina",
+    "Propanololo"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462862,
+   "text": "L'isoniazide, uno dei farmaci più attivi nel trattamento della tubercolosi:",
+   "options": [
+    "raramente si osserva l'insorgenza di resistenza",
+    "può indurre degli effetti tossici prevenibili con piridossina",
+    "non può essere associata a rifampicina e etambutolo",
+    "è eliminata immodificata",
+    "agisce inibendo le sintesi proteiche"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462863,
+   "text": "La tossicità cardiaca limita l'utilità clinica di quale dei seguenti antitumorali:",
+   "options": [
+    "Bleomicina",
+    "Vincristina",
+    "Actinomicina D",
+    "Doxorubicina",
+    "Cisplatinum"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462864,
+   "text": "Un paziente lamenta tinniti, perdita dell'udito e vertigini dopo vari giorni di trattamento con quale dei seguenti diuretici?",
+   "options": [
+    "Mannitolo",
+    "Spironolattone",
+    "Acetazolamide",
+    "Acido etacrinico",
+    "Idroclorotiazide"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462865,
+   "text": "Con quale dei seguenti farmaci dovrebbe essere trattata una donna in gravidanza, peraltro sana, con recente insorgenza di pollachiuria, minzione imperiosa, disuria ed evidenza di batteruria?",
+   "options": [
+    "doxiciclina",
+    "norfloxacina",
+    "trimetoptrim-sulfametoxazolo",
+    "ciprofloxacina",
+    "cefalexina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462866,
+   "text": "Tutti i questi farmaci sono beta-stimolante, tranne:",
+   "options": [
+    "Orciprenalina",
+    "Salbutamolo",
+    "Formetorolo",
+    "Isoprenalina",
+    "Propranoloro"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462867,
+   "text": "L'omeprazolo e' il capostipite di una categoria di farmaci usati nella terapia della malattia peptica. La sua azione farmacologica e' dovuta a:",
+   "options": [
+    "Antagonismo dei recettori H2",
+    "Blocco della pompa protonica",
+    "Inibizione di un antiporto Na+/H+",
+    "Attività anticolinergica",
+    "Attivita' chemioterapica antivirale"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462868,
+   "text": "Tutte le seguenti affermazioni sulla tolleranza ai farmaci sono errate, tranne:",
+   "options": [
+    "causa un aumento dell'effetto farmacologico",
+    "può essere espressione di un aumento dell'escrezione del farmaco",
+    "si manifesta di solito in seguito ad assunzione protratta di farmaci psicotropi",
+    "non dipende mai dal meccanismo di trasduzione",
+    "può essere dovuta ad un aumento della densità dei recettori"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462869,
+   "text": "I neurolettici tipici (ad es., aloperidolo, clorpromazina etc) possono provocare reazioni extrapiramidali, quali :",
+   "options": [
+    "distonie acute (spasmo della lingua, smorfie, torcicollo)",
+    "sindrome maligna da neurolettici (rara; caratterizzata da catatonia, febbre alta, ipertensione)",
+    "tutte le risposte indicate",
+    "sindrome Parkinson-simile",
+    "discinesie tardive (movimenti stereotipati e involontari)"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462870,
+   "text": "Lo studio dei fattori che determinano le variazioni della concentrazione plasmatica di un farmaco nel tempo è definito:",
+   "options": [
+    "farmacogenetica",
+    "farmacovigilanza",
+    "farmacodinamica",
+    "farmacosorveglianza",
+    "farmacocinetica"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462871,
+   "text": "Quale tra i seguenti non è un neurotrasmettitore?",
+   "options": [
+    "5-idrossitriptamina",
+    "acetilcolina",
+    "noradrenalina",
+    "penicillina",
+    "dopamina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462872,
+   "text": "Quale delle seguenti affermazioni è corretta?",
+   "options": [
+    "le sulfaniluree riducono la secrezione di insulina",
+    "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
+    "le biguanidi possono indurre acidosi lattica",
+    "la glipizide fa aumentare la secrezione del glucagone",
+    "l'insulina si può somministrare per os"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462873,
+   "text": "Tutte le seguenti affermazioni riguardanti l'utilizzo degli antagonisti dei recettori per l'istamina nella terapia antiulcera sono errate, tranne:",
+   "options": [
+    "la cimetidina inibisce l'attività del citocromo P450",
+    "agiscono sui recettori presenti a livello delle cellule enterocromoaffino-simili",
+    "la ranitidina è utilizzata esclusivamente nell'esofagite da reflusso",
+    "gli antagonisti H2 sono escreti attraverso le feci.",
+    "la nizatidina, somministrata per os ha una biodisponibilità minore del 30%"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462874,
+   "text": "I glucocorticoidi interagiscono con:",
+   "options": [
+    "lipidi",
+    "canali ionici",
+    "tirosin chinasi",
+    "proteine G",
+    "recettori intracellulari"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462875,
+   "text": "Quale delle seguenti affermazioni definisce gli effetti collaterali di un farmaco?",
+   "options": [
+    "Gli effetti tossici non prevedibili che si verificano in seguito alla somministrazione di un farmaco in dosi superiori a quelle terapeutiche",
+    "Gli effetti tossici prevedibili che si verificano in seguito alla somministrazione di un farmaco in dosi superiori a quelle terapeutiche",
+    "Gli effetti farmacologici non desiderati ma prevedibili che si verificano nell'ambito dei dosaggi terapeutici",
+    "Gli effetti tossici prevedibili che si verificano in seguito alla somministrazione di un farmaco nelle dosi terapeutiche",
+    "Gli effetti farmacologici non desiderati e non prevedibili che si verificano nell'ambito dei dosaggi terapeutici"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462876,
+   "text": "Il propiltiouracile:",
+   "options": [
+    "Inibisce la de-iodinazione di T4",
+    "Determina un accumulo di iodio nella tireoglobulina",
+    "Causa una riduzione di volume della tiroide",
+    "Inibisce il trasporto attivo dello iodio",
+    "Stimola la formazione di ormone tiroideo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462877,
+   "text": "L'amiloride è:",
+   "options": [
+    "Un risparmiatore di potassio",
+    "Un diuretico tiazidico",
+    "Un inibitore dell'anidrasi carbonica",
+    "Un diuretico osmotico",
+    "Un diuretico dell'ansa"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462878,
+   "text": "I seguenti sono potenziali effetti collaterali dei diuretici tiazidici:",
+   "options": [
+    "Ipokalemia, ototossicità, ipercalcemia",
+    "Iperkalemia, alcalosi, nausea/vomito",
+    "Ipokalemia, iperglicemia, iperlipidemia",
+    "Aumento dell'azoto ureico plasmatico, iperkalemia, acidosi metabolica",
+    "Ipermagnesemia, ipercalcemia, febbre"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462879,
+   "text": "Nello shock emorragico il trattamento iniziale consiste nell'infusione di:",
+   "options": [
+    "albumina",
+    "mannitolo",
+    "colloidi non proteici",
+    "protamina solfato",
+    "cristalloidi"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462880,
+   "text": "Quale tra queste penicilline presenta una buona attività contro lo pseudomonas ?",
+   "options": [
+    "ticarcillina",
+    "ampicilina",
+    "penicillina V",
+    "amoxicillina",
+    "bacampicillina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462881,
+   "text": "L'acido acetilsalicilico presenta effetti antiaggreganti piastrinici perché:",
+   "options": [
+    "inibisce irreversibilmente la cicloossigenasi-1 a livello dell'endotelio",
+    "inibisce la cicloossigenasi-1 piastrinica, soprattutto a livello del circolo portale",
+    "previene il danno endoteliale nel paziente ipercolesterolemico",
+    "antagonizza il recettore dell'ADP a livello piastrinico",
+    "aumenta la produzione di prostacicline dall'endotelio"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462882,
+   "text": "Quando un medico rileva in un suo paziente una sospetta reazione avversa a farmaci invia una specifica segnalazione:",
+   "options": [
+    "all'Organizzazione Mondiale della Sanità (con costi a carico del destinatario).",
+    "all'Assessorato regionale alla sanità.",
+    "al Ministero della sanità (per i farmaci in sperimentazione).",
+    "all'Istituto Superiore di Sanità (per i farmaci di nuova istituzione).",
+    "alla ASL (per i medici operanti sul territorio) o alla direzione sanitaria della struttura ospedaliera (per i medici operanti in ospedale)."
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462883,
+   "text": "L'amiodarone è un farmaco:",
+   "options": [
+    "Antiacido",
+    "Ipnoinduttore",
+    "Antiaritmico",
+    "Beta-mimetico",
+    "Beta-bloccante"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462884,
+   "text": "Tutti i seguenti agenti antidiabetici possono causare direttamente ipoglicemia, tranne:",
+   "options": [
+    "clorpropamide",
+    "tolbutamide",
+    "metformina",
+    "Insulina Lantus",
+    "glipizide"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462885,
+   "text": "Quale delle seguenti sostanze possono provocare una epatite tossica?",
+   "options": [
+    "tetracloruro di carbonio",
+    "tricloroetilene",
+    "alotano",
+    "tutte le sostanze indicate",
+    "isoniazide"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462886,
+   "text": "I pazienti dislipidemici che non hanno beneficio da terapia con le statine possono essere:",
+   "options": [
+    "pazienti che non esprimono recettori per le LDL a livello epatico (dislipidemia familiare)",
+    "pazienti con bassi livelli di HDL",
+    "soggetti che assumono contemporaneamente derivati dell'acido fibrico",
+    "soggetti con dislipidemia caratterizzata da alti livelli di LDL",
+    "pazienti con diabete mellito"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462887,
+   "text": "Quale dei seguenti effetti collaterali della L-DOPA viene ridotto dall'associazione con carbidopa?",
+   "options": [
+    "Confusione mentale",
+    "Discinesia",
+    "Fenomeno on-off",
+    "Allucinazioni",
+    "Nausea"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462888,
+   "text": "L'utilizzo dei bloccanti neuromuscolari è utile in tutti i seguenti casi tranne:",
+   "options": [
+    "per il controllo iniziale della pressione arteriosa in pazienti con aneurisma aortico",
+    "per facilitare manovre diagnostiche quali laringoscopia",
+    "nell'anestesia per il rilasciamento della muscolatura scheletrica",
+    "per prevenire traumi durante l'elettroshock",
+    "negli spasmi della muscolatura liscia intestinale"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462889,
+   "text": "Un paziente trattato con penicillina G che manifesti a distanza di 7-12 giorni orticaria, febbre, edemi articolari, artralgie, linfoadenopatie, edemi al viso e al collo è molto probabilmente affetto da:",
+   "options": [
+    "malattia da siero",
+    "lupus eritematoso",
+    "agranulocitosi",
+    "shock anafilattico",
+    "glomerulinefrite acuta"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462890,
+   "text": "Tutti i seguenti sono effetti avversi comuni ai farmaci antiinfiammatori non steroidei, tranne:",
+   "options": [
+    "nefrotossicità",
+    "aumento della motilità uterina",
+    "reazioni di ipersensibilità",
+    "intolleranza gastrointestinale",
+    "inibizione dell'aggregazione piastrinica"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462891,
+   "text": "Il valproato di sodio è un farmaco:",
+   "options": [
+    "antiepilettico",
+    "antienuretico",
+    "antidiarroico",
+    "non è un farmaco",
+    "antiipertensivo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462892,
+   "text": "I nitrati:",
+   "options": [
+    "inducono effetti inotropi e cronotropi negativi",
+    "diminuiscono sia il pre-carico che il post-carico",
+    "danno vasodilatazione solo in presenza di endotelio integro",
+    "sono vasodilatatori specifici per le arteriole e i vasi precapillari",
+    "non agiscono sul muscolo liscio extravascolare"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462893,
+   "text": "In un paziente con attacco di angina pectoris in atto, la nitroglicerina deve essere somministrata:",
+   "options": [
+    "Per via intramuscolare",
+    "Per via sublinguale",
+    "Per via sottocutanea",
+    "Per bocca",
+    "Per applicazione di cerotto transdermico"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462894,
+   "text": "La biodisponibilità di un farmaco",
+   "options": [
+    "è proporzionale all'efficacia",
+    "è una misura della frazione della dose somministrata che raggiunge il circolo sistemico",
+    "è direttamente proporzionale alla dose somministrata",
+    "non varia in funzione della via di somministrazione utilizzata",
+    "è minore per farmaci poco potenti"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462895,
+   "text": "Quale delle seguenti e' un'indicazione clinica dei farmaci antistaminici H1?",
+   "options": [
+    "diarrea",
+    "ansia",
+    "depressione",
+    "orticaria",
+    "insonnia"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462896,
+   "text": "Un paziente di 58 anni con una storia di 5 anni di angina pectoris ed un infarto miocardico recente è ricoverato per una seria emergenza ipertensiva. Quale di questi farmaci verrà al meglio usato in questo paziente?",
+   "options": [
+    "minoxidil",
+    "idralazina",
+    "nifedipina",
+    "diazossido",
+    "labetalolo"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462897,
+   "text": "Un paziente sviluppa iperkalemia dopo aver assunto amiloride ed un integratore di potassio. Tutti i seguenti trattamenti potranno essere efficaci, tranne:",
+   "options": [
+    "insulina e glucosio per via endovenosa",
+    "enalapril per via endovenosa",
+    "emodialisi",
+    "clistere con sulfonato polistirene di sodio",
+    "Cloruro di calcio per via endovenosa"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462898,
+   "text": "Un paziente diabetico in trattamento insulinico scarsamente controllato si lamenta di fame, sudorazione e palpitazioni. L'esame fa rilevare pelle umida, pallida e ipotermia. Quale indicazione può trarsi dai sintomi del paziente?",
+   "options": [
+    "la dose di insulina è probabilmente bassa",
+    "i disturbi sono causati da iperglicemia",
+    "il paziente sta perdendo zucchero nelle urine",
+    "è in sviluppo una infezione sistemica",
+    "i sintomi segnalano la possibile comparsa di uno shock insulinico"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462899,
+   "text": "I farmaci non evitano l'effetto di primo passaggio attraverso il fegato se somministrati",
+   "options": [
+    "per via sottocutanea",
+    "per via orale",
+    "per via sublinguale",
+    "per via rettale",
+    "per via transdermica"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462900,
+   "text": "I diuretici inibitori dell'anidrasi carbonica",
+   "options": [
+    "inibiscono l'anidrasi carbonica dello stomaco ed hanno pertanto un effetto antisecretivo gastrico di interesse terapeutico",
+    "manifestano il proprio effetto diuretico quando inibiscono il 10-20% dell'anidrasi carbonica tubulare",
+    "causano acidosi in quanto riducono l'eliminazione dei bicarbonati",
+    "inibiscono l'anidrasi carbonica del tubulo renale ma non quella presente in altre sedi",
+    "sono principalmente impiegati per ridurre la pressione endo-oculare nel glaucoma ad angolo aperto"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462901,
+   "text": "Quale dei seguenti effetti collaterali riconosciuti degli antipsicotici dovrebbe essere trattato immediatamente?",
+   "options": [
+    "Produzione di latte in una donna non-nutrice",
+    "Leggero rallentamento del passo",
+    "Lieve sonnolenza",
+    "Graduale comparsa dei movimenti ripetitivi di corrugamento labiale",
+    "Rapido peggioramento della rigidità con un'elevata conta leucocitaria e attività della creatinchinasi"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462902,
+   "text": "L'acido vanilmandelico è il principale catabolita di ?",
+   "options": [
+    "istamina",
+    "GABA",
+    "dopamina",
+    "catecolamine",
+    "serotonina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462903,
+   "text": "La terapia con beta bloccanti è controindicata in caso di:",
+   "options": [
+    "ipertensione lieve e/o moderata",
+    "asma",
+    "gastrite",
+    "aritmie",
+    "ipertensione grave"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462904,
+   "text": "L'emivita (t ½) di un farmaco è:",
+   "options": [
+    "Inversamente proporzionale al volume di distribuzione",
+    "Dipende dalla biodisponibilità",
+    "Direttamente proporzionale al volume di distribuzione",
+    "Può ridursi a dosi tossiche",
+    "Direttamente proporzionale alla clearance totale"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462905,
+   "text": "Un paziente in terapia con ciprofloxacina deve evitare l'assunzione di:",
+   "options": [
+    "vancomicina",
+    "sali di alluminio",
+    "calcio antagonisti",
+    "aspirina",
+    "omeprazolo"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462906,
+   "text": "Le ricette ministeriali speciali:",
+   "options": [
+    "vanno redatte su carta intestata del medico.",
+    "sono rilasciate solo da centri ospedalieri o specialistici.",
+    "possono essere utilizzate per 3 mesi e fino ad un massimo di 5 volte.",
+    "sono relative ai farmaci elencati nelle Tabelle I, II e III del D.P.R. 309/90.",
+    "hanno validità massima di 10 giorni."
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462907,
+   "text": "Il rischio di emorragia in pazienti trattati con eparina è aumentato dall'aspirina poiché questa:",
+   "options": [
+    "Spiazza l'eparina dal legame con le proteine plasmatiche",
+    "Inibisce la formazione di protrombina",
+    "Inibisce la funzione di aggregazione piastrinica",
+    "Determina piastrinopenia",
+    "Inibisce l'attività anticoagulante dell'eparina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462908,
+   "text": "Il meccanismo di azione dei farmaci antipsicotici consiste nel blocco dei siti recettoriali di uno dei seguenti neurotrasmettitori:",
+   "options": [
+    "GABA",
+    "istamina",
+    "dopamina",
+    "acetilcolina",
+    "adrenalina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462909,
+   "text": "In un paziente in overdose da eroina si interviene con uno dei seguenti farmaci. Quale ?",
+   "options": [
+    "naloxone",
+    "diazepam",
+    "fenobarbital",
+    "metadone",
+    "aspirina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462910,
+   "text": "Quale tra i seguenti farmaci può essere usato nel trattamento dei tumori della mammella?",
+   "options": [
+    "tamoxifene",
+    "propranololo",
+    "vitamina D",
+    "nizatidina",
+    "prednisolone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462911,
+   "text": "In un paziente in terapia con nitroderivati puo' facilmente insorgere:",
+   "options": [
+    "anemia",
+    "ipertensione",
+    "diarrea",
+    "cefalea pulsante",
+    "gastralgia"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462912,
+   "text": "L'effetto anticoagulante dell'eparina:",
+   "options": [
+    "può essere accompagnato da grave piastrinopenia",
+    "può andare incontro a fenomeni di tolleranza",
+    "Viene potenziato in caso di ipoalbuminemia",
+    "Viene antagonizzato dalla vitamina K",
+    "Risulta potenziato da concomitanti nefropatie"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462913,
+   "text": "Tutti i seguenti farmaci sono agonisti beta-adrenergici tranne?",
+   "options": [
+    "noradrenalina",
+    "fentolamina",
+    "adrenalina",
+    "dobutamina",
+    "isoproterenolo"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462914,
+   "text": "Tutte le seguenti affermazioni sui diuretici sono errate, tranne:",
+   "options": [
+    "devono essere somministrati per via parenterale per mantenere l'effetto diuretico quando nei loro confronti compaia resistenza",
+    "hanno un ruolo terapeutico fondamentale negli edemi cardiaci, nell'ascite, nell'insufficienza renale cronica e nella sindrome nefrosica",
+    "non trovano alcun impiego nello scompenso ventricolare sinistro acuto",
+    "quando sono somministrati per via orale in dosi generose combattono efficacemente l'edema polmonare da scompenso ventricolare sinistro acuto",
+    "sono efficaci solo se somministrati per via parenterale"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462915,
+   "text": "Tutte le seguenti affermazioni riguardanti l'utilizzo di farmaci antiemetici sono errate, tranne:",
+   "options": [
+    "la metoclopramide è un antagonista dopaminergico impiegato nel vomito da citostatici",
+    "scopolamina e ioscina, antagonisti muscarinici, sono particolarmente efficaci nella cura del vomito da citostatici",
+    "l'ondansetrone causa importanti effetti extrapiramidali",
+    "l'area postrema o centro del vomito si trova all'interno della barriera emato encefalica.",
+    "i neurolettici non possono essere utilizzati durante la gravidanza a causa del loro effetto sul feto"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462916,
+   "text": "Quale dei seguenti diuretici è quello più appropriato da usare nel Diabete Insipido?",
+   "options": [
+    "Acetazolamide",
+    "Triamterene",
+    "Furosemide",
+    "Mannitolo",
+    "Idroclorotiazide"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462917,
+   "text": "Quale tra le seguenti affermazioni meglio si adatta alla somministrazione dei farmaci per via endovenosa?",
+   "options": [
+    "la biodisponibilità può essere limitata dall'effetto di primo passaggio",
+    "richiede la collaborazione del paziente",
+    "non può essere utilizzata per soluzioni oleose",
+    "può essere utilizzata per forme liquide a lento rilascio",
+    "la velocità di assorbimento può essere ridotta associando un vasocostrittore"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462918,
+   "text": "I farmaci utili nel trattamento della gotta sono tutti i seguenti, tranne ?",
+   "options": [
+    "allopurinolo",
+    "probenecid",
+    "aspirina",
+    "indometacina",
+    "colchicina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462919,
+   "text": "Tutti i seguenti farmaci possono causare stipsi, tranne:",
+   "options": [
+    "verapamil",
+    "chinidina",
+    "carbonato di calcio",
+    "colestiramina",
+    "Petidina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462920,
+   "text": "Tutte le seguenti affermazioni concernenti la terapia orale con acido ursodesossicolico per la dissoluzione dei calcoli biliari sono vere, tranne:",
+   "options": [
+    "è incompatibile con l'assunzione contemporanea di qualsiasi altro farmaco",
+    "è indicata per i calcoli \"radiotrasparenti\"",
+    "non è efficace per i \"calcoli radiopachi\"",
+    "è indicata solo se la colecisti è \"opacizzata\" all'esame colecistografico per os",
+    "è indicata se i calcoli sono pochi e di piccolo diametro"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462921,
+   "text": "In caso di meningite da streptococco pneumoniae, quale dei seguenti antibiotici è quello più indicato?",
+   "options": [
+    "Gentamicina",
+    "Cefotaxime",
+    "Clindamicina",
+    "Ossitetraciclina",
+    "Fosfomicina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462922,
+   "text": "Quale dei seguenti agenti farmacologici è il più efficace nel bloccare la secrezione dell'acido gastrico indotta dalla stimolazione vagale rispetto a quella indotta dall'istamina?",
+   "options": [
+    "Carbonato di calcio",
+    "Misoprostolo",
+    "Omeprazolo",
+    "Pirenzepina",
+    "Ranitidina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462923,
+   "text": "I cromoni sono indicati:",
+   "options": [
+    "in associazione agli atropinici per ridurre gli effetti indesiderati",
+    "esclusivamente per il trattamento dell'asma pedriatico",
+    "nell'attacco acuto d'asma",
+    "nella terapia della bronchite cronica ostruttiva",
+    "nella terapia preventiva dell'asma bronchiale"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462924,
+   "text": "La farmacocinetica comprende tutti i seguenti argomenti relativi ad un farmaco, tranne:",
+   "options": [
+    "metabolismo",
+    "distribuzione",
+    "assorbimento",
+    "escrezione",
+    "meccanismo d'azione"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462925,
+   "text": "Quale dei seguenti antibiotici rappresenta una possibile alternativa alla rifampicina nei protocolli di associazione utilizzati nella terapia della tubercolosi polmonare?",
+   "options": [
+    "Ossitetraciclina",
+    "Ofloxacina",
+    "Cloramfenicolo",
+    "Ampicillina",
+    "Vancomicina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462926,
+   "text": "Una paziente di 28 anni, all'ottavo mese di gravidanza, sviluppa un'infezione urinaria da Escherichia coli. Indicare fra i seguenti il trattamento antibiotico più appropriato:",
+   "options": [
+    "Ciprofloxacina",
+    "Sulfametossazolo-trimetoprim",
+    "Tetraciclina",
+    "Eritromicina",
+    "Ampicillina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462927,
+   "text": "Quale delle seguenti sostanze, contenuta in alcuni alimenti della normale dieta quotidiana, può provocare una crisi ipertensiva in soggetti che assumono inibitori delle MAO A?",
+   "options": [
+    "tiramina",
+    "acetilcolina",
+    "acido oleico",
+    "tirosina",
+    "muscarina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462928,
+   "text": "In un soggetto affetto da grave ipertrofia prostatica è controindicato l'uso:",
+   "options": [
+    "dei barbiturici",
+    "degli antibiotici",
+    "degli antidepressivi triciclici",
+    "delle benzodiazepine ipnogene",
+    "delle amfetamine"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462929,
+   "text": "Il protossido d'azoto:",
+   "options": [
+    "inibisce la contrattilità uterina",
+    "non ha attività analgesica",
+    "è un metabolita attivo dei nitroderivati",
+    "provoca una ipotensione dose-dipendente",
+    "è un anestetico generale per via inalatoria"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462930,
+   "text": "Nel trattamento di una faringite stafilococcica l'antibiotico da scegliere è:",
+   "options": [
+    "tobramicina",
+    "fenossimetilpenicillina",
+    "rifampicina",
+    "cotrimossazolo",
+    "vancomicina"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462931,
+   "text": "Indicare quale tra i seguenti effetti non è compreso tra quelli indotti dai glucocorticoidi:",
+   "options": [
+    "aumento della glicemia",
+    "immunosoppressione",
+    "alterata distribuzione di tessuto adiposo",
+    "aumento della sintesi proteica a livello cutaneo",
+    "inibizione della sintesi dei leucotrieni"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462932,
+   "text": "I farmaci per la terapia dell'asma vengono somministrati per via inalatoria, allo scopo di minimizzarne gli effetti sistemici. Tutti i seguenti farmaci sono efficaci quando somministrati per questa via, tranne:",
+   "options": [
+    "Aminofillina",
+    "Fluticasone",
+    "Salmeterolo",
+    "Nedocromile",
+    "Ipratropio bromuro"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462933,
+   "text": "Nella terapia dello scompenso cardiaco congestizio i seguenti farmaci svolgono un ruolo primario tranne:",
+   "options": [
+    "la clonidina",
+    "i beta-bloccanti",
+    "gli ACE inibitori",
+    "i diuretici dell'ansa",
+    "lo spironolattone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462934,
+   "text": "La brusca sospensione della terapia con pindololo è associata ad ipertensione di rimbalzo meno grave di quella indotta dalla brusca sospensione del propranololo. Questo perchè il pindololo",
+   "options": [
+    "Non è in grado di stabilizzare le membrane",
+    "E' un bloccante non selettivo, agonista parziale",
+    "E' metabolizzato più lentamente del propranololo",
+    "E' un bloccante selettivo beta 1",
+    "E' un bloccante misto alfa e beta"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462935,
+   "text": "Tutti i seguenti farmaci sono utilizzato nella terapia dell'asma bronchiale, tranne:",
+   "options": [
+    "ipratropio bromuro (antimuscarinico)",
+    "salbutamolo (agonista del recettore beta-2 adrenergico)",
+    "beclometasone (glucocorticoide)",
+    "teofillina (metilxantina)",
+    "terfenadina (antagonista del recettore dell'istamina H1)"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462936,
+   "text": "Un paziente viene trattato con il farmaco A, che ha un'alta affinità per l'albumina, e che viene somministrato in quantità che non eccedono la capacità di legame dell'albumina. Al trattamento viene aggiunto un secondo farmaco, B. Anche il farmaco B ha elevata affinità per l'albumina, ma viene somministrato in quantità 100 volte superiori alla capacità di legame dell'albumina. Quale delle seguenti situazioni si presenta dopo la somministrazione del farmaco B?",
+   "options": [
+    "L'ulteriore aggiunta di farmaco A modifica significativamente la concentrazione sierica del farmaco B non legato.",
+    "Un aumento della concentrazione del farmaco A nei tessuti.",
+    "Una diminuzione del tempo di dimezzamento del farmaco A.",
+    "Una diminuzione della concentrazione del farmaco A nei tessuti.",
+    "Una diminuzione del volume di distribuzione del farmaco A."
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462937,
+   "text": "Nello scompenso cardiaco di grado lieve-moderato non fibrillante, il trattamento farmacologico elettivo consiste in:",
+   "options": [
+    "diuretici risparmiatori di potassio",
+    "digitalizzazione con digossina o digitossina",
+    "inotropi positivi non digitalici, quali l'amrinone o l'enoximone",
+    "agonisti beta-1 selettivi, tipo dobutamina",
+    "farmaci ACE-inibitori e diuretici, in associazione al beta-bloccante."
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462938,
+   "text": "La somatostatina:",
+   "options": [
+    "è un peptide lineare",
+    "inibisce la liberazione di istamina ma non di gastrina",
+    "è più selettiva dell'analogo di sintesi octreotide sono profarmaci attivati a livello epatico",
+    "è attiva nelle emorragie da varici esofagee",
+    "non ha azioni dirette sulla cellula parietale"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462939,
+   "text": "Un farmaco generico è",
+   "options": [
+    "una molecola usata per la terapia di molte malattie",
+    "un farmaco che si può acquisire senza ricetta medica",
+    "una miscela di molecole",
+    "un farmaco usato nella terapia omeopatica",
+    "un farmaco il cui brevetto è scaduto"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462940,
+   "text": "Ad una donna di 27 anni è diagnosticata una lieve depressione endogena. Lo psichiatra consiglia psicoterapia e farmacoterapia. Quale dei seguenti farmaci potrebbe esser il meno probabilmente scelto per il rapporto sfavorevole tra azione terapeutica e ricchezza di azioni secondarie?",
+   "options": [
+    "fluoxetina",
+    "sertralina",
+    "paroxetina",
+    "citalopram",
+    "amitriptilina"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462941,
+   "text": "Quali dei seguenti è un uso appropriato dell'imipramina?",
+   "options": [
+    "mania",
+    "insonnia",
+    "epilessia",
+    "enuresi notturna dell'adolescente",
+    "glaucoma"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462942,
+   "text": "In caso di shock anafilattico occorre ricorrere rapidamente alla somministrazione di:",
+   "options": [
+    "Adrenalina e cortisonici",
+    "Cardiotonici",
+    "Diuretici",
+    "Dopamina e antistaminici",
+    "Ansiolitici"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462943,
+   "text": "Tutte le seguenti affermazioni riguardanti l'ipercolesterolemia familiare omozigote sono errate, tranne:",
+   "options": [
+    "mancano i recettori cellulari per le LDL che quindi si accumulano nel sangue",
+    "presenta un aumento dell'assorbimento di acidi grassi da parte dell'epitelio intestinale",
+    "mancano i recettori per il colesterolo a livello degli epatociti.",
+    "presenta una diminuzione dell'eliminazione degli acidi grassi attraverso le vie biliari",
+    "presenta una diminuzione della capacità del fegato di metabolizzare il colesterolo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462944,
+   "text": "La tolleranza alle benzodiazepine ne limita l'utilizzazione clinica principalmente nel trattamento di:",
+   "options": [
+    "Assenze epilettiche",
+    "Astinenza da etanolo",
+    "Ansia generalizzata",
+    "Insonnia",
+    "Medicazione preanestetica"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462945,
+   "text": "I farmaci nitroderivati diminuiscono il lavoro del cuore, e quindi la richiesta di ossigeno da parte del miocardio, in quanto:",
+   "options": [
+    "diminuiscono il ritorno di sangue venoso al cuore",
+    "riducono il flusso di sangue agli organi periferici",
+    "riducono la forza di contrazione del miocardio",
+    "riducono la frequenza cardiaca",
+    "riducono le resistenze vascolari del letto coronarico"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462946,
+   "text": "Tutte le seguenti affermazione sulle tetracicline sono erratte, tranne:",
+   "options": [
+    "si dovrebbero somministrare con antiacidi",
+    "sono raccomandate per l'utilizzo nel bambino",
+    "non producono resistenze batteriche",
+    "sono utili per trattare le infezioni da Rickettsie",
+    "sono considerate sicure in gravidanza"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462947,
+   "text": "Quale delle seguenti scelte associa correttamente un paio di farmaci con la malattia epatica che essi provocano?",
+   "options": [
+    "epatite cronica attiva - metildopa e tiazidici",
+    "Metamorfosi grassa - metotrexate ed eritromicina",
+    "Epatite acuta - acetominofene e clorpromazina",
+    "colestasi intraepatica - steroidi anabolizzanti ed isoniazide",
+    "Epatite granulomatosa - allopurinolo e sulfamidici"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462948,
+   "text": "Quale dei seguenti farmaci può determinare dipendenza ?",
+   "options": [
+    "Anticoagulanti orali",
+    "Antistaminici",
+    "Benzodiazepine",
+    "Calcitonina",
+    "Betabloccanti"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462949,
+   "text": "La nitroglicerina determina direttamente o per via riflessa, tutti i seguenti effetti TRANNE:",
+   "options": [
+    "tachicardia.",
+    "diminuzione della forza cardiaca.",
+    "aumento della capacità venosa.",
+    "diminuzione della tensione della fibra intramiocardica.",
+    "diminuzione del postcarico"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462950,
+   "text": "Tutte le seguenti condizioni rientrano tra le possibili indicazioni all'uso di oppioidi, tranne:",
+   "options": [
+    "Cefalea cronica",
+    "Edema polmonare",
+    "Tosse",
+    "Diarrea",
+    "Dolore di origine tumorale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462951,
+   "text": "La terapia con estrogeni è stata associata a tutti i seguenti effetti avversi, tranne:",
+   "options": [
+    "iperplasia endometriale",
+    "nausea",
+    "dolenzia/dolore mammario",
+    "emicrania",
+    "ipoglicemia"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462952,
+   "text": "Nell'intossicazione da oppiacei le pupille sono:",
+   "options": [
+    "Iperflessiche",
+    "Miotiche",
+    "Midriatiche",
+    "Intermedie",
+    "Anisicoriche"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462953,
+   "text": "Quale dei seguenti farmaci aumenta il tono dello sfintere esofageo in pazienti con reflusso gastroesofageo senza aumentare la secrezione gastrica di acido?",
+   "options": [
+    "Cisapride",
+    "Idrossido di magnesio",
+    "Betanecolo",
+    "Cimetidina",
+    "Omeprazolo"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462954,
+   "text": "La somministrazione di amminofillina endovena può causare tutti i seguenti effetti tossici, tranne:",
+   "options": [
+    "cefalea",
+    "ipertensione",
+    "vertigini",
+    "precordialgia",
+    "nausea"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462955,
+   "text": "Tutte le seguenti affermazioni relative all'ANTAGONISMO COMPETITIVO sono errate, tranne:",
+   "options": [
+    "In presenza di un antagonista competitivo la potenza apparente dell'agonista aumenta",
+    "Il legame dell'agonista e dell'antagonista con il recettore si escludono mutuamente",
+    "E' sempre irreversibile",
+    "Può essere allosterico",
+    "L'agonista e l'antagonista possono legarsi al recettore contemporaneamente"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462956,
+   "text": "Il farmaco antiaritmico di prima scelta per trattare le aritmie da digitale è:",
+   "options": [
+    "Lidocaina",
+    "Propafenone",
+    "Verapamil",
+    "Procainamide",
+    "Chinidina"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462957,
+   "text": "I farmaci antiinfiamatori sono anche:",
+   "options": [
+    "Antibiotici",
+    "Anticolinergici",
+    "Stupefacenti",
+    "Analgesici",
+    "Fibrinolitici"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462958,
+   "text": "Le ricette ripetibili:",
+   "options": [
+    "possono essere utilizzate per 3 mesi e fino ad un massimo di 5 volte.",
+    "sono rilasciate solo da centri ospedalieri o specialistici.",
+    "hanno validità massima di 10 giorni.",
+    "possono essere utilizzate una sola volta.",
+    "sono relative ai farmaci elencati nelle Tabelle I, II e III del D.P.R. 309/90."
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462959,
+   "text": "Gli antagonisti dei recettori 5-HT3 possono essere impiegati in terapia come:",
+   "options": [
+    "antiemetici",
+    "antidepressivi",
+    "cardiotonici",
+    "anoressizzanti",
+    "sedativi"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462960,
+   "text": "Quale dei seguenti FANS ha minore potenziale gastrotossico?",
+   "options": [
+    "Acido acetil salicilico",
+    "Paracetamolo",
+    "Indometacina",
+    "Sulindac",
+    "Diclofenac"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462961,
+   "text": "Un diabetico anziano insulino-dipendente deve ricevere un trattamento con beta-bloccante per ipertensione e angina. Quale fra i seguenti potrebbe essere la scelta più accettabile?",
+   "options": [
+    "propranololo",
+    "nadololo",
+    "pindololo",
+    "timololo",
+    "atenololo"
+   ],
+   "correct": 4
+  },
+  {
+   "id": 12462962,
+   "text": "Un musicista rock è portato al pronto soccorso in preda ad una overdose di un farmaco che otteneva illecitamente. E' agitato, ha processi di pensiero disordinati, dimostra sintomatologia paranoica e 'sente voci'. La droga più possibilmente responsabile della sua condizione è:",
+   "options": [
+    "nitrito di isobutile",
+    "etanolo",
+    "metamfetamina",
+    "marijuana",
+    "eroina"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462963,
+   "text": "Gli inibitori della pompa protonica:",
+   "options": [
+    "sono inibitori irreversibili dell'enzima H+/K+ ATPasi",
+    "hanno lunga emivita plasmatica e lunga durata d'azione",
+    "inibiscono diverse isoforme del citocromo P450",
+    "sono ben assorbiti a livello gastrico",
+    "sono profarmaci attivati a livello epatico"
+   ],
+   "correct": 0
+  },
+  {
+   "id": 12462964,
+   "text": "La somministrazione endovenosa di noradrenalina in un paziente che assume una dose efficace di atropina determinerà:",
+   "options": [
+    "Diminuzione delle resistenze periferiche",
+    "Ipoglicemia",
+    "Miosi",
+    "Aumento della frequenza cardiaca",
+    "Aumento della temperatura corporea"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462965,
+   "text": "Studi epidemiologici hanno stabilito che l'uso di contracettivi orali diminuisce l'incidenza di tutte le seguenti condizioni, tranne:",
+   "options": [
+    "neoplasia ovarica",
+    "anemia da carenza di ferro",
+    "malattia pelvica infiammatoria",
+    "neoplasia mammaria",
+    "neoplasia endometriale"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462966,
+   "text": "Nella sperimentazione clinica gli 'endpoint' sono",
+   "options": [
+    "termini entro i quali è necessario concludere la sperimentazione.",
+    "accordi tra lo sponsor e lo sperimentatore.",
+    "variabili predefinite utilizzate per valutare gli effetti del trattamento.",
+    "primitivi e derivati.",
+    "variabili che al termine della sperimentazione si dimostrano le migliori per dimostrare gli effetti del trattamento."
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462967,
+   "text": "Ci si può aspettare nefrotossicità da tutti i seguenti farmaci tranne:",
+   "options": [
+    "gentamicina",
+    "amoxicillina",
+    "vancomicina",
+    "cis-platino",
+    "amfotericina B"
+   ],
+   "correct": 1
+  },
+  {
+   "id": 12462968,
+   "text": "L'atropina è contrindicata:",
+   "options": [
+    "Ipodisprotidemia",
+    "Nel diabete",
+    "Nell'insufficienza renale cronica",
+    "Glaucoma",
+    "Insufficienza surrenalica"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462969,
+   "text": "I seguenti sono farmaci utilizzati nello scompenso cardiaco cronico tranne",
+   "options": [
+    "digossina",
+    "ACE-inibitori",
+    "Cimetidina",
+    "Diuretici dell'ansa",
+    "Diuretici risparmiatori di potassio"
+   ],
+   "correct": 2
+  },
+  {
+   "id": 12462970,
+   "text": "Indicare quale dei seguenti farmaci antitumorali non è un antimetabolita:",
+   "options": [
+    "metotressato",
+    "citarabina",
+    "5-fluorouracile",
+    "cisplatino",
+    "6-mercaptopurina"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462971,
+   "text": "Il rapporto tra la concentrazione del farmaco che induce un effetto tossico e quella necessaria a produrre l'effetto terapeutico è definito:",
+   "options": [
+    "DL50 (dose letale 50)",
+    "ED50 (dose efficace 50)",
+    "dose minima tossica",
+    "Indice terapeutico",
+    "dose minima efficace"
+   ],
+   "correct": 3
+  },
+  {
+   "id": 12462972,
+   "text": "Quale dei seguenti farmaci è il più efficace nel trattare la nausea e il vomito associati alla malattia di Meniere?",
+   "options": [
+    "Cisapride",
+    "Difenidramina",
+    "Scopolamina",
+    "Ondansetrone",
+    "Proclorperazina"
+   ],
+   "correct": 1
+  }
+ ]
+}
