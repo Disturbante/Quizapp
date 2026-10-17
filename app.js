@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/13.0.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js";
 import {
   getAuth,
   onAuthStateChanged,
@@ -6,7 +6,14 @@ import {
   signInWithEmailAndPassword,
   sendPasswordResetEmail,
   signOut
-} from "https://www.gstatic.com/firebasejs/13.0.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js";
+import {
+  getFirestore,
+  doc,
+  getDoc,
+  setDoc,
+  serverTimestamp
+} from "https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js";
 import firebaseConfig, { firebaseConfigured } from "./firebase-config.js";
 
 const $ = (id) => document.getElementById(id);
@@ -24,7 +31,11 @@ const state = {
   selectedOption: null,
   answeredCurrent: false,
   progressStorageKey: null,
-  auth: null
+  progressReady: false,
+  firestoreWarningShown: false,
+  progressSaveQueue: Promise.resolve(true),
+  auth: null,
+  db: null
 };
 
 const DEFAULT_STATS = Object.freeze({ answered: 0, correct: 0, wrong: 0 });
@@ -90,38 +101,149 @@ function sanitizeProgress(progress) {
   return { wrongIds, stats };
 }
 
-function loadLocalProgress(user) {
-  // The UID in the key keeps progress separate between accounts using the same browser.
+function readLocalProgress(user) {
   state.progressStorageKey = `quiz-progress-${QUIZ_ID}-${user.uid}`;
   try {
     const raw = localStorage.getItem(state.progressStorageKey);
-    const clean = sanitizeProgress(raw ? JSON.parse(raw) : {});
-    state.wrongIds = clean.wrongIds;
-    state.stats = clean.stats;
+    const parsed = raw ? JSON.parse(raw) : {};
+    const clean = sanitizeProgress(parsed);
+    return {
+      ...clean,
+      exists: Boolean(raw),
+      savedAt: typeof parsed?.savedAt === "string" ? parsed.savedAt : null,
+      pendingSync: parsed?.pendingSync === true
+    };
   } catch (error) {
     console.warn("Unable to read local quiz progress", error);
-    state.wrongIds = [];
-    state.stats = { ...DEFAULT_STATS };
-    showMessage("Non è stato possibile leggere i progressi locali. Verrà avviato un nuovo progresso.", "warning");
+    showMessage("Non è stato possibile leggere i progressi locali del browser.", "warning");
+    return { wrongIds: [], stats: { ...DEFAULT_STATS }, exists: false, savedAt: null };
   }
-  renderDashboard();
 }
 
-function saveLocalProgress() {
-  if (!state.user || !state.progressStorageKey) return;
-  const payload = {
-    version: 1,
-    quizId: QUIZ_ID,
-    savedAt: new Date().toISOString(),
-    wrongIds: state.wrongIds,
-    stats: state.stats
-  };
+function applyProgress(progress) {
+  const clean = sanitizeProgress(progress);
+  state.wrongIds = clean.wrongIds;
+  state.stats = clean.stats;
+}
+
+function writeLocalCache(user, payload, pendingSync = false) {
+  const key = `quiz-progress-${QUIZ_ID}-${user.uid}`;
   try {
-    localStorage.setItem(state.progressStorageKey, JSON.stringify(payload));
+    localStorage.setItem(key, JSON.stringify({
+      ...payload,
+      savedAt: new Date().toISOString(),
+      pendingSync
+    }));
   } catch (error) {
     console.warn("Unable to save local quiz progress", error);
-    showMessage("Impossibile salvare i progressi: controlla lo spazio disponibile nel browser.", "warning");
+    if (state.user?.uid === user.uid) {
+      showMessage("Impossibile salvare una copia locale dei progressi nel browser.", "warning");
+    }
   }
+}
+
+function currentProgressPayload() {
+  return {
+    version: 1,
+    quizId: QUIZ_ID,
+    wrongIds: [...state.wrongIds],
+    stats: { ...state.stats }
+  };
+}
+
+function firestoreErrorMessage(error) {
+  if (error?.code === "permission-denied") {
+    return "Firestore ha rifiutato l'accesso. Pubblica le regole contenute in firestore.rules nella console Firebase.";
+  }
+  if (error?.code === "failed-precondition" || error?.code === "unavailable") {
+    return "Firestore non è disponibile. Controlla che il database sia stato creato e la connessione sia attiva.";
+  }
+  return "Non riesco a sincronizzare i progressi con Firebase. Per ora restano salvati in questo browser.";
+}
+
+async function loadProgress(user) {
+  const local = readLocalProgress(user);
+  applyProgress(local);
+  state.progressReady = false;
+  renderDashboard();
+
+  let syncSucceeded = true;
+  try {
+    const progressRef = doc(state.db, "users", user.uid, "quizProgress", QUIZ_ID);
+    const snapshot = await getDoc(progressRef);
+    if (state.user?.uid !== user.uid) return;
+
+    if (snapshot.exists()) {
+      const remote = snapshot.data();
+      // Only prefer local state when a previous cloud write explicitly failed.
+      if (local.exists && local.pendingSync) {
+        applyProgress(local);
+        const savedToCloud = await saveProgress();
+        syncSucceeded = savedToCloud;
+        if (savedToCloud) {
+          showMessage("I progressi locali non ancora sincronizzati sono stati trasferiti a Firebase.", "success");
+        }
+      } else {
+        applyProgress(remote);
+        writeLocalCache(user, currentProgressPayload(), false);
+      }
+    } else {
+      // Migrate progress from the previous localStorage-only version on first login.
+      applyProgress(local);
+      syncSucceeded = await saveProgress();
+      if (syncSucceeded && local.exists && (local.wrongIds.length > 0 || local.stats.answered > 0)) {
+        showMessage("I progressi salvati in precedenza sono stati trasferiti a Firebase.", "success");
+      }
+    }
+    if (syncSucceeded) state.firestoreWarningShown = false;
+  } catch (error) {
+    console.error("Unable to load or sync Firestore progress", error);
+    if (state.user?.uid !== user.uid) return;
+    applyProgress(local);
+    state.firestoreWarningShown = true;
+    showMessage(firestoreErrorMessage(error), "warning");
+  } finally {
+    if (state.user?.uid === user.uid) {
+      state.progressReady = true;
+      renderDashboard();
+    }
+  }
+}
+
+function saveProgress() {
+  const user = state.user;
+  if (!user || !state.progressStorageKey) return Promise.resolve(false);
+
+  const payload = currentProgressPayload();
+  writeLocalCache(user, payload, true);
+
+  const write = async () => {
+    if (!state.db) return false;
+    try {
+      const progressRef = doc(state.db, "users", user.uid, "quizProgress", QUIZ_ID);
+      await setDoc(progressRef, { ...payload, updatedAt: serverTimestamp() }, { merge: true });
+      state.firestoreWarningShown = false;
+      if (state.user?.uid === user.uid) {
+        const current = currentProgressPayload();
+        if (JSON.stringify(current.wrongIds) === JSON.stringify(payload.wrongIds) &&
+            JSON.stringify(current.stats) === JSON.stringify(payload.stats)) {
+          writeLocalCache(user, payload, false);
+        }
+      }
+      return true;
+    } catch (error) {
+      console.error("Unable to save Firestore progress", error);
+      if (state.user?.uid === user.uid && !state.firestoreWarningShown) {
+        state.firestoreWarningShown = true;
+        showMessage(firestoreErrorMessage(error), "warning");
+      }
+      return false;
+    }
+  };
+
+  // Serialize writes so a slower older request cannot overwrite a newer answer.
+  state.progressSaveQueue = state.progressSaveQueue.catch(() => false).then(write);
+  return state.progressSaveQueue;
 }
 
 function setAuthMode(mode) {
@@ -137,18 +259,21 @@ function setAuthMode(mode) {
   setAuthMessage("");
 }
 
-function renderSignedInApp(user) {
+async function renderSignedInApp(user) {
   state.user = user;
+  state.progressReady = false;
+  state.firestoreWarningShown = false;
   $("user-email").textContent = user.email || "Account";
   setHidden($("signed-in-bar"), false);
   setHidden($("auth-view"), true);
   setHidden($("app-view"), false);
   showScreen("home");
-  loadLocalProgress(user);
+  await loadProgress(user);
 }
 
 function renderSignedOut() {
   state.user = null;
+  state.progressReady = false;
   state.progressStorageKey = null;
   setHidden($("signed-in-bar"), true);
   setHidden($("app-view"), true);
@@ -191,7 +316,8 @@ function renderDashboard() {
   const countSelect = $("question-count");
   const allOption = countSelect.querySelector('option[value="all"]');
   allOption.textContent = `Tutte quelle disponibili (${max})`;
-  $("start-session").disabled = max === 0;
+  $("start-session").disabled = max === 0 || !state.progressReady;
+  $("reset-progress").disabled = !state.progressReady;
 }
 
 function beginSession(mode, countChoice) {
@@ -297,7 +423,7 @@ function submitAnswer() {
       state.sessionStats.wrong += 1;
       if (!state.wrongIds.includes(String(question.id))) state.wrongIds.push(String(question.id));
     }
-    saveLocalProgress();
+    void saveProgress();
     renderDashboard();
     document.querySelectorAll(".answer-option").forEach((button) => {
       const index = Number(button.dataset.optionIndex);
@@ -389,6 +515,8 @@ async function startApp() {
     );
     state.questionById = new Map(state.questions.map((question) => [String(question.id), question]));
     $("total-questions").textContent = String(state.questions.length);
+    const introCount = $("intro-question-count");
+    if (introCount) introCount.textContent = String(state.questions.length);
     renderDashboard();
   } catch (error) {
     console.error("Unable to load questions.json", error);
@@ -409,8 +537,9 @@ async function startApp() {
   try {
     const app = initializeApp(firebaseConfig);
     state.auth = getAuth(app);
+    state.db = getFirestore(app);
     onAuthStateChanged(state.auth, (user) => {
-      if (user) renderSignedInApp(user);
+      if (user) void renderSignedInApp(user);
       else renderSignedOut();
     }, (error) => {
       console.error(error);
@@ -441,15 +570,18 @@ $("next-question").addEventListener("click", submitAnswer);
 $("back-home").addEventListener("click", () => { renderDashboard(); showScreen("home"); });
 $("result-home").addEventListener("click", () => { renderDashboard(); showScreen("home"); });
 $("retry-wrong").addEventListener("click", () => beginSession("wrong", "all"));
-$("reset-progress").addEventListener("click", () => {
-  if (!state.user) return;
-  const confirmed = window.confirm("Vuoi cancellare tutte le statistiche e svuotare il contenitore delle domande sbagliate per questo account su questo browser?");
+$("reset-progress").addEventListener("click", async () => {
+  if (!state.user || !state.progressReady) return;
+  const confirmed = window.confirm("Vuoi cancellare le statistiche e svuotare le domande sbagliate per questo account su tutti i dispositivi sincronizzati?");
   if (!confirmed) return;
   state.wrongIds = [];
   state.stats = { ...DEFAULT_STATS };
-  saveLocalProgress();
   renderDashboard();
-  showMessage("Progressi locali azzerati.", "success");
+  const savedToCloud = await saveProgress();
+  renderDashboard();
+  showMessage(savedToCloud
+    ? "Progressi azzerati e sincronizzati con Firebase."
+    : "Progressi azzerati localmente; la sincronizzazione Firebase non è riuscita.", savedToCloud ? "success" : "warning");
 });
 
 startApp();
