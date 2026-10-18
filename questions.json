@@ -11,9 +11,9 @@
       "options": [
         "verapamil",
         "un beta-bloccante",
-        "aspirina",
-        "warfarin",
-        "amlodipina"
+        "atenololo",
+        "digossina",
+        "idroclorotiazide"
       ],
       "correct": 0
     },
@@ -57,11 +57,11 @@
       "id": 12462688,
       "text": "Quale delle seguenti e' un'indicazione clinica dei farmaci antistaminici H1?",
       "options": [
-        "ansia",
-        "convulsioni",
+        "ulcera duodenale",
+        "reflusso gastroesofageo",
         "rinite stagionale",
-        "diarrea",
-        "ulcera gastrica"
+        "crisi asmatica acuta",
+        "ipersecrezione acida gastrica"
       ],
       "correct": 2
     },
@@ -202,10 +202,10 @@
       "text": "La meperidina è un farmaco:",
       "options": [
         "Analgesico non stupefacente",
-        "Antialdosteronico",
+        "Antiaritmico",
         "Analgesico stupefacente",
-        "Antinfiammatorio analgesico",
-        "Antistaminico"
+        "Antinfiammatorio non steroideo",
+        "Antiemetico"
       ],
       "correct": 2
     },
@@ -225,11 +225,11 @@
       "id": 12462702,
       "text": "E' un impiego clinico delle benzodiazepine:",
       "options": [
-        "cefalea",
+        "cefalea a grappolo",
         "insonnia",
-        "ulcera peptica",
-        "morbo di Parkinson",
-        "glaucoma"
+        "depressione maggiore",
+        "schizofrenia",
+        "morbo di Parkinson"
       ],
       "correct": 1
     },
@@ -286,10 +286,10 @@
       "text": "Affinché compaia l'effetto terapeutico degli antidepressivi triciclici, è necessario che dall'assunzione del farmaco trascorrano:",
       "options": [
         "2-3 settimane",
-        "2 mesi",
-        "3 ore",
-        "3 minuti",
-        "1 giorno"
+        "5-7 giorni",
+        "2-3 mesi",
+        "6-8 mesi",
+        "24-48 ore"
       ],
       "correct": 0
     },
@@ -298,10 +298,10 @@
       "text": "Il mannitolo è:",
       "options": [
         "un diuretico osmotico",
-        "un beta-bloccante",
-        "un calcio-antagonista",
-        "un antidoto che chela il piombo",
-        "un anticoagulante orale"
+        "un diuretico dell'ansa",
+        "un diuretico tiazidico",
+        "un diuretico risparmiatore di potassio",
+        "un inibitore dell'anidrasi carbonica"
       ],
       "correct": 0
     },
@@ -406,10 +406,10 @@
       "text": "I neurolettici sono farmaci indicati nel trattamento di:",
       "options": [
         "mania acuta",
-        "convulsioni",
-        "insonnia",
-        "ipertensione",
-        "dolore"
+        "depressione unipolare lieve",
+        "attacchi di panico",
+        "morbo di Parkinson",
+        "epilessia generalizzata"
       ],
       "correct": 0
     },
@@ -489,10 +489,10 @@
       "id": 12462724,
       "text": "In un paziente affetto da glaucoma è controindicato l'uso:",
       "options": [
-        "degli antibiotici",
+        "degli ACE-inibitori",
         "degli antipressivi triciclici",
-        "delle benzodiazepine ipnogene",
-        "delle amfetamine",
+        "dei diuretici dell'ansa",
+        "dei calcio-antagonisti",
         "dei barbiturici"
       ],
       "correct": 1
@@ -515,8 +515,8 @@
       "options": [
         "Solo negli animali",
         "Si",
-        "Solo negli adulti",
-        "Solo nelle sindromi carenziali",
+        "Solo per somministrazione parenterale",
+        "Solo nei neonati prematuri",
         "No"
       ],
       "correct": 1
@@ -537,10 +537,10 @@
       "id": 12462728,
       "text": "I farmaci della classe dei chinoloni:",
       "options": [
-        "non sono soggetti a fenomeni di resistenza batterica noti",
-        "sono impiegati esclusivamente nella terapia delle infezioni urinarie",
-        "sono impiegati solo in associazione ad altri farmaci antibatterici",
-        "sono inibitori della sintesi proteica delle cellule batteriche",
+        "inibiscono la sintesi della parete batterica legandosi alle PBP",
+        "sono inibitori della sintesi proteica a livello della subunità ribosomiale 30S",
+        "inibiscono la RNA polimerasi DNA-dipendente batterica",
+        "bloccano la sintesi batterica dell'acido folico",
         "sono inibitori della DNA girasi, un enzima simile alla topoisomerasi II eucariota"
       ],
       "correct": 4
@@ -622,10 +622,10 @@
       "text": "Come è meglio impostare una terapia antiepilettica in una donna gravida in cui non è consigliabile sospendere del tutto l'uso dei farmaci?",
       "options": [
         "Utilizzare un unico farmaco al dosaggio più basso possibile",
-        "Somministrare i farmaci solo per via rettale",
+        "Sospendere la terapia nel primo trimestre e riprenderla dal secondo",
         "Utilizzare una terapia polifarmacologica, in modo da risparmiare sul dosaggio di ogni farmaco",
         "Mantenere la terapia precedente, intensificando i controlli ematochimici",
-        "Utilizzare solo vie di somministrazione parenterali"
+        "Sostituire il farmaco con quello di più recente commercializzazione, ritenuto più sicuro"
       ],
       "correct": 0
     },
@@ -802,10 +802,10 @@
       "text": "L'intossicazione da sali di litio migliora con:",
       "options": [
         "urea, cloruro di sodio, acetazolamide, emodialisi",
-        "neurolettici",
-        "acqua in dosi abbondanti",
-        "ansiolitici",
-        "epatoprotettori"
+        "diuretici tiazidici e restrizione sodica",
+        "FANS e ACE-inibitori",
+        "carbone attivo per via orale",
+        "neurolettici ad alte dosi"
       ],
       "correct": 0
     },
@@ -874,10 +874,10 @@
       "text": "E' un effetto lamentato di frequente dai pazienti in terapia con enalapril:",
       "options": [
         "tosse",
-        "ipertensione",
-        "allucinazioni",
-        "rinorrea",
-        "anemia"
+        "ipokaliemia",
+        "bradicardia sinusale",
+        "edema malleolare",
+        "tachicardia riflessa"
       ],
       "correct": 0
     },
@@ -885,10 +885,10 @@
       "id": 12462757,
       "text": "Un paziente trattato con anticoagulanti orali può andare incontro al rischio:",
       "options": [
-        "Di trombosi",
-        "Di edema polmonare",
-        "Di infarto miocardico",
-        "Di aumento del numero di piastrine circolanti",
+        "Di trombocitopenia immuno-mediata",
+        "Di iperkaliemia",
+        "Di ototossicità",
+        "Di aritmie ventricolari",
         "Di emorragie"
       ],
       "correct": 4
@@ -899,9 +899,9 @@
       "options": [
         "rinite stagionale",
         "ulcera gastrica",
+        "cinetosi",
         "asma bronchiale",
-        "diarrea",
-        "ansia"
+        "insonnia"
       ],
       "correct": 1
     },
@@ -913,7 +913,7 @@
         "cimetidina",
         "ranitidina",
         "omeprazolo",
-        "misoprostolo"
+        "sucralfato"
       ],
       "correct": 3
     },
@@ -1233,10 +1233,10 @@
       "id": 12462786,
       "text": "In soggetti con storia di miopatie, gli inibitori della HMG-CoA reduttasi (statine):",
       "options": [
-        "possono causare osteoporosi e danni endoteliali",
-        "non hanno alcun effetto sul profilo lipidico",
-        "non sono efficaci nell'abbassare il colesterolo LDL",
-        "non vanno mai somministrati",
+        "possono essere somministrate senza alcuna precauzione, perché la miopatia non è un effetto di classe",
+        "vanno associate ai derivati dell'acido fibrico per potenziarne l'effetto ipocolesterolemizzante",
+        "sono controindicate solo se associate ai diuretici tiazidici",
+        "possono essere associate solo agli inibitori dell'assorbimento del colesterolo",
         "non debbono essere associati ai derivati dell'acido fibrico (clofibrato e congeneri)"
       ],
       "correct": 4
@@ -1498,10 +1498,10 @@
       "text": "Quale delle seguenti condizioni può essere indicazione al trattamento farmacologico con inibitori delle monoamine ossidasi di tipo B (MAO B)?",
       "options": [
         "ipertensione che non risponde al trattamento con beta-bloccanti",
-        "vomito da chemioterapici",
+        "ansia generalizzata",
         "schizofrenia",
         "malattia di Parkinson",
-        "shock anafilattico"
+        "tachiaritmie sopraventricolari"
       ],
       "correct": 3
     },
@@ -1618,8 +1618,8 @@
       "text": "Quale tra i seguenti è un farmaco utilizzato nel trattamento delle infezioni sistemiche da funghi:",
       "options": [
         "ciprofloxacina",
-        "penicillina",
-        "amiodarone",
+        "aciclovir",
+        "metronidazolo",
         "anfotericina B",
         "streptomicina"
       ],
@@ -1750,10 +1750,10 @@
       "text": "E' un farmaco anticoagulante:",
       "options": [
         "warfarin",
-        "carbonato di litio",
-        "teofillina",
-        "digossina",
-        "penicillina"
+        "clopidogrel",
+        "acido acetilsalicilico",
+        "protamina solfato",
+        "digossina"
       ],
       "correct": 0
     },
@@ -1893,11 +1893,11 @@
       "id": 12462841,
       "text": "Quale tra i seguenti farmaci è analgesico:",
       "options": [
-        "Kanamicina",
+        "Naloxone",
         "Aloperidolo",
-        "Succinilcolina",
+        "Flumazenil",
         "Pentazocina",
-        "Adrenalina"
+        "Atropina"
       ],
       "correct": 3
     },
@@ -2397,10 +2397,10 @@
       "id": 12462883,
       "text": "L'amiodarone è un farmaco:",
       "options": [
-        "Antiacido",
-        "Ipnoinduttore",
+        "Antiaggregante piastrinico",
+        "Diuretico dell'ansa",
         "Antiaritmico",
-        "Beta-mimetico",
+        "Inotropo positivo",
         "Beta-bloccante"
       ],
       "correct": 2
@@ -2494,9 +2494,9 @@
       "text": "Il valproato di sodio è un farmaco:",
       "options": [
         "antiepilettico",
-        "antienuretico",
-        "antidiarroico",
-        "non è un farmaco",
+        "antidepressivo triciclico",
+        "antiaritmico di classe I",
+        "neurolettico fenotiazinico",
         "antiipertensivo"
       ],
       "correct": 0
@@ -2542,10 +2542,10 @@
       "text": "Quale delle seguenti e' un'indicazione clinica dei farmaci antistaminici H1?",
       "options": [
         "diarrea",
-        "ansia",
-        "depressione",
+        "ulcera duodenale",
+        "ipertensione arteriosa",
         "orticaria",
-        "insonnia"
+        "angina pectoris"
       ],
       "correct": 3
     },
@@ -2710,10 +2710,10 @@
       "text": "In un paziente in overdose da eroina si interviene con uno dei seguenti farmaci. Quale ?",
       "options": [
         "naloxone",
-        "diazepam",
+        "flumazenil",
         "fenobarbital",
         "metadone",
-        "aspirina"
+        "atropina"
       ],
       "correct": 0
     },
@@ -2722,10 +2722,10 @@
       "text": "Quale tra i seguenti farmaci può essere usato nel trattamento dei tumori della mammella?",
       "options": [
         "tamoxifene",
-        "propranololo",
-        "vitamina D",
-        "nizatidina",
-        "prednisolone"
+        "flutamide",
+        "finasteride",
+        "ciproterone",
+        "propranololo"
       ],
       "correct": 0
     },
@@ -2938,10 +2938,10 @@
       "text": "In un soggetto affetto da grave ipertrofia prostatica è controindicato l'uso:",
       "options": [
         "dei barbiturici",
-        "degli antibiotici",
+        "degli ACE-inibitori",
         "degli antidepressivi triciclici",
         "delle benzodiazepine ipnogene",
-        "delle amfetamine"
+        "dei diuretici tiazidici"
       ],
       "correct": 2
     },
@@ -3106,10 +3106,10 @@
       "text": "In caso di shock anafilattico occorre ricorrere rapidamente alla somministrazione di:",
       "options": [
         "Adrenalina e cortisonici",
-        "Cardiotonici",
-        "Diuretici",
+        "Digossina e diuretici dell'ansa",
+        "Atropina e beta-bloccanti",
         "Dopamina e antistaminici",
-        "Ansiolitici"
+        "Noradrenalina e ansiolitici"
       ],
       "correct": 0
     },
@@ -3310,10 +3310,10 @@
       "text": "Gli antagonisti dei recettori 5-HT3 possono essere impiegati in terapia come:",
       "options": [
         "antiemetici",
+        "procinetici gastrici",
         "antidepressivi",
-        "cardiotonici",
-        "anoressizzanti",
-        "sedativi"
+        "ansiolitici",
+        "antisecretori gastrici"
       ],
       "correct": 0
     },
@@ -3417,11 +3417,11 @@
       "id": 12462968,
       "text": "L'atropina è contrindicata:",
       "options": [
-        "Ipodisprotidemia",
-        "Nel diabete",
-        "Nell'insufficienza renale cronica",
+        "bradicardia sinusale sintomatica",
+        "intossicazione da inibitori delle colinesterasi",
+        "coliche addominali spastiche",
         "Glaucoma",
-        "Insufficienza surrenalica"
+        "parkinsonismo da neurolettici"
       ],
       "correct": 3
     },
@@ -3477,20 +3477,20 @@
       "id": 12500001,
       "text": "Quale dei seguenti farmaci agisce come agonista sui recettori alfa-2- adrenergici?",
       "options": [
-        "chinidina",
+        "fenilefrina",
         "Clonidina",
-        "mazindolo",
-        "Rivastigmina",
-        "prazosina"
+        "yohimbina",
+        "prazosina",
+        "propranololo"
       ],
       "correct": 1
     },
     {
       "id": 12500002,
-      "text": "I farmaci bloccanti del recettore α1 adrenergico producono ipertensione posturale in quanto?",
+      "text": "I farmaci bloccanti del recettore α1 adrenergico producono ipotensione posturale in quanto?",
       "options": [
         "Diminuiscono il tono dei vasi di capacitanza",
-        "diminuiscono il ritorno di sangue venoso al cuore",
+        "Provocano bradicardia riflessa per stimolazione vagale",
         "riducono la forza di contrazione del miocardio",
         "riducono le resistenze vascolari del letto coronarico",
         "riducono il flusso di sangue agli organi periferici"
@@ -3502,10 +3502,10 @@
       "text": "Quale dei seguenti è un’indicazione all’impiego dei farmaci antagonisti dei recettori α1 adrenergici?",
       "options": [
         "Asma bronchiale",
-        "Disturbi della minzione da iperplasia prostatica maligna",
-        "Broncospasmo",
-        "Ipertensione arteriosa",
-        "Nizatidina"
+        "Disturbi della minzione da iperplasia prostatica benigna",
+        "Ipotensione ortostatica",
+        "Shock anafilattico",
+        "Glaucoma ad angolo chiuso"
       ],
       "correct": 1
     },
@@ -3513,11 +3513,11 @@
       "id": 12500004,
       "text": "Un farmaco che stimola i recettori β1 e β2 adrenergici può causare?",
       "options": [
-        "Inibitori della monoaminossidasi",
-        "Inibitori delle colinesterasi",
+        "Aumento delle resistenze periferiche totali",
+        "Bradicardia sinusale",
         "Riduzione delle resistenze periferiche totali",
-        "Vagolitici",
-        "Ganglioplegici"
+        "Broncocostrizione",
+        "Riduzione della forza di contrazione cardiaca"
       ],
       "correct": 2
     },
@@ -3526,9 +3526,9 @@
       "text": "Quale delle seguenti patologie configura un’indicazione all’impiego dei farmaci β-agonisti?",
       "options": [
         "Ipertensione arteriosa",
-        "rinite stagionale",
-        "ulcera gastrica",
-        "Disturbi della minzione da iperplasia prostatica maligna",
+        "Angina pectoris",
+        "Tachiaritmie sopraventricolari",
+        "Glaucoma ad angolo aperto",
         "Asma bronchiale"
       ],
       "correct": 4
@@ -3537,10 +3537,10 @@
       "id": 12500006,
       "text": "Quale delle seguenti affermazioni riguardo gli antagonisti β-adrenergici è errata?",
       "options": [
-        "Sono tutte eliminate immodificate per via renale",
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
-        "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)",
+        "Possono provocare broncocostrizione nei soggetti asmatici",
+        "Riducono la frequenza cardiaca e la forza di contrazione del miocardio",
+        "La brusca sospensione può causare fenomeni da rimbalzo",
+        "Il propranololo è un antagonista non selettivo dei recettori beta-1 e beta-2",
         "La loro azione anti-ipertensiva è’ più pronunciata sui soggetti normali che su quelli ipertesi"
       ],
       "correct": 4
@@ -3549,11 +3549,11 @@
       "id": 12500007,
       "text": "I farmaci analoghi all'anfetamina provocano?",
       "options": [
-        "Anticolinergici",
+        "Aumento dell'appetito",
         "Diminuzione dell’appettito",
-        "Dipendenza psichica",
-        "Ipertensione arteriosa",
-        "Iperuricemia"
+        "Sedazione e sonnolenza",
+        "Bradicardia sinusale",
+        "Miosi marcata"
       ],
       "correct": 1
     },
@@ -3561,11 +3561,11 @@
       "id": 12500008,
       "text": "La cocaina potenzia l'azione ipertensiva della noradrenalina perché?",
       "options": [
-        "parasimpaticomimetico",
-        "miorilassante",
-        "simpaticolitiche",
+        "Inibisce la monoamino ossidasi neuronale",
+        "Blocca i recettori beta-adrenergici cardiaci",
+        "Stimola direttamente i recettori alfa-1 vascolari",
         "Inibisce il re-uptake neuronale dela noradrenalina",
-        "anestetico locale"
+        "Blocca i recettori muscarinici cardiaci"
       ],
       "correct": 3
     },
@@ -3573,11 +3573,11 @@
       "id": 12500009,
       "text": "Gli agonisti colinergici muscarinici possono trovare impiego?",
       "options": [
-        "isoproterenolo",
-        "Asma bronchiale",
-        "Agonisti gabaergici",
+        "Nel glaucoma ad angolo aperto",
+        "Nell'atonia della vescica",
+        "Nell'atonia intestinale post-operatoria",
         "In tutte le indicazioni riportate",
-        "noradrenalina"
+        "Nella xerostomia da sindrome di Sjögren"
       ],
       "correct": 3
     },
@@ -3585,11 +3585,11 @@
       "id": 12500010,
       "text": "Quale dei seguenti farmaci è un agonista muscarinico indiretto?",
       "options": [
-        "Pentobarbital",
-        "Secobarbital",
+        "Pilocarpina",
+        "Betanecolo",
         "Rivastigmina",
-        "Fenobarbital",
-        "Tiopentale"
+        "Atropina",
+        "Ipratropio"
       ],
       "correct": 2
     },
@@ -3597,23 +3597,23 @@
       "id": 12500011,
       "text": "Su quale parte del nefrone agiscono prevalentemente i diuretici tiazidici?",
       "options": [
-        "Ipokalemia, iperglicemia, iperlipidemia",
-        "Iperuricemia",
+        "Tubulo contorto prossimale",
+        "Ramo ascendente spesso dell'ansa di Henle",
         "Tratto prossimale del tubulo contorto distale",
-        "Iperkalemia, alcalosi, nausea/vomito",
-        "Ipokalemia, ototossicità, ipercalcemia"
+        "Dotto collettore corticale",
+        "Ramo discendente sottile dell'ansa di Henle"
       ],
       "correct": 2
     },
     {
       "id": 12500012,
-      "text": "Indicare quali dei seguenti gruppi di farmaci diuretici appartiene alla categoria degli inibitori del simpatico (Na+, K+, 2Cl-) —> diuretici dell’ansa?",
+      "text": "Quale dei seguenti gruppi di farmaci diuretici appartiene alla categoria degli inibitori del cotrasportatore Na+/K+/2Cl- (diuretici dell'ansa)?",
       "options": [
-        "Ipomagnesemia",
+        "Idroclorotiazide, clortalidone, indapamide",
         "Furosemide, acido etacrinico, torasemide",
-        "desipramina",
-        "fluoxetina",
-        "amitriptilina"
+        "Spironolattone, canrenone, eplerenone",
+        "Amiloride, triamterene",
+        "Acetazolamide, dorzolamide"
       ],
       "correct": 1
     },
@@ -3622,10 +3622,10 @@
       "text": "Le seguenti situazioni costituiscono indicazione per l'uso dei diuretici dell'ansa tranne?",
       "options": [
         "Insufficienza renale",
-        "Reumatismo articolare acuto",
+        "Edema polmonare acuto",
         "Ipomagnesemia",
-        "Depressione psichica",
-        "Furosemide, acido etacrinico, torasemide"
+        "Ipercalcemia grave",
+        "Scompenso cardiaco congestizio"
       ],
       "correct": 2
     },
@@ -3637,7 +3637,7 @@
         "le sulfaniluree riducono la secrezione di insulina",
         "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
         "la glipizide fa aumentare la secrezione del glucagone",
-        "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)"
+        "gli ACE-inibitori aumentano la secrezione di aldosterone"
       ],
       "correct": 0
     },
@@ -3645,11 +3645,11 @@
       "id": 12500015,
       "text": "Degli accoppiamenti sottoindicati qual è quello corretto?",
       "options": [
-        "Bloccano il riassorbimento del GABA",
-        "Potenziano la trasmissione colinergica",
-        "Stimolano la sintesi della serotonina",
-        "Ketoprofene/miorilassante",
-        "AMLODIPINA / Ca++ANTAGONISTA/ ANTIPERTENSIVO"
+        "Ketoprofene / miorilassante / antispastico",
+        "Salbutamolo / beta-bloccante / antiipertensivo",
+        "Captopril / diuretico / antiedemigeno",
+        "Clonidina / alfa-1 antagonista / antiipertensivo",
+        "Amlodipina / calcio-antagonista / antiipertensivo"
       ],
       "correct": 4
     },
@@ -3658,10 +3658,10 @@
       "text": "Oltre che nell’ipertensione arteriosa gli ACE-inibitori sono indicati?",
       "options": [
         "Nella cardiopatia ischemica e nello scompenso cardiaco congestizio cronico",
-        "nel diabete di tipo I",
-        "dopo la menopausa",
-        "nello scompenso cardiaco congestizio",
-        "nell'ipertiroidismo"
+        "Nella stenosi bilaterale delle arterie renali",
+        "Nell'angioedema ereditario",
+        "Nell'asma bronchiale allergico",
+        "Nell'ipotensione ortostatica"
       ],
       "correct": 0
     },
@@ -3669,23 +3669,23 @@
       "id": 12500017,
       "text": "La reserpina può essere impiegata come farmaco?",
       "options": [
-        "alcool",
-        "antagonisti del recettore H2",
-        "tutte le risposte indicate",
+        "Antiaritmico",
+        "Broncodilatatore",
+        "Anticoagulante",
         "Antipertensivo",
-        "Antistaminica / h1"
+        "Antiemetico"
       ],
       "correct": 3
     },
     {
       "id": 12500018,
-      "text": "La nitroglicerina viene somministrata per via sublinguale per EVITARE IL METABOLISMO DI 1°?",
+      "text": "Per quale motivo la nitroglicerina viene somministrata per via sublinguale?",
       "options": [
-        "dilata prevalentemente le vene",
-        "non provoca tolleranza",
-        "dilata prevalentemente le arteriole",
-        "aumenta il postcarico",
-        "Passaggio"
+        "Per ridurre la tachicardia riflessa",
+        "Per prolungare l'emivita del farmaco",
+        "Per aumentarne il legame alle proteine plasmatiche",
+        "Per ridurre l'effetto vasodilatatore sulle arteriole",
+        "Per evitare il metabolismo di primo passaggio epatico"
       ],
       "correct": 4
     },
@@ -3693,11 +3693,11 @@
       "id": 12500019,
       "text": "L'azione profilattica dei β-antagonisti nell'angina pectoris consegue a?",
       "options": [
-        "un beta-bloccante",
-        "Per via intramuscolare",
-        "Per applicazione di cerotto transdermico",
+        "Vasodilatazione coronarica diretta",
+        "Aumento della contrattilità miocardica",
+        "Riduzione del volume ematico circolante",
         "Diminuita richiesta di o2 da parte del cuore",
-        "Per via sottocutanea"
+        "Aumento del ritorno venoso al cuore"
       ],
       "correct": 3
     },
@@ -3705,11 +3705,11 @@
       "id": 12500020,
       "text": "Quali caratteristiche farmacologiche descrivono l’acebutololo?",
       "options": [
-        "possono sviluppare tolleranza farmacocinetica e/o farmacodinamica",
-        "deprimono reversibilmente l'attività di tutti i tessuti eccitabili",
-        "aumentano la durata totale del sonno e ne alterano le fasi",
+        "β-bloccante non selettivo privo di attività simpaticomimetica intrinseca",
+        "Antagonista α1-adrenergico selettivo",
+        "β-bloccante non selettivo con attività α-bloccante",
         "β-bloccante selettivo con attività simpaticomimetica intrinseca",
-        "Tutte quelle riportate (ridotta capacita’ di indurre sindromi extrap.- iperprolattinemia - potenziale massima efficacia su disturbi negativi)"
+        "Agonista β2-adrenergico selettivo"
       ],
       "correct": 3
     },
@@ -3717,11 +3717,11 @@
       "id": 12500021,
       "text": "Quali farmaci appartengono agli SNRI (inibitori della ricaptazione della serotonina e noradrenalina)?",
       "options": [
-        "inibiscono diverse isoforme del citocromo P450",
+        "Fluoxetina e sertralina",
         "Venlafaxina e duloxetina",
-        "Reboxetina",
-        "sono profarmaci attivati a livello epatico",
-        "sono ben assorbiti a livello gastrico"
+        "Amitriptilina e imipramina",
+        "Reboxetina e atomoxetina",
+        "Moclobemide e selegilina"
       ],
       "correct": 1
     },
@@ -3729,11 +3729,11 @@
       "id": 12500022,
       "text": "Qual è un esempio di inibitore selettivo della ricaptazione della noradrenalina (NRI)?",
       "options": [
-        "aritmie",
-        "Inibisce il re-uptake neuronale dela noradrenalina",
+        "Fluoxetina",
+        "Venlafaxina",
         "Reboxetina",
-        "Verapamil (gallopamil)",
-        "Venlafaxina e duloxetina"
+        "Mirtazapina",
+        "Citalopram"
       ],
       "correct": 2
     },
@@ -3741,11 +3741,11 @@
       "id": 12500023,
       "text": "NaSSA bloccanti dei recettori α2 adrenenergici 5HT2 e 5HT3?",
       "options": [
-        "Nizatidina",
-        "fenilefrina",
+        "Fluoxetina, sertralina",
+        "Venlafaxina, duloxetina",
         "Mirtazapina, mianserina",
-        "noradrenalina",
-        "chinidina"
+        "Amitriptilina, imipramina",
+        "Reboxetina, atomoxetina"
       ],
       "correct": 2
     },
@@ -3753,11 +3753,11 @@
       "id": 12500024,
       "text": "Quale dei seguenti valori è una ragionevole stima della T1/2 della digossina in un individuo normale?",
       "options": [
-        "1/2 giorni",
-        "1,25 /2 giorni",
-        "0,75 /2 giorni",
-        "12 mg/ora",
-        "0,5 /2 giorni"
+        "1-2 giorni",
+        "2-3 ore",
+        "6-8 ore",
+        "5-7 giorni",
+        "12-14 giorni"
       ],
       "correct": 0
     },
@@ -3765,11 +3765,11 @@
       "id": 12500025,
       "text": "Il propafenone è un farmaco?",
       "options": [
-        "Antistaminico",
+        "Calcio-antagonista dihidropiridinico",
         "Antiaritmico",
-        "Ipnoinduttore",
-        "Inotropo positivo (inibisce fosfodiesterasi iii)",
-        "Beta-mimetico"
+        "Diuretico dell'ansa",
+        "Inotropo positivo",
+        "Antianginoso nitroderivato"
       ],
       "correct": 1
     },
@@ -3777,11 +3777,11 @@
       "id": 12500026,
       "text": "La procainamide ha trovato impiego nelle aritmie perché?",
       "options": [
-        "Esmololo, usato per via endovenosa",
+        "Blocca i canali del K+ in modo selettivo",
         "Blocca i canali del na+",
-        "Propafenone",
-        "Procainamide",
-        "Lidocaina"
+        "Blocca i recettori beta-adrenergici",
+        "Blocca i canali del Ca++ di tipo L",
+        "Stimola i recettori muscarinici cardiaci"
       ],
       "correct": 1
     },
@@ -3789,11 +3789,11 @@
       "id": 12500027,
       "text": "Uno degli effetti collaterali più gravi delle statine è?",
       "options": [
-        "Gli effetti tossici non prevedibili che si verificano in seguito alla somministrazione di un farmaco in dosi superiori a quelle terapeutiche",
-        "Anticolinergico",
+        "Ipoglicemia grave",
+        "Iperkaliemia",
         "Aumento transaminasi",
-        "Furosemide, acido etacrinico",
-        "Lieve sonnolenza"
+        "Prolungamento del QT",
+        "Tosse secca persistente"
       ],
       "correct": 2
     },
@@ -3801,11 +3801,11 @@
       "id": 12500028,
       "text": "Per quale di farmaci anticoagulanti la Protamina solfato rappresenta un antidoto?",
       "options": [
-        "l'assorbimento non è rapido",
-        "facilita l'assorbimento dei farmaci scarsamente liposolubili",
+        "Warfarin",
+        "Dabigatran",
         "Eparina",
-        "permette un accurato controllo della posologia",
-        "Neutralizzare tossicita’ da eparina"
+        "Acenocumarolo",
+        "Rivaroxaban"
       ],
       "correct": 2
     },
@@ -3813,11 +3813,11 @@
       "id": 12500029,
       "text": "La somministrazione di un FANS in associazione a clopidogrel può causare?",
       "options": [
-        "vertigini",
-        "ipertensione",
-        "cefalea",
-        "precordialgia",
-        "aumento di RISCHIO EMORRAGICO"
+        "Riduzione del rischio emorragico",
+        "Prolungamento dell'intervallo QT",
+        "Ipoglicemia",
+        "Broncodilatazione",
+        "Aumento del rischio emorragico"
       ],
       "correct": 4
     },
@@ -3825,11 +3825,11 @@
       "id": 12500030,
       "text": "Il betametasone si somministra in caso di Travaglio prematuro per?",
       "options": [
-        "ipertensione lieve e/o moderata",
-        "gastrite",
-        "ipertensione grave",
+        "Inibire le contrazioni uterine",
+        "Prevenire la preeclampsia",
+        "Aumentare la produzione di liquido amniotico",
         "Accelerare lo sviluppo dei polmoni del feto",
-        "aritmie"
+        "Ridurre il rischio di infezioni fetali"
       ],
       "correct": 3
     },
@@ -3837,11 +3837,11 @@
       "id": 12500031,
       "text": "Quale dei seguenti recettori è accoppiato all’idrolisi dei polifosfoinositidi?",
       "options": [
-        "Disturbi della minzione da iperplasia prostatica maligna",
-        "Clonidina",
+        "Beta-1-adrenergico",
+        "Beta-2-adrenergico",
         "Alfa-1- adrenergico",
-        "Nizatidina",
-        "Rivastigmina"
+        "Alfa-2-adrenergico",
+        "Dopaminergico D2"
       ],
       "correct": 2
     },
@@ -3861,11 +3861,11 @@
       "id": 12500033,
       "text": "La potenza di un farmaco esprime?",
       "options": [
-        "non varia in funzione della via di somministrazione utilizzata",
-        "è proporzionale all'efficacia",
-        "è direttamente proporzionale alla dose somministrata",
+        "L'effetto massimo che il farmaco può produrre",
+        "La capacità di legarsi al recettore senza attivarlo",
+        "Il rapporto tra dose tossica e dose terapeutica",
         "La dose ad ottenere una data intensita’ di effetto",
-        "è minore per farmaci poco potenti"
+        "La frazione di dose che raggiunge la circolazione sistemica"
       ],
       "correct": 3
     },
@@ -3873,10 +3873,10 @@
       "id": 12500035,
       "text": "La vancomicina è molto raramente indicate come farmaco di prima scelta come trattamento iniziale di una patologia iniziale?",
       "options": [
-        "colloidi non proteici",
-        "Lidocaina",
-        "Procainamide",
-        "E’ molto attiva nei confronti dei microrganismi gram-",
+        "È molto attiva nei confronti dei microrganismi Gram-negativi",
+        "È scarsamente attiva sugli stafilococchi meticillino-resistenti",
+        "Viene assorbita rapidamente per via orale e causa gravi effetti sistemici",
+        "È inattivata dalle beta-lattamasi stafilococciche",
         "Il suo uso va limitato al solo scopo di prevenire l’insorgenza di resistenze"
       ],
       "correct": 4
@@ -3885,11 +3885,11 @@
       "id": 12500036,
       "text": "Indicare quale dei segreti farmaci ha tutte le seguenti caratteristiche: effetto prevalentemente battericida, può essere somministrato per Os, attivo sia su gram+ che gram-?",
       "options": [
-        "Sulfisossazolo (ofloxacina)",
-        "non sono protetti da brevetto",
+        "Eritromicina",
+        "Vancomicina",
         "Ofloxacina",
-        "sono senza obbligo di prescrizione",
-        "sono prodotti industrialmente"
+        "Tetraciclina",
+        "Sulfisossazolo"
       ],
       "correct": 2
     },
@@ -3900,8 +3900,8 @@
         "Etambutolo",
         "Rifabutina",
         "Amikacina",
-        "E’ utilizzabile per terapie di emergenza",
-        "Microtubuli"
+        "Doxiciclina",
+        "Ofloxacina"
       ],
       "correct": 2
     },
@@ -3909,11 +3909,11 @@
       "id": 12500038,
       "text": "Quale dei seguenti principi è un inibitore delle MAO?",
       "options": [
-        "Sotalolo",
-        "Nizatidina",
+        "Entacapone",
+        "Rivastigmina",
         "Selegilina",
-        "Zafirlukast",
-        "Rivastigmina"
+        "Reboxetina",
+        "Fluoxetina"
       ],
       "correct": 2
     },
@@ -3921,11 +3921,11 @@
       "id": 12500039,
       "text": "I più comuni effetti collaterali degli antidepressivi tricicli sono di tipo?",
       "options": [
-        "incoordinazione motoria",
-        "amnesia anterograda",
+        "Extrapiramidale",
+        "Colinergico",
         "Anticolinergico",
-        "cefalea",
-        "vertigine"
+        "Ototossico",
+        "Nefrotossico"
       ],
       "correct": 2
     },
@@ -3933,11 +3933,11 @@
       "id": 12500040,
       "text": "Tutti questi farmaci possono essere usati nella cardiopatia ischemica tranne?",
       "options": [
-        "cortisonici",
+        "Antiaggreganti piastrinici",
         "Corticosteroidi",
-        "ACE inibitori",
-        "nitroderivati",
-        "beta-bloccanti"
+        "ACE-inibitori",
+        "Nitroderivati",
+        "Beta-bloccanti"
       ],
       "correct": 1
     },
@@ -3946,10 +3946,10 @@
       "text": "La curva dose-risposta in cui il tratto lineare viene a costruire un insieme di rette parallele sul piano x/y sono maggiormente probabili quando?",
       "options": [
         "Quando interagiscono con lo stesso recettore",
-        "Somministrando contemporaneamente x e y non si ha un ulteriore abbassamento della pressione rispetto ad x da solo",
-        "Ha un’alta affinita’ per il recettore ma e’ privo di attivita’ intrinseca",
-        "Il farmaco x e’ 100 volte piu’ potente del farmaco y",
-        "aumento di INTRACELLULARE DI Ca++ e Na+"
+        "Quando uno dei due farmaci è un antagonista non competitivo",
+        "Quando uno dei due farmaci è un agonista parziale",
+        "Quando i due farmaci agiscono su recettori diversi",
+        "Quando uno dei due è un antagonista irreversibile"
       ],
       "correct": 0
     },
@@ -3957,11 +3957,11 @@
       "id": 12500042,
       "text": "Indicazione terapeutica dei farmaci fibrinolitici?",
       "options": [
-        "Infarto miocardio - tromboflebiti - embolia polmonare",
-        "ulcera gastrica",
-        "Bambini con carenza di gh",
-        "rinite stagionale",
-        "convulsioni"
+        "Infarto miocardico, tromboembolia polmonare, trombosi venosa profonda",
+        "Emorragia intracranica in atto",
+        "Ulcera peptica sanguinante",
+        "Dissecazione aortica",
+        "Ipertensione arteriosa grave non controllata"
       ],
       "correct": 0
     },
@@ -3970,10 +3970,10 @@
       "text": "Tutti is seguenti farmaci possono essere usati per la terapia cronica per os delle aritmie tranne?",
       "options": [
         "Esmololo, usato per via endovenosa",
-        "Corticosteroidi",
-        "colestiramina",
-        "verapamil",
-        "carbonato di calcio"
+        "Verapamil",
+        "Amiodarone",
+        "Propafenone",
+        "Sotalolo"
       ],
       "correct": 0
     },
@@ -3981,23 +3981,23 @@
       "id": 12500044,
       "text": "L’antidepressivo paroxetine agisce bloccando?",
       "options": [
-        "Fluoxetina",
-        "Come agonista dei recettori β1 adrenergici",
-        "E’ un ssri (antidepressivi anti re-uptake serotonina) e ha anche capacita’ di blocco dei recettori muscarinici m1 e m3",
-        "Bloccando la via dell’adenosina-fosfato piastrinica",
+        "Il re-uptake della noradrenalina in modo selettivo",
+        "Il re-uptake della dopamina in modo selettivo",
+        "L'enzima monoamino ossidasi A",
+        "Il re-uptake della noradrenalina e della serotonina in egual misura",
         "Selettivamente il re-uptake dela serotonina"
       ],
       "correct": 4
     },
     {
       "id": 12500045,
-      "text": "Il meccanismo con cui la diossina esplicita il suo effetto inotropo positivo sul cuore?",
+      "text": "Il meccanismo con cui la digossina esplica il suo effetto inotropo positivo sul cuore è?",
       "options": [
-        "Bloccano il riassorbimento del GABA",
+        "Inibizione della fosfodiesterasi III con aumento del cAMP",
         "aumento di INTRACELLULARE DI Ca++ e Na+",
-        "Stimolano la sintesi della serotonina",
-        "Non agiscono a livello sinaptico",
-        "Potenziano la trasmissione colinergica"
+        "Stimolazione dei recettori beta-1 adrenergici",
+        "Blocco dei canali del Ca++ di tipo L",
+        "Attivazione della pompa Na+/K+ ATPasi"
       ],
       "correct": 1
     },
@@ -4005,23 +4005,23 @@
       "id": 12500046,
       "text": "Durante il primo anno di terapia con statine i campioni di sangue vanno costantemente monitorati perchè?",
       "options": [
-        "soggetti che assumono contemporaneamente derivati dell'acido fibrico",
-        "soggetti con dislipidemia caratterizzata da alti livelli di LDL",
-        "pazienti che non esprimono recettori per le LDL a livello epatico (dislipidemia familiare)",
-        "pazienti con bassi livelli di HDL",
+        "Possono causare iperglicemia grave e chetoacidosi",
+        "Possono provocare anemia emolitica",
+        "Possono ridurre i livelli di HDL",
+        "Possono causare ipokaliemia",
         "Questi farmaci possono aumentare i livelli delle transaminasi e delle cpk"
       ],
       "correct": 4
     },
     {
       "id": 12500047,
-      "text": "Tutti i principi riportati sono antinfiammatori ad eccezione di?",
+      "text": "Tutti i principi riportati sono antitiroidei ad eccezione di?",
       "options": [
-        "iodio",
-        "carbamazepina",
+        "Iodio",
+        "Propiltiouracile",
         "Danazolo",
-        "carbimazolo",
-        "metimazolo"
+        "Carbimazolo",
+        "Metimazolo"
       ],
       "correct": 2
     },
@@ -4029,11 +4029,11 @@
       "id": 12500048,
       "text": "Farmaco utilizzabile nel trattamento del blocco cardiaco completo (3° grado)?",
       "options": [
-        "Somministraz. di solfato di protamina",
-        "Agonisti gabaergici",
-        "un farmaco con attività intrinseca pari a -1",
+        "Verapamil e digossina",
+        "Propranololo e amiodarone",
+        "Lidocaina e procainamide",
         "Atropina e isoproterenolo",
-        "Dell’angina pectoris"
+        "Adenosina e diltiazem"
       ],
       "correct": 3
     },
@@ -4041,11 +4041,11 @@
       "id": 12500049,
       "text": "Indicare quale dei seguenti meccanismi d’azione dei chemioterapici antimicrobici è corretto?",
       "options": [
-        "Aumenta l'uptake del glucosio da parte dei tessuti",
-        "Aumenta il numero di recettori dell'insulina",
-        "Aumenta il rilascio di insulina dal pancreas",
+        "Le tetracicline inibiscono la sintesi della parete batterica",
+        "I macrolidi inibiscono la subunità ribosomiale 30S",
+        "Gli aminoglicosidi inibiscono la sintesi dell'acido folico",
         "I fluorochinoloni inibiscono la DNA-girasi batterica",
-        "Sulfamidici inibiscono la folico-reduttasi batterica"
+        "I beta-lattamici inibiscono la sintesi dell'RNA messaggero"
       ],
       "correct": 3
     },
@@ -4053,11 +4053,11 @@
       "id": 12500050,
       "text": "Quale enzima viene inibito dalle statine nel trattamento della dislipidemia?",
       "options": [
-        "probenecid",
+        "Lipoproteina lipasi",
         "HMG-CoA reduttasi",
-        "indometacina",
-        "allopurinolo",
-        "colchicina"
+        "Acetil-CoA carbossilasi",
+        "Squalene sintasi",
+        "Ciclossigenasi-1"
       ],
       "correct": 1
     },
@@ -4065,11 +4065,11 @@
       "id": 12500051,
       "text": "Nel caso di infezione da Mycoplasma Penumoniae in un paziente con con insufficienza renale il farmaco di scelta potrebbe essere?",
       "options": [
-        "beta-bloccante",
-        "spironolattone",
-        "digossina",
+        "Amoxicillina",
+        "Cefalexina",
+        "Gentamicina",
         "Doxiciclina",
-        "diuretico"
+        "Vancomicina"
       ],
       "correct": 3
     },
@@ -4077,11 +4077,11 @@
       "id": 12500052,
       "text": "I farmaci appartenenti alla classe delle fenotiazine possono provocare?",
       "options": [
-        "stimolano la secrezione di insulina e possono causare una grave ipoglicemia",
-        "sono indicati nel diabete giovanile (tipo I)",
-        "possono antagonizzare l'effetto ipoglicemizzante delle biguanidi",
+        "Ipertensione arteriosa grave",
+        "Diarrea profusa",
+        "Aumento della soglia convulsiva",
         "Sindrome parkinson-simile",
-        "sono sempre impiegati in monoterapia"
+        "Ipoprolattinemia"
       ],
       "correct": 3
     },
@@ -4089,11 +4089,11 @@
       "id": 12500053,
       "text": "L’attività sui batteri gram- dell’ampicillina è dovuta principalmente a?",
       "options": [
-        "Sulfisossazolo (ofloxacina)",
+        "Inibizione della sintesi proteica sulla subunità 30S",
         "Capacita’ di superare la membrana esterna della parete batterica dei gram-",
-        "DILATA I BRONCHI ATTRAVERSO aumento di cAMP",
-        "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)",
-        "Lattamasi, ha anche attivita’ verso alcuni gram-"
+        "Resistenza intrinseca alle beta-lattamasi",
+        "Inibizione della DNA girasi batterica",
+        "Blocco della sintesi dell'acido folico"
       ],
       "correct": 1
     },
@@ -4101,11 +4101,11 @@
       "id": 12500054,
       "text": "Indicare quale delle seguenti classi di farmaci è controindicata in pz con ipoacusia e/o vertigine?",
       "options": [
-        "ACE inibitori",
-        "Betabloccanti",
+        "Penicilline",
+        "Cefalosporine",
         "Aminoglicosidi",
-        "Estrogeni",
-        "Fibrati"
+        "Carbapenemi",
+        "Monobattami"
       ],
       "correct": 2
     },
@@ -4113,11 +4113,11 @@
       "id": 12500055,
       "text": "Quale tra i seguenti analgesici è il più potente?",
       "options": [
-        "Aloperidolo",
+        "Morfina",
         "Pentazocina",
         "Fentanil",
-        "Adrenalina",
-        "Kanamicina"
+        "Codeina",
+        "Petidina"
       ],
       "correct": 2
     },
@@ -4125,11 +4125,11 @@
       "id": 12500056,
       "text": "Inibisce irreversibilmente la secrezione acida?",
       "options": [
-        "alcool",
-        "Famotidina / cimetidina)",
-        "tutte le risposte indicate",
+        "Ranitidina",
+        "Sucralfato",
+        "Misoprostolo",
         "Omeprazolo",
-        "antagonisti del recettore H2"
+        "Pirenzepina"
       ],
       "correct": 3
     },
@@ -4138,10 +4138,10 @@
       "text": "Qual è significativamente efficace nella chinetosi?",
       "options": [
         "Difenidramina",
-        "Potenziano la trasmissione colinergica",
-        "Non agiscono a livello sinaptico",
-        "Bloccano il riassorbimento del GABA",
-        "Stimolano la sintesi della serotonina"
+        "Ranitidina",
+        "Ondansetrone",
+        "Metoclopramide",
+        "Domperidone"
       ],
       "correct": 0
     },
@@ -4149,11 +4149,11 @@
       "id": 12500058,
       "text": "La paroxetine agisce?",
       "options": [
-        "Selettivamente il re-uptake dela serotonina",
-        "Bloccando la via dell’adenosina-fosfato piastrinica",
+        "Come agonista dei recettori 5-HT1A",
+        "Come inibitore selettivo del re-uptake della noradrenalina",
         "E’ un ssri (antidepressivi anti re-uptake serotonina) e ha anche capacita’ di blocco dei recettori muscarinici m1 e m3",
-        "Come agonista dei recettori β1 adrenergici",
-        "Aumenta l'uptake del glucosio da parte dei tessuti"
+        "Come inibitore della monoamino ossidasi",
+        "Come agonista dei recettori dopaminergici D2"
       ],
       "correct": 2
     },
@@ -4161,11 +4161,11 @@
       "id": 12500059,
       "text": "I neurolettici tipici interferiscono con il sistema dopaminergico in quanto?",
       "options": [
-        "discinesie tardive (movimenti stereotipati e involontari)",
-        "tutte le risposte indicate",
-        "distonie acute (spasmo della lingua, smorfie, torcicollo)",
+        "Stimolano i recettori dopaminergici D1 presinaptici",
+        "Inibiscono la sintesi di dopamina bloccando la tirosina idrossilasi",
+        "Bloccano la ricaptazione della dopamina",
         "Bloccano i recettori della dopamina tipo d2",
-        "Si articola su 3 livelli"
+        "Inibiscono la monoamino ossidasi aumentando la dopamina"
       ],
       "correct": 3
     },
@@ -4174,10 +4174,10 @@
       "text": "Le benzodiazepine provocano?",
       "options": [
         "Iperuricemia",
-        "Triazolam",
+        "Parkinsonismo",
         "Dipendenza psichica",
-        "Midazolam",
-        "Parkinsonismo"
+        "Tachicardia ventricolare",
+        "Ipertensione arteriosa grave"
       ],
       "correct": 2
     },
@@ -4185,11 +4185,11 @@
       "id": 12500061,
       "text": "A quale categoria appartiene la levomepromazina?",
       "options": [
-        "amitriptilina",
-        "Anti-iperlipidemici",
+        "Antidepressivi triciclici",
+        "Antipsicotici atipici a struttura benzamidica",
         "Antipsicotici a struttura fenotiazinica",
-        "Quantità di farmaco che raggiunge la circolazione sistemica senza subire modificazioni chimiche",
-        "Furosemide, acido etacrinico, torasemide"
+        "Antiepilettici",
+        "Benzodiazepine ipnotiche"
       ],
       "correct": 2
     },
@@ -4197,11 +4197,11 @@
       "id": 12500062,
       "text": "La tossicità del tiocianato è associata all’uso di?",
       "options": [
-        "Aumento del tempo di emorragia",
+        "Nitroglicerina",
         "Sodio nitroprussiato",
-        "Edema polmonare",
-        "Cefalea cronica",
-        "Dolore di origine tumorale"
+        "Minoxidil",
+        "Idralazina",
+        "Isosorbide dinitrato"
       ],
       "correct": 1
     },
@@ -4210,10 +4210,10 @@
       "text": "Disturbi g.intestinali, tinnito, cinconismo sono effetti avversi associati a?",
       "options": [
         "Chinidina",
-        "reazioni di ipersensibilità",
-        "Perdita di peso (anzi la aumentano)",
-        "nefrotossicità",
-        "aumento della motilità uterina"
+        "Procainamide",
+        "Lidocaina",
+        "Amiodarone",
+        "Flecainide"
       ],
       "correct": 0
     },
@@ -4221,10 +4221,10 @@
       "id": 12500064,
       "text": "I seguenti sono tutti siti d’azione di farmaci antibatterici tranne?",
       "options": [
-        "Amikacina",
-        "broncocostrizione",
-        "stipsi",
-        "tachicardia",
+        "Parete cellulare",
+        "Ribosoma batterico",
+        "DNA girasi",
+        "Sintesi dell'acido folico",
         "Microtubuli"
       ],
       "correct": 4
@@ -4233,11 +4233,11 @@
       "id": 12500065,
       "text": "La capacità dell’aspirina di produrre effetti (a basso dosaggio tale per cui non c’è gastrolesione) anti-aggreganti è dovuta a?",
       "options": [
-        "La carbidopa inibisce perifericamente la aromatico-l- aminoacido decarbossilasi",
-        "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)",
+        "Antagonismo del recettore P2Y12 per l'ADP",
+        "Blocco del recettore piastrinico GPIIb/IIIa",
         "Inibizione irreversibile cox-1-piastrinica (soprattutto a livello del circolo portale)",
-        "Capacita’ di superare la membrana esterna della parete batterica dei gram-",
-        "DILATA I BRONCHI ATTRAVERSO aumento di cAMP"
+        "Inibizione reversibile della COX-2 endoteliale",
+        "Inibizione della fosfodiesterasi piastrinica"
       ],
       "correct": 2
     },
@@ -4245,11 +4245,11 @@
       "id": 12500066,
       "text": "L'efficacia terapeutica del salbutamolo nell'asma è dovuta?",
       "options": [
-        "Zafirlukast",
-        "beta2-adrenergico stimolante",
+        "Antagonismo dei recettori dei leucotrieni",
+        "Blocco dei recettori muscarinici bronchiali",
         "DILATA I BRONCHI ATTRAVERSO aumento di cAMP",
-        "Antiserotoninico",
-        "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)"
+        "Inibizione della degranulazione dei mastociti",
+        "Inibizione della fosfodiesterasi con aumento del cGMP"
       ],
       "correct": 2
     },
@@ -4257,11 +4257,11 @@
       "id": 12500067,
       "text": "Quale affermazione riguardante l’Enalapril è vera?",
       "options": [
-        "È un prodotto ottenibile anche per via chimica dalla morfina",
-        "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni",
-        "(è un profarmaco) DEVE ESSERE TRASFORMATO METABOLICAMENTE IN UN COMPOSTO ATTIVO",
-        "E’ neurotossico (e’ usato per tumore mammella; e’ cardiotossico, e’ un ab anti her-2neu, e’ radiosensibilizzante)",
-        "Il prednisolone ha potenza anti——— maggiore del cortisolo e potenza mineral-corticoide minore"
+        "È un antagonista dei recettori AT1 dell'angiotensina II",
+        "È controindicato nello scompenso cardiaco",
+        "È un profarmaco: deve essere trasformato metabolicamente in un composto attivo",
+        "È somministrato esclusivamente per via endovenosa",
+        "È eliminato esclusivamente per via biliare"
       ],
       "correct": 2
     },
@@ -4269,11 +4269,11 @@
       "id": 12500068,
       "text": "Indicare tra le seguenti la penicillina ad ampio spettro?",
       "options": [
-        "Diarrea",
-        "Edema polmonare",
+        "Penicillina G",
+        "Penicillina V",
         "Ampicillina",
-        "Reumatismo articolare acuto",
-        "Cefalea cronica"
+        "Oxacillina",
+        "Cloxacillina"
       ],
       "correct": 2
     },
@@ -4281,11 +4281,11 @@
       "id": 12500069,
       "text": "In quale tipo di shock l'adrenalina rappresenta il farmaco più indicato?",
       "options": [
-        "aritmie ventricolari",
-        "ansietà",
-        "emorragia cerebrale",
+        "Emorragico",
+        "Ipovolemico",
+        "Cardiogeno",
         "Anafilattico",
-        "aggravamento dei sintomi nei pazienti asmatici"
+        "Settico"
       ],
       "correct": 3
     },
@@ -4293,11 +4293,11 @@
       "id": 12500070,
       "text": "Uno dei seguenti è un terribile effetto avverso dei contraccettivi orali?",
       "options": [
-        "glaucoma",
-        "insonnia",
+        "Glaucoma ad angolo chiuso",
+        "Insufficienza renale acuta",
         "Tromboflebite",
-        "mania",
-        "epilessia"
+        "Ototossicità",
+        "Agranulocitosi"
       ],
       "correct": 2
     },
@@ -4305,11 +4305,11 @@
       "id": 12500071,
       "text": "L'utilizzazione terapeutica di numerose sostanze è correlata alla loro capacità di bloccare particolari sistemi enzimatici. Quali tra le coppie elencate rappresenta l'enzima ed il corrispondente inibitore?",
       "options": [
-        "Statine",
-        "Piu’ di una tra quelle indicate (cefalosporina/transpeptidasi, malathion/acetilcolinesterasi)",
-        "Sucralfato",
-        "Piu’ di una di quelle indicate",
-        "Medicazione preanestetica"
+        "Aspirina / lipossigenasi",
+        "Cefalosporine / transpeptidasi",
+        "Malathion / acetilcolinesterasi",
+        "Più di una di quelle indicate",
+        "Allopurinolo / xantina ossidasi"
       ],
       "correct": 3
     },
@@ -4317,11 +4317,11 @@
       "id": 12500072,
       "text": "L'eliminazione della penicillina G avviene?",
       "options": [
-        "shock anafilattico",
-        "malattia da siero",
+        "Prevalentemente per metabolismo epatico",
+        "Prevalentemente per via biliare",
         "Prevalentemente per secrezione tubulare",
-        "lupus eritematoso",
-        "glomerulinefrite acuta"
+        "Prevalentemente per filtrazione glomerulare",
+        "Prevalentemente per via polmonare"
       ],
       "correct": 2
     },
@@ -4329,11 +4329,11 @@
       "id": 12500073,
       "text": "Quali tra gli effetti indicati può essere provocato da elevate dosi di barbiturici?",
       "options": [
-        "Salbutamolo",
-        "eccitazione",
+        "Eccitazione psicomotoria",
+        "Ipertermia",
         "Anestesia generale",
-        "confusione mentale",
-        "ipotensione"
+        "Tachipnea",
+        "Ipertensione arteriosa"
       ],
       "correct": 2
     },
@@ -4341,11 +4341,11 @@
       "id": 12500074,
       "text": "Un antagonismo recettoriale farmacologico non competitivo è caratterizzato da?",
       "options": [
-        "E' sempre irreversibile",
+        "Spostamento parallelo verso destra della curva dose-risposta",
         "Diminuzione effetto massimo antagonista",
-        "L'agonista e l'antagonista possono legarsi al recettore contemporaneamente",
-        "Può essere allosterico",
-        "Il legame dell'agonista e dell'antagonista con il recettore si escludono mutuamente"
+        "Aumento della potenza apparente dell'agonista",
+        "Invariabilità dell'effetto massimo",
+        "Possibilità di superare l'antagonismo aumentando la dose di agonista"
       ],
       "correct": 1
     },
@@ -4356,7 +4356,7 @@
         "Ciprofloxacina",
         "Sulfametossazolo-trimetoprim",
         "Tetraciclina",
-        "Eritromicina (ampicillina)",
+        "Ampicillina",
         "Eritromicina"
       ],
       "correct": 3
@@ -4378,10 +4378,10 @@
       "text": "La fisostigmina, presente nei semi di physostigma venenosum è?",
       "options": [
         "Inibitore reversibile dell’acetilcolinesterasi",
-        "Diminuzione delle resistenze periferiche",
-        "Aumento della frequenza cardiaca",
-        "Aumento della temperatura corporea",
-        "Glaucoma, stenosi pilorica, ileo paralitico"
+        "Agonista diretto dei recettori muscarinici",
+        "Inibitore irreversibile dell'acetilcolinesterasi",
+        "Antagonista dei recettori nicotinici",
+        "Antagonista dei recettori muscarinici"
       ],
       "correct": 0
     },
@@ -4401,11 +4401,11 @@
       "id": 12500079,
       "text": "Indicare Quale tra i seguenti beta-bloccanti causa meno frequentemente effetti avversi al SNC?",
       "options": [
-        "Kanamicina",
-        "aritmie ventricolari",
+        "Propranololo",
+        "Metoprololo",
         "Atenololo",
-        "emorragia cerebrale",
-        "ansietà"
+        "Timololo",
+        "Pindololo"
       ],
       "correct": 2
     },
@@ -4414,10 +4414,10 @@
       "text": "La ceftazidima si può classificare come?",
       "options": [
         "Cefalosporina di 3° generazione",
-        "vancomicina",
-        "gentamicina",
-        "amfotericina B",
-        "amoxicillina"
+        "Cefalosporina di 1ª generazione",
+        "Cefalosporina di 4ª generazione",
+        "Penicillina antipseudomonas",
+        "Carbapenemico"
       ],
       "correct": 0
     },
@@ -4437,11 +4437,11 @@
       "id": 12500082,
       "text": "La levodopa è usualmente co-somministrata con?",
       "options": [
-        "Ridurre la conduttanza al Na+ nelle cellule con automatismo",
-        "Inibitore della dopa decarbossilasi",
-        "Ristabilire il ritmo sinusale nella fibrillazione atriale",
-        "Non aver effetto sulla funzione segnapassi del nodo del seno",
-        "Nessuna delle indicazioni e’ corretta (si da col diuretico) benserazide carbidopa"
+        "Un inibitore irreversibile non selettivo delle MAO",
+        "Un diuretico dell'ansa",
+        "Un antagonista dei recettori D2",
+        "Un anticolinergico ad azione periferica",
+        "Un inibitore della dopa decarbossilasi (carbidopa, benserazide)"
       ],
       "correct": 4
     },
@@ -4449,22 +4449,22 @@
       "id": 12500083,
       "text": "Un farmaco acido a pKa = 5, quando entra in una cellula dove il valore numerico del pH è identico rispetto a quello nel fluido extracellulare, la concentrazione della forma non ionizzata?",
       "options": [
-        "NON SI PUO’ CALCOLARE IN QUANTO MANCANO I VALORI NUMERICI DEL pH NEI DUE DISTRETTI",
+        "Aumenta di 10 volte",
         "Non cambia rispetto a quella presente nel fluido extracellulare",
-        "Volume di distribuzione",
-        "la ridotta biodisponibilità orale",
-        "pH = 9"
+        "Diminuisce di 10 volte",
+        "Non si può calcolare perché mancano i valori numerici del pH",
+        "Si dimezza"
       ],
       "correct": 1
     },
     {
       "id": 12500084,
-      "text": "Quale affermazione sulla codeina è riportata nel documento?",
+      "text": "Quale delle seguenti affermazioni sulla codeina è corretta?",
       "options": [
-        "(è un profarmaco) DEVE ESSERE TRASFORMATO METABOLICAMENTE IN UN COMPOSTO ATTIVO",
-        "Inibiscono il rilassamento del DNA a superelica positiva",
-        "Il prednisolone ha potenza anti——— maggiore del cortisolo e potenza mineral-corticoide minore",
-        "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni",
+        "Ha potenza analgesica superiore a quella della morfina",
+        "Non provoca stipsi",
+        "Non determina dipendenza",
+        "È un antagonista dei recettori oppioidi",
         "È un prodotto ottenibile anche per via chimica dalla morfina"
       ],
       "correct": 4
@@ -4485,11 +4485,11 @@
       "id": 12500086,
       "text": "Quale delle seguenti vie di somministrazione può essere soggetta parzialmente al metabolismo epatico di 1° dosaggio?",
       "options": [
-        "shock anafilattico",
-        "schizofrenia",
-        "Passaggio",
+        "Endovenosa",
+        "Intramuscolare",
+        "Sublinguale",
         "Orale",
-        "Iv, im, sc, os"
+        "Sottocutanea"
       ],
       "correct": 3
     },
@@ -4497,11 +4497,11 @@
       "id": 12500087,
       "text": "Quale di queste proprietà è importante nel determinare il legame di un farmaco alle proteine plasmatiche?",
       "options": [
-        "La sua concentrazione plasmatica totale aumenta",
-        "è direttamente proporzionale alla dose somministrata",
+        "Potenza farmacologica",
+        "Via di somministrazione",
         "Lipofilia",
-        "è minore per farmaci poco potenti",
-        "è proporzionale all'efficacia"
+        "Emivita di eliminazione",
+        "Dose somministrata"
       ],
       "correct": 2
     },
@@ -4509,10 +4509,10 @@
       "id": 12500088,
       "text": "Gli antinfiammatori steroidei della classe dei glucocorticoidi agiscono sul sistema cascata dell'acido arachidonico a livello della?",
       "options": [
-        "non sono soggetti a fenomeni di resistenza batterica noti",
-        "sono impiegati solo in associazione ad altri farmaci antibatterici",
-        "sono impiegati esclusivamente nella terapia delle infezioni urinarie",
-        "sono inibitori della sintesi proteica delle cellule batteriche",
+        "Ciclossigenasi-1",
+        "5-lipossigenasi",
+        "Trombossano sintetasi",
+        "Prostaciclina sintetasi",
         "Fosfolipasi a2"
       ],
       "correct": 4
@@ -4521,11 +4521,11 @@
       "id": 12500089,
       "text": "La sulpiride (rappresentata la molecola)?",
       "options": [
-        "dilata prevalentemente le vene",
+        "È un farmaco antipsicotico a struttura fenotiazinica",
         "E’ un farmaco antipsicotico a struttura benzamidica",
-        "non deve essere associata ad un beta-bloccante",
-        "Blocco della sintesi di prostaglandine ad azione citoprotettiva a livello gastrico",
-        "dilata prevalentemente le arteriole"
+        "È un antidepressivo triciclico",
+        "È una benzodiazepina ad azione ipnotica",
+        "È un antiepilettico derivato dall'idantoina"
       ],
       "correct": 1
     },
@@ -4534,10 +4534,10 @@
       "text": "A quale delle seguenti affermazioni, con maggiore approssimazione, il termine “biodisponibilità” si riferisce?",
       "options": [
         "Quantità di farmaco che raggiunge la circolazione sistemica senza subire modificazioni chimiche",
-        "le sulfaniluree riducono la secrezione di insulina",
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
-        "la glipizide fa aumentare la secrezione del glucagone"
+        "Quantità di farmaco che si lega alle proteine plasmatiche",
+        "Velocità con cui il farmaco viene eliminato dall'organismo",
+        "Quantità di farmaco somministrata per via endovenosa",
+        "Rapporto tra dose tossica e dose efficace"
       ],
       "correct": 0
     },
@@ -4545,10 +4545,10 @@
       "id": 12500091,
       "text": "Nel trattamento delle infezioni da Helicobacter Pylori si usa l’associazione?",
       "options": [
-        "streptomicina",
-        "ciprofloxacina",
-        "anfotericina B",
-        "penicillina",
+        "Amoxicillina + ciprofloxacina",
+        "Doxiciclina + gentamicina",
+        "Ciprofloxacina + vancomicina + ranitidina",
+        "Penicillina G + streptomicina",
         "Claritromicina + metronidazolo + omeprazolo"
       ],
       "correct": 4
@@ -4557,11 +4557,11 @@
       "id": 12500093,
       "text": "Indicare quale delle seguenti affermazioni riguardo al pindololo è corretta?",
       "options": [
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
+        "β-bloccante selettivo β1 privo di attività simpaticomimetica intrinseca",
+        "Antagonista α1 selettivo",
+        "β-bloccante non selettivo privo di attività simpaticomimetica intrinseca",
         "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)",
-        "le sulfaniluree riducono la secrezione di insulina"
+        "Agonista β2 selettivo"
       ],
       "correct": 3
     },
@@ -4570,10 +4570,10 @@
       "text": "Quale delle seguenti affermazioni sotto elencate riguardanti le cefalosporine è corretta ?",
       "options": [
         "Passando dalle cefalosporine di 1° quelle di 3° generazione aumento di ATTIVITÀ ANTIMICROBICA VERSO BATTERI GRAM-",
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II",
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
-        "le sulfaniluree riducono la secrezione di insulina"
+        "Le cefalosporine di 3ª generazione sono più attive sui Gram-positivi di quelle di 1ª",
+        "Tutte le cefalosporine sono ben assorbite per via orale",
+        "Tutte le cefalosporine attraversano la barriera ematoencefalica",
+        "Non danno mai allergia crociata con le penicilline"
       ],
       "correct": 0
     },
@@ -4581,11 +4581,11 @@
       "id": 12500095,
       "text": "Quale tra i farmaci antimicrobici seguenti agisce sulla parete cellulare batterica?",
       "options": [
-        "Adrenalina",
-        "Pentazocina",
+        "Kanamicina",
+        "Doxiciclina",
         "Ampicillina",
-        "Aloperidolo",
-        "Kanamicina"
+        "Ciprofloxacina",
+        "Eritromicina"
       ],
       "correct": 2
     },
@@ -4593,11 +4593,11 @@
       "id": 12500096,
       "text": "Che cosa si intende per farmaci biosimilari?",
       "options": [
-        "L'estesa biotrasformazione che il farmaco subisce nel suo primo passaggio attraverso il fegato",
-        "Gli effetti neurologici che un farmaco dà nel suo primo passaggio nel sistema nervoso centrale",
+        "Copie chimiche di farmaci di sintesi il cui brevetto è scaduto",
+        "Farmaci omeopatici ottenuti da diluizioni di sostanze biologiche",
         "Farmaci biotecnologici simili agli originali, con efficacia terapeutica, qualità e profilo di sicurezza comparabili",
-        "Il primo effetto che un farmaco determina quando ha raggiunto la sede d'azione",
-        "L’effetto massimo che esso e’ in grado di produrre"
+        "Farmaci di origine vegetale standardizzati",
+        "Farmaci con identico principio attivo ma senza obbligo di studi di comparabilità"
       ],
       "correct": 2
     },
@@ -4606,10 +4606,10 @@
       "text": "Quale tra i seguenti farmaci anti asma è un inibitore dei recettori del leucotriene D4 (LTD4)?",
       "options": [
         "Zafirlukast",
-        "Pentazocina",
-        "Adrenalina",
-        "Aloperidolo",
-        "Kanamicina"
+        "Zileuton",
+        "Cromoglicato",
+        "Teofillina",
+        "Salmeterolo"
       ],
       "correct": 0
     },
@@ -4617,11 +4617,11 @@
       "id": 12500098,
       "text": "Quale dei seguenti non costituisce un possibile effetto legato all'uso prolungato di dose farmacologiche di ormoni glucocorticoidi?",
       "options": [
-        "statine",
-        "calcio antagonisti",
-        "betabloccanti",
+        "Osteoporosi",
+        "Ipertensione arteriosa",
+        "Cataratta",
         "Ipoglicemia",
-        "benzodiazepine"
+        "Atrofia cutanea"
       ],
       "correct": 3
     },
@@ -4629,11 +4629,11 @@
       "id": 12500099,
       "text": "Tutti i farmaci sono bloccanti H2 tranne?",
       "options": [
-        "Rifampicina",
-        "Rifabutina",
+        "Ranitidina",
+        "Cimetidina",
         "Terfenadina",
-        "Azitromicina",
-        "Etambutolo"
+        "Famotidina",
+        "Nizatidina"
       ],
       "correct": 2
     },
@@ -4642,10 +4642,10 @@
       "text": "I diuretici tiazidici provocano?",
       "options": [
         "Iperuricemia",
-        "Ipokalemia, ototossicità, ipercalcemia",
-        "Ipermagnesemia, ipercalcemia, febbre",
-        "Iperkalemia, alcalosi, nausea/vomito",
-        "Tratto prossimale del tubulo contorto distale"
+        "Iperkaliemia e acidosi metabolica",
+        "Ipocalcemia e ipercalciuria",
+        "Ototossicità dose-correlata",
+        "Ipoglicemia e ipouricemia"
       ],
       "correct": 0
     },
@@ -4653,11 +4653,11 @@
       "id": 12500101,
       "text": "Se un farmaco molto legato (90%) alle proteine è spiazzato da un altro farmaco co- somministrato accade che?",
       "options": [
-        "Lipofilia",
-        "L’emivita e’ dipendente dalla concentrazione plasmatica",
-        "un farmaco che si può acquisire senza ricetta medica",
-        "una molecola usata per la terapia di molte malattie",
-        "La sua concentrazione plasmatica totale aumenta"
+        "La concentrazione plasmatica del farmaco libero diminuisce",
+        "Il volume apparente di distribuzione diminuisce",
+        "La biodisponibilità orale aumenta",
+        "L'effetto farmacologico diminuisce sempre",
+        "La concentrazione plasmatica del farmaco libero aumenta"
       ],
       "correct": 4
     },
@@ -4665,11 +4665,11 @@
       "id": 12500102,
       "text": "I principali effetti collaterali della chinidina sono?",
       "options": [
-        "Discinesia",
+        "Ipertensione grave, bradicardia, ginecomastia, iperkaliemia",
         "Ipotensione, tachicardia ventricolare, tinnito, offuscamento visivo",
-        "Fenomeno on-off",
-        "Confusione mentale",
-        "Allucinazioni"
+        "Nefrotossicità, epatite fulminante, neuropatia periferica, alopecia",
+        "Tosse secca, angioedema, iperkaliemia, ipotensione da prima dose",
+        "Discinesia, fenomeno on-off, confusione mentale, allucinazioni"
       ],
       "correct": 1
     },
@@ -4677,11 +4677,11 @@
       "id": 12500118,
       "text": "Durante una somministrazione ev a velocità costante di un farmaco con un costante di eliminazione di 0.173 all’ora, a che percentuale della concentrazione allo stato stazionario corrisponderà la concentrazione plasmatica di farmaco a 16 ore?",
       "options": [
-        "25%",
-        "140,625 %",
-        "46,875 %",
+        "6,25%",
+        "50%",
+        "87,5%",
         "93,75%",
-        "3 mg/l"
+        "96,875%"
       ],
       "correct": 3
     },
@@ -4689,11 +4689,11 @@
       "id": 12500119,
       "text": "Una dose di carico all’inizio di una somministrazione ev a velocità costante?",
       "options": [
-        "Diminuzione delle resistenze periferiche",
-        "Aumento della frequenza cardiaca",
+        "Riduce il tempo necessario per eliminare il farmaco",
+        "Aumenta la concentrazione allo stato stazionario",
         "Permette di iniziare concentrazioni di farmaco piu’ vicine allo stato stazionario",
-        "Aumento della temperatura corporea",
-        "Volume di distribuzione"
+        "Riduce la clearance del farmaco",
+        "Allunga l'emivita di eliminazione"
       ],
       "correct": 2
     },
@@ -4701,10 +4701,10 @@
       "id": 12500120,
       "text": "Una donna di 55 anni con scompenso cardiaco congestizio deve essere trattata con un diuretico. I farmaci X e Y hanno lo stesso meccanismo d'azione diuretica. Il farmaco X alla dose di 5 mg produce la stessa entità di diuresi prodotto dal farmaco Y dose di 500 mg. Ciò significa che?",
       "options": [
-        "lo spironolattone",
-        "gli ACE inibitori",
-        "i beta-bloccanti",
-        "i diuretici dell'ansa",
+        "Il farmaco X è 100 volte più efficace del farmaco Y",
+        "Il farmaco X ha un'emivita 100 volte più breve di Y",
+        "Il farmaco X è 100 volte meno tossico di Y",
+        "Il farmaco X ha una biodisponibilità 100 volte maggiore di Y",
         "Il farmaco x e’ 100 volte piu’ potente del farmaco y"
       ],
       "correct": 4
@@ -4726,10 +4726,10 @@
       "text": "500 mg del farmaco X vengono somministrati per infusione rapida endovenosa ad un paziente di 50 Kg. Se il Vd di X è 2L/kg, quale sarà la concentrazione plasmatica ottenuta?",
       "options": [
         "5 microgrammi/ml",
-        "la biotrasformazione metabolica",
-        "pH = 9",
-        "la distribuzione tissutale",
-        "l'escrezione biliare"
+        "0,5 microgrammi/ml",
+        "10 microgrammi/ml",
+        "50 microgrammi/ml",
+        "2,5 microgrammi/ml"
       ],
       "correct": 0
     },
@@ -4747,13 +4747,13 @@
     },
     {
       "id": 12500126,
-      "text": "Paziente con insufficienza cardiaca congestizia. Si somministra digossina per via orale alla dose di 0,25 (o 0,5?) mg al giorno. Tale regime produce una concentrazione plasmatica di 1,2 mg/ml (il range terapeutico della diossina è 0,8 1,2 mg/ml). Successivamente le funzioni renali del paziente si deteriorano ed il loro monitoraggio mostra una riduzione della clearance della creatinina del 50% rispetto alla norma. Qual è la dose raccomandata di digossina in questa situazione?",
+      "text": "Paziente con insufficienza cardiaca congestizia. Si somministra digossina per via orale alla dose di 0,25 mg al giorno. Tale regime produce una concentrazione plasmatica di 1,2 ng/ml (il range terapeutico della digossina è 0,8-1,2 ng/ml). Successivamente le funzioni renali del paziente si deteriorano ed il loro monitoraggio mostra una riduzione della clearance della creatinina del 50% rispetto alla norma. Qual è la dose raccomandata di digossina in questa situazione?",
       "options": [
-        "Il farmaco x e’ 100 volte piu’ potente del farmaco y",
-        "5 microgrammi/ml",
-        "Volume di distribuzione",
+        "0,25 mg al giorno",
+        "0,5 mg al giorno",
+        "0,0625 mg al giorno",
         "0,125 mg al giorno",
-        "Si richiede una modifica del dosaggio dei fluorochinoloni"
+        "Nessuna modifica del dosaggio"
       ],
       "correct": 3
     },
@@ -4761,11 +4761,11 @@
       "id": 12500127,
       "text": "Indicare quali dei seguenti farmaci viene assorbito più rapidamente a livello intestinale quando il pH dell'intestino è 8,4 e quello del plasma 7,4 (a parità di tutti gli altri fattori che influenzano l’assorbimento)?",
       "options": [
-        "Zileuton",
+        "Un acido debole con pKa 6,4",
         "Una base debole con pka 6,4",
-        "Concentrazione del farmaco al sito recettoriale",
-        "pH = 9",
-        "enuresi notturna dell'adolescente"
+        "Una base debole con pKa 8,4",
+        "Un acido debole con pKa 8,4",
+        "Una base debole con pKa 10,4"
       ],
       "correct": 1
     },
@@ -4773,11 +4773,11 @@
       "id": 12500128,
       "text": "Se un farmaco viene eliminato con una cinetica di ordine 0 significa che?",
       "options": [
-        "Ha un’alta affinita’ per il recettore ma e’ privo di attivita’ intrinseca",
-        "E’ tipica di farmaci che vengono eliminati con meccanismi saturabili",
+        "La velocità di eliminazione è proporzionale alla concentrazione plasmatica",
+        "L'emivita è costante e indipendente dalla dose",
         "L’emivita e’ dipendente dalla concentrazione plasmatica",
-        "Emivita di eliminazine",
-        "La sua concentrazione plasmatica totale aumenta"
+        "La clearance rimane costante a tutte le concentrazioni",
+        "Il farmaco viene eliminato con velocità decrescente nel tempo"
       ],
       "correct": 2
     },
@@ -4787,9 +4787,9 @@
       "options": [
         "6 mg/ora",
         "12 mg/ora",
-        "93,75%",
-        "3 mg/l",
-        "9 mg/ora"
+        "1,2 mg/ora",
+        "60 mg/ora",
+        "3,5 mg/ora"
       ],
       "correct": 1
     },
@@ -4797,10 +4797,10 @@
       "id": 12500130,
       "text": "Per quanto riguarda la cinetica di eliminazione di ordine 1, tutte le seguenti affermazioni sono corrette tranne?",
       "options": [
-        "la chinidina glucuronata raggiunge il picco di concentrazione plasmatica 4 h dopo una somministrazione orale",
-        "la disopiramide non va somministrata in caso di insufficienza cardiaca congestizia",
-        "la procainamide è un antiaritmico di classe I",
-        "il verapamil può convertire la fibrillazione atriale in flutter",
+        "L'emivita è costante e indipendente dalla dose",
+        "La velocità di eliminazione è proporzionale alla concentrazione plasmatica",
+        "La clearance è costante",
+        "Una frazione costante del farmaco viene eliminata nell'unità di tempo",
         "E’ tipica di farmaci che vengono eliminati con meccanismi saturabili"
       ],
       "correct": 4
@@ -4821,10 +4821,10 @@
       "id": 12500132,
       "text": "Tutte le seguenti affermazioni riguardo alla via di somministrazione endovenosa sono corrette tranne?",
       "options": [
-        "La somministrazione cronica comporta sempre effetti indesiderati",
-        "il verapamil può convertire la fibrillazione atriale in flutter",
-        "La terapia con glucocorticoidi generalmente non è risolutiva",
-        "La somministrazione acuta comporta sempre effetti indesiderati",
+        "Evita il metabolismo di primo passaggio",
+        "Garantisce una biodisponibilità del 100%",
+        "Consente un effetto rapido",
+        "Permette un controllo preciso della concentrazione plasmatica",
         "Possono essere somministrate solo formulazioni acquose o oleose"
       ],
       "correct": 4
@@ -4833,11 +4833,11 @@
       "id": 12500134,
       "text": "Nel trattamento delle epilessie possono trovare impiego?",
       "options": [
-        "streptomicina",
-        "In tutte le indicazioni riportate",
+        "Antagonisti dei recettori GABA-A",
+        "Agonisti dei canali del sodio voltaggio-dipendenti",
         "Agonisti gabaergici",
-        "anfotericina B",
-        "ciprofloxacina"
+        "Agonisti del recettore NMDA",
+        "Inibitori della ricaptazione della serotonina"
       ],
       "correct": 2
     },
@@ -4845,11 +4845,11 @@
       "id": 12500135,
       "text": "L'utilizzazione terapeutica di numerose sostanze correlate alla loro capacità di bloccare particolari sistemi enzimatici. Quale tra le coppie farmaco-enzima sottoelencate rappresenta l'enzima e il corrispondente inibitore?",
       "options": [
-        "Piu’ di una tra quelle indicate (cefalosporina/transpeptidasi, malathion/acetilcolinesterasi)",
-        "Triazolam",
-        "Piu’ di una di quelle indicate",
-        "la velocità di assorbimento può essere ridotta associando un vasocostrittore",
-        "Statine"
+        "Più di una di quelle indicate",
+        "Aspirina / lipossigenasi",
+        "Cefalosporine / transpeptidasi",
+        "Malathion / acetilcolinesterasi",
+        "Allopurinolo / xantina ossidasi"
       ],
       "correct": 0
     },
@@ -4857,11 +4857,11 @@
       "id": 12500136,
       "text": "Un farmaco che si accumula in uno o più tessuti ha un volume apparente di distribuzione (Vd)?",
       "options": [
-        "tessuto osseo",
-        "Triazolam",
-        "0,04 l/kg",
+        "Inferiore a 0,04 L/kg",
+        "Pari al volume plasmatico (0,04 L/kg)",
+        "Pari al volume dell'acqua extracellulare",
         "Superiore al volume dell’h2o corporea",
-        "muscolo scheletrico"
+        "Pari al volume dell'acqua corporea totale"
       ],
       "correct": 3
     },
@@ -4869,11 +4869,11 @@
       "id": 12500137,
       "text": "Il mifepristone è un farmaco ad attività?",
       "options": [
-        "Antistaminico",
+        "Antiandrogeno",
+        "Antiestrogeno",
         "Antialdosteronico",
-        "Antiaritmico",
         "Anti-progestinica",
-        "Inotropo positivo (inibisce fosfodiesterasi iii)"
+        "Progestinico"
       ],
       "correct": 3
     },
@@ -4881,10 +4881,10 @@
       "id": 12500138,
       "text": "Dose di mantenimento giornaliera della digossina?",
       "options": [
-        "Piu’ bassa della dose analgesica-antipiretica",
-        "0,125 mg al giorno",
-        "Insufficienza renale",
-        "Volume di distribuzione",
+        "0,025 mg/die",
+        "0,5 mg/die",
+        "1 mg/die",
+        "2,5 mg/die",
         "0,25 mg/die"
       ],
       "correct": 4
@@ -4893,11 +4893,11 @@
       "id": 12500139,
       "text": "Quale azione è indicata come eccezione tra quelle attribuite alla fenilefrina?",
       "options": [
-        "Come agonista dei recettori β1 adrenergici",
-        "Fludrocortisone",
-        "Alterazione della sintesi di fattori della coagulazione vii, ix e x",
+        "Vasocostrizione arteriolare",
+        "Aumento della pressione arteriosa",
+        "Decongestionante nasale",
         "Rilassamento della muscolatura liscia bronchiale",
-        "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni"
+        "Midriasi"
       ],
       "correct": 3
     },
@@ -4905,11 +4905,11 @@
       "id": 12500140,
       "text": "La resistenza agli antibiotici chinolonici può insorgere per?",
       "options": [
-        "Mutazione del bersaglio (DNA-girasi e topoisomerasi) (2) + alterazioni permeabilita’ - piu’ raramente degradazione enzimatica",
-        "Vancomicina",
-        "Tetraciclina",
-        "Eritromicina",
-        "A variazioni della DNA girasi"
+        "Mutazione del bersaglio (DNA-girasi e topoisomerasi), alterazioni della permeabilità e, più raramente, degradazione enzimatica",
+        "Produzione di beta-lattamasi che idrolizzano il chinolone",
+        "Metilazione dell'RNA ribosomiale 23S",
+        "Alterazione del legame alle PBP",
+        "Mutazione della RNA polimerasi DNA-dipendente"
       ],
       "correct": 0
     },
@@ -4917,10 +4917,10 @@
       "id": 12500141,
       "text": "L’itraconazolo è usato nelle micosi superficiali sistemiche; la sua azione consiste nella?",
       "options": [
-        "Attivita' chemioterapica antivirale",
-        "Blocco della pompa protonica",
-        "Antagonismo dei recettori H2",
-        "Inibizione di un antiporto Na+/H+",
+        "Legame diretto all'ergosterolo con formazione di pori di membrana",
+        "Inibizione della beta-glucano sintetasi della parete fungina",
+        "Inibizione della sintesi di DNA e RNA come analogo della citosina",
+        "Inibizione dei microtubuli del fuso mitotico",
         "Inibizione della sintesi dell’ergosterolo"
       ],
       "correct": 4
@@ -4929,10 +4929,10 @@
       "id": 12500142,
       "text": "Il clofibrato appartiene alla classe terapeutica degli?",
       "options": [
-        "desipramina",
-        "imipramina",
-        "amitriptilina",
-        "fluoxetina",
+        "Antidiabetici orali",
+        "Antiaritmici",
+        "Anticoagulanti",
+        "Antiaggreganti piastrinici",
         "Anti-iperlipidemici"
       ],
       "correct": 4
@@ -4941,11 +4941,11 @@
       "id": 12500143,
       "text": "Tutti quelli indicati sono effetti farmacodinamici della morfina tranne?",
       "options": [
-        "Perdita di peso (anzi la aumentano)",
-        "Midriasi (infatti determina miosi)",
-        "aumento della motilità uterina",
-        "intolleranza gastrointestinale",
-        "reazioni di ipersensibilità"
+        "Miosi",
+        "Midriasi",
+        "Depressione respiratoria",
+        "Stipsi",
+        "Euforia"
       ],
       "correct": 1
     },
@@ -4953,10 +4953,10 @@
       "id": 12500144,
       "text": "La L-DOPA è usualmente co-somministrata con?",
       "options": [
-        "La carbidopa inibisce perifericamente la aromatico-l- aminoacido decarbossilasi",
-        "Confusione mentale",
-        "Fenomeno on-off",
-        "Nessuna delle indicazioni e’ corretta (si da col diuretico) benserazide carbidopa",
+        "Inibitore irreversibile non selettivo delle MAO",
+        "Diuretico dell'ansa",
+        "Antagonista dei recettori D2 della dopamina",
+        "Anticolinergico ad azione periferica",
         "Inibitore della dopa decarbossilasi"
       ],
       "correct": 4
@@ -4965,22 +4965,22 @@
       "id": 12500145,
       "text": "Quale delle seguenti affermazioni relative al principio attivo quetiapina è corretta?",
       "options": [
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "le sulfaniluree riducono la secrezione di insulina",
+        "È un antipsicotico tipico a struttura fenotiazinica",
+        "È un antidepressivo triciclico",
         "E’ un antipsicotico atipico",
-        "l'insulina si può somministrare per os",
-        "le biguanidi possono indurre acidosi lattica"
+        "È una benzodiazepina",
+        "È un antiepilettico"
       ],
       "correct": 2
     },
     {
       "id": 12500146,
-      "text": "La dobutamina avente la struttura indicata agisce?",
+      "text": "Come agisce la dobutamina?",
       "options": [
-        "aumento di I LIVELLI DI cAMP",
-        "Aumenta il rilascio di insulina dal pancreas",
-        "E’ un ssri (antidepressivi anti re-uptake serotonina) e ha anche capacita’ di blocco dei recettori muscarinici m1 e m3",
-        "Bloccando la via dell’adenosina-fosfato piastrinica",
+        "Come agonista dei recettori alfa-1",
+        "Come antagonista dei recettori beta-1",
+        "Come agonista dei recettori dopaminergici D2",
+        "Come inibitore della fosfodiesterasi III",
         "Come agonista dei recettori β1 adrenergici"
       ],
       "correct": 4
@@ -4989,10 +4989,10 @@
       "id": 12500147,
       "text": "L'attività farmacologica dell'eparina è dovuta a?",
       "options": [
-        "Risulta potenziato da concomitanti nefropatie",
-        "può andare incontro a fenomeni di tolleranza",
-        "Viene potenziato in caso di ipoalbuminemia",
-        "può essere accompagnato da grave piastrinopenia",
+        "Inibizione della sintesi epatica dei fattori II, VII, IX e X",
+        "Blocco del recettore piastrinico dell'ADP",
+        "Inibizione della ciclossigenasi piastrinica",
+        "Attivazione del plasminogeno",
         "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)"
       ],
       "correct": 4
@@ -5001,11 +5001,11 @@
       "id": 12500148,
       "text": "I nitrati organici riducono la richiesta cardiaca di O2 in quanto?",
       "options": [
-        "danno vasodilatazione solo in presenza di endotelio integro",
+        "Danno vasodilatazione solo in presenza di endotelio integro",
         "Riducono il ritorno venoso",
-        "non agiscono sul muscolo liscio extravascolare",
-        "inducono effetti inotropi e cronotropi negativi",
-        "diminuiscono sia il pre-carico che il post-carico"
+        "Non agiscono sul muscolo liscio extravascolare",
+        "Inducono effetti inotropi e cronotropi negativi",
+        "Riducono la frequenza cardiaca per blocco del nodo senoatriale"
       ],
       "correct": 1
     },
@@ -5025,11 +5025,11 @@
       "id": 12500150,
       "text": "Gli ansiolitici benzodiazepinici possono causare?",
       "options": [
-        "Vomito",
-        "Petidina",
+        "Ipertensione grave",
+        "Diarrea",
         "Amnesia",
-        "chinidina",
-        "verapamil"
+        "Tachicardia ventricolare",
+        "Iperglicemia"
       ],
       "correct": 2
     },
@@ -5037,11 +5037,11 @@
       "id": 12500151,
       "text": "L’IFN-β è approvato?",
       "options": [
-        "Diminuita richiesta di o2 da parte del cuore",
-        "Lattamasi, ha anche attivita’ verso alcuni gram-",
+        "Per la terapia dell'epatite C cronica in monoterapia",
+        "Per la terapia della leucemia a cellule capellute",
         "Per la terapia della sclerosi multipla",
-        "La loro azione anti-ipertensiva è’ più pronunciata sui soggetti normali che su quelli ipertesi",
-        "Oxacillina, cloxacillina, dicloxacillina, meticillina, nafcillina"
+        "Per la terapia dell'artrite reumatoide",
+        "Per la terapia della psoriasi a placche"
       ],
       "correct": 2
     },
@@ -5050,10 +5050,10 @@
       "text": "Quale dei seguenti farmaci si comporta da antipertensivo ad azione centrale?",
       "options": [
         "Clonidina",
-        "Benzodiazepine",
-        "Betabloccanti",
-        "Calcitonina",
-        "Antistaminici"
+        "Prazosina",
+        "Nifedipina",
+        "Idroclorotiazide",
+        "Captopril"
       ],
       "correct": 0
     },
@@ -5062,10 +5062,10 @@
       "text": "La nifedipina è un farmaco usato nel trattamento?",
       "options": [
         "Dell’angina pectoris",
-        "prednisolone",
-        "tamoxifene",
-        "propranololo",
-        "vitamina D"
+        "Dell'asma bronchiale",
+        "Delle aritmie sopraventricolari",
+        "Dello scompenso cardiaco congestizio",
+        "Dell'epilessia"
       ],
       "correct": 0
     },
@@ -5073,11 +5073,11 @@
       "id": 12500155,
       "text": "L'acidificazione delle urine favorisce l'eliminazione di farmaci a carattere basico?",
       "options": [
-        "Midazolam",
-        "Prevalentemente per secrezione tubulare",
-        "Gentamicicina",
+        "Riducendone la ionizzazione",
+        "Aumentando il riassorbimento tubulare",
+        "Inibendone la secrezione tubulare",
         "Aumentandone la ionizzazione",
-        "Ciclofosfamide"
+        "Aumentandone il legame alle proteine plasmatiche"
       ],
       "correct": 3
     },
@@ -5085,11 +5085,11 @@
       "id": 12500156,
       "text": "Quale dei seguenti meccanismi d'azione è ascrivibile al warfarin?",
       "options": [
-        "I fluorochinoloni inibiscono la DNA-girasi batterica",
+        "Attivazione dell'antitrombina III",
         "Alterazione della sintesi di fattori della coagulazione vii, ix e x",
-        "Aumenta il rilascio di insulina dal pancreas",
-        "Aumenta il numero di recettori dell'insulina",
-        "Aumenta l'uptake del glucosio da parte dei tessuti"
+        "Inibizione diretta della trombina",
+        "Blocco del recettore piastrinico dell'ADP",
+        "Attivazione del plasminogeno"
       ],
       "correct": 1
     },
@@ -5097,10 +5097,10 @@
       "id": 12500157,
       "text": "L'insulina non viene somministrata per os in quanto?",
       "options": [
-        "Esmololo, usato per via endovenosa",
-        "Passaggio",
-        "Ipotensione (invece ci sono tachicardia, ansia, orticaria, sudorazione)",
-        "Sulfisossazolo (ofloxacina)",
+        "Provoca grave irritazione della mucosa gastrica",
+        "Ha un volume di distribuzione troppo elevato",
+        "Viene completamente eliminata per via renale",
+        "Non è solubile in acqua",
         "Degradata nello stomaco"
       ],
       "correct": 4
@@ -5109,10 +5109,10 @@
       "id": 12500158,
       "text": "Quale delle sostanze sotto indicate conferisce ai medicinali che le contengono l’attività terapeutica di anti-acido?",
       "options": [
-        "isoniazide",
-        "tricloroetilene",
-        "Endovena",
-        "alotano",
+        "Omeprazolo",
+        "Misoprostolo",
+        "Metoclopramide",
+        "Cimetidina",
         "Sucralfato"
       ],
       "correct": 4
@@ -5121,11 +5121,11 @@
       "id": 12500160,
       "text": "Il captopril può indurre tutti gli effetti indesiderati elencati tranne?",
       "options": [
-        "aritmie ventricolari",
+        "Tosse secca",
         "Perdita di k+",
-        "emorragia cerebrale",
-        "aggravamento dei sintomi nei pazienti asmatici",
-        "ansietà"
+        "Angioedema",
+        "Iperkaliemia",
+        "Ipotensione da prima dose"
       ],
       "correct": 1
     },
@@ -5133,23 +5133,23 @@
       "id": 12500161,
       "text": "La ticlopidina agisce come antiaggregante piastrinico?",
       "options": [
-        "Bloccando la via dell’adenosina-fosfato piastrinica",
-        "ibuprofene",
-        "nabumetone",
-        "nimesulide",
-        "paracetamolo"
+        "Bloccando il recettore piastrinico dell'ADP",
+        "Inibendo irreversibilmente la ciclossigenasi-1 piastrinica",
+        "Bloccando il recettore GPIIb/IIIa del fibrinogeno",
+        "Inibendo la fosfodiesterasi con aumento del cAMP piastrinico",
+        "Attivando l'antitrombina III"
       ],
       "correct": 0
     },
     {
       "id": 12500162,
-      "text": "Tutte le seguenti affermazioni riguardanti il cloramfenicolo sono corrette tranne E’ EFFICACE NELLA TERAPIA DELLA MENINGITE DA HAEMOPHILUS INFLUENZAE SOLO SE SOMMINISTRATA PER VIA INTRATECALE IN QUANTO NON PASSA LA BEE (LA PASSA ECCOME!). SONO VERE?",
+      "text": "Tutte le seguenti affermazioni riguardanti il cloramfenicolo sono corrette tranne:",
       "options": [
-        "la chinidina solfato raggiunge raggiunge il picco di concentrazione plasmatica 1,5 h dopo una somministrazione orale",
-        "il verapamil può convertire la fibrillazione atriale in flutter",
-        "1 ATTIVO NEI CONFRONTI DELLE RICKETTSIE 2 PER VIA ORALE è ASSORBITO RAPIDAMENTE 3 PUO’ DARE ORIGINE A VARIE FORME DI MIELOTOSSICITA’ 4 E’ ESTESAMENTE CONIUGATA CON ACIDO GLUCURONICO A LIVELLO EPATICO",
-        "la chinidina glucuronata raggiunge il picco di concentrazione plasmatica 4 h dopo una somministrazione orale",
-        "la disopiramide non va somministrata in caso di insufficienza cardiaca congestizia"
+        "È attivo nei confronti delle rickettsie",
+        "Per via orale è assorbito rapidamente",
+        "È efficace nella terapia della meningite da Haemophilus influenzae solo se somministrato per via intratecale, in quanto non passa la barriera ematoencefalica",
+        "Può dare origine a varie forme di mielotossicità",
+        "È estesamente coniugato con acido glucuronico a livello epatico"
       ],
       "correct": 2
     },
@@ -5157,11 +5157,11 @@
       "id": 12500163,
       "text": "Un effetto avverso della furosemide che può aumentare l'automatismo dei pacemaker ectopici?",
       "options": [
-        "Cardiotossicita’",
+        "Ipercalcemia",
         "Ipokaliemia",
-        "Tromboflebite",
-        "ototossicità",
-        "Cistite emorragica"
+        "Iperkaliemia",
+        "Ipernatriemia",
+        "Acidosi metabolica"
       ],
       "correct": 1
     },
@@ -5169,11 +5169,11 @@
       "id": 12500164,
       "text": "Una paziente di 55 anni, che assume propranololo per il controllo di una patologia cardiovascolare presenta un attacco acuto di asma. Quale tra i seguenti farmaci è appropriato per attenuare l'attacco asmatico?",
       "options": [
-        "Kanamicina",
+        "Neostigmina",
         "Albuterolo (nome alternativo del salbutamolo)",
-        "Pentazocina",
-        "Aloperidolo",
-        "Succinilcolina"
+        "Pilocarpina",
+        "Morfina",
+        "Betanecolo"
       ],
       "correct": 1
     },
@@ -5181,11 +5181,11 @@
       "id": 12500165,
       "text": "Tutte le seguenti patologie costituiscono un indicazione clinica per l'utilizzazione dei glucocorticoidi tranne?",
       "options": [
-        "orticaria",
+        "Orticaria",
         "Glaucoma",
-        "insonnia",
-        "ansia",
-        "diarrea"
+        "Asma bronchiale grave",
+        "Artrite reumatoide",
+        "Sindrome nefrosica"
       ],
       "correct": 1
     },
@@ -5193,11 +5193,11 @@
       "id": 12500166,
       "text": "Indicare tra i seguenti il barbiturico a lunga durata d'azione, potente induttore enzimatico, usato principalmente per il controllo cronico degli stati convulsivi?",
       "options": [
-        "Cortisone",
+        "Tiopentale",
         "Fenobarbital",
-        "Betametasone",
-        "Idrocortisone",
-        "Fludrocortisone"
+        "Pentobarbital",
+        "Secobarbital",
+        "Metoexitale"
       ],
       "correct": 1
     },
@@ -5205,11 +5205,11 @@
       "id": 12500167,
       "text": "Quale corrisponde in maniera più precisa alla definizione di tolleranza?",
       "options": [
-        "Tempo necessario perche’ la concentrazione plasmatica si riduca del 50%",
-        "Nessuna delle precedenti",
-        "esito della risomministrazione",
+        "Tempo necessario perché la concentrazione plasmatica si riduca del 50%",
+        "Reazione abnorme a un farmaco su base genetica",
+        "Aumento della risposta a un farmaco dopo somministrazioni ripetute",
         "Diminuzione della risposta a un farmaco o meglio in seguito a somministrazioni ripetute, l’intensita’ dell’effetto di un farmaco a parita’ di dose diminuisce",
-        "notorietà della correlazione"
+        "Comparsa di sintomi alla sospensione del farmaco"
       ],
       "correct": 3
     },
@@ -5217,11 +5217,11 @@
       "id": 12500168,
       "text": "Il captopril non è un farmaco appropriato per il trattamento dell'ipertensione in?",
       "options": [
-        "Antiaritmico",
-        "Prevenire la stimolazione cardiaca riflessa, conseguente alla vasodilatazione",
-        "5-idrossitriptamina",
-        "Pz con stenosi bilaterale ant. e inf. e gravidanza",
-        "Inotropo positivo (inibisce fosfodiesterasi iii)"
+        "Ipertensione in paziente diabetico con nefropatia",
+        "Ipertensione con scompenso cardiaco",
+        "Ipertensione dopo infarto miocardico",
+        "Pazienti con stenosi bilaterale delle arterie renali e in gravidanza",
+        "Ipertensione con ipertrofia ventricolare sinistra"
       ],
       "correct": 3
     },
@@ -5229,11 +5229,11 @@
       "id": 12500169,
       "text": "Indicare quali dei seguenti farmaci agisce inibendo la sintesi dei leucotrieni?",
       "options": [
-        "Clonidina",
-        "glaucoma",
+        "Zafirlukast",
+        "Montelukast",
         "Zileuton",
-        "insonnia",
-        "statine"
+        "Cromoglicato",
+        "Teofillina"
       ],
       "correct": 2
     },
@@ -5241,23 +5241,23 @@
       "id": 12500170,
       "text": "In seguito a sovradosaggio di morfina, l'escrezione renale del farmaco può essere aumentata somministrando?",
       "options": [
-        "Aumento del pH gastrico",
-        "30 mg",
-        "Sodio bicarbonato per via endovenosa, prima possibile",
-        "20 mg",
+        "Sodio bicarbonato per via endovenosa",
+        "Idrossido di magnesio per via orale",
+        "Acetazolamide per via endovenosa",
+        "Mannitolo per via endovenosa",
         "Cloruro di ammonio per via i.m. prima possibile"
       ],
       "correct": 4
     },
     {
       "id": 12500171,
-      "text": "La ropamicina (individuare la sbagliata)?",
+      "text": "La rapamicina (sirolimus): individuare l'affermazione sbagliata?",
       "options": [
-        "Ha lunga emivita (60 ore), inibisce mtor, e’ utile nel les (essendo immunosoppressore) e e’ utile nella profilassi del rigetto d’organo trapiantato",
-        "non deve essere associata ad un beta-bloccante",
-        "E’ neurotossico (e’ usato per tumore mammella; e’ cardiotossico, e’ un ab anti her-2neu, e’ radiosensibilizzante)",
-        "Ha indicazioni non oncologiche; predispone ad infezioni; e’ indicato nel trattamento del linfoma non hodgkin; puo’ dare ipertensione entro le 24h di infusione)",
-        "E’ ANCHE DETTA FK-506 (QUELLO è IL TACROLIMUS)"
+        "Ha lunga emivita (circa 60 ore)",
+        "Inibisce mTOR",
+        "È utile nella profilassi del rigetto d'organo trapiantato",
+        "Può causare trombocitopenia e iperlipidemia",
+        "È anche detta FK-506"
       ],
       "correct": 4
     },
@@ -5265,23 +5265,23 @@
       "id": 12500172,
       "text": "I sulfamidici possono essere utili in tutte le seguenti infezioni tranne?",
       "options": [
-        "Sindrome nefrosica",
-        "Collagenopatie",
+        "Infezioni urinarie non complicate",
+        "Nocardiosi",
         "Tubercolosi",
-        "Herpes simplex oculare",
-        "Stato asmatico"
+        "Toxoplasmosi (in associazione a pirimetamina)",
+        "Polmonite da Pneumocystis (in associazione a trimetoprim)"
       ],
       "correct": 2
     },
     {
       "id": 12500173,
-      "text": "La ropamicina o sirolimus?",
+      "text": "La rapamicina (sirolimus)?",
       "options": [
-        "E’ ANCHE DETTA FK-506 (QUELLO è IL TACROLIMUS)",
+        "È anche detta FK-506",
         "Ha lunga emivita (60 ore), inibisce mtor, e’ utile nel les (essendo immunosoppressore) e e’ utile nella profilassi del rigetto d’organo trapiantato",
-        "diminuzione della tensione della fibra intramiocardica",
-        "diminuzione della forza cardiaca",
-        "Trombocitopenia"
+        "Inibisce la calcineurina legandosi alla ciclofilina",
+        "Ha breve emivita e richiede somministrazione frequente",
+        "È un antimetabolita che inibisce la sintesi delle purine"
       ],
       "correct": 1
     },
@@ -5289,11 +5289,11 @@
       "id": 12500174,
       "text": "Tutte le seguenti sono proprietà farmacologiche dei barbiturici tranne?",
       "options": [
-        "deprimono reversibilmente l'attività di tutti i tessuti eccitabili",
-        "possono sviluppare tolleranza farmacocinetica e/o farmacodinamica",
-        "aumentano la durata totale del sonno e ne alterano le fasi",
-        "A BASSE DOSI DANNO EFFETTO ANALGESICO (A BASSE DOSI DANNO IPERALGESIA, aumento di DURATA TOTALE DEL SONNO E ALTERNAO LE FASI, DEPREIMONO IRREVERSIBILMENTE L’ATTIVITA’ DI TUTTI I TESSUTI ECCITABILI, DANNO ANESTESIA GENERALE, POSSONO SVILUPPARE TOLLERANZA FARMACOCINETICA/FARMACODINAMICA)",
-        "a basse dosi riducono la reazione a stimoli dolorosi"
+        "Deprimono reversibilmente l'attività di tutti i tessuti eccitabili",
+        "Possono sviluppare tolleranza farmacocinetica e farmacodinamica",
+        "Aumentano la durata totale del sonno e ne alterano le fasi",
+        "A basse dosi danno effetto analgesico",
+        "Inducono gli enzimi microsomiali epatici"
       ],
       "correct": 3
     },
@@ -5301,11 +5301,11 @@
       "id": 12500175,
       "text": "Quale, tra le benzodiazepine sottoelencate, ha un’emivita più breve?",
       "options": [
-        "Midazolam",
-        "Parkinsonismo",
+        "Diazepam",
+        "Clordiazepossido",
         "Triazolam",
-        "Iproniazide; isocarbossazide)",
-        "Dipendenza psichica"
+        "Flurazepam",
+        "Nitrazepam"
       ],
       "correct": 2
     },
@@ -5313,11 +5313,11 @@
       "id": 12500176,
       "text": "La sindrome di Reye che si verifica, anche se raramente, in età pediatrica è stata associata?",
       "options": [
-        "emicrania",
-        "ipoglicemia",
-        "dolenzia/dolore mammario",
-        "All’assunzione di acido acetilsalicilico in concomitanza di patologie influenzali o varicella",
-        "iperplasia endometriale"
+        "Alla somministrazione di paracetamolo durante infezioni virali",
+        "All'uso di ibuprofene in corso di varicella",
+        "Alla somministrazione di corticosteroidi in età neonatale",
+        "All'assunzione di acido acetilsalicilico in concomitanza di patologie influenzali o varicella",
+        "All'uso di antibiotici beta-lattamici in età pediatrica"
       ],
       "correct": 3
     },
@@ -5337,11 +5337,11 @@
       "id": 12500178,
       "text": "Quale dei farmaci indicati può essere usato come broncodilatatore di elezione durante le crisi asmatiche?",
       "options": [
-        "Pentobarbital",
-        "Secobarbital",
+        "Propranololo",
+        "Cromoglicato di sodio",
         "Salbutamolo",
-        "Fenobarbital",
-        "Tiopentale"
+        "Beclometasone",
+        "Montelukast"
       ],
       "correct": 2
     },
@@ -5349,11 +5349,11 @@
       "id": 12500179,
       "text": "Degli accoppiamenti sottoindicati, qual è quello corretto?",
       "options": [
-        "Non agiscono a livello sinaptico",
-        "Ketoprofene/miorilassante",
-        "Difenidramina",
-        "AMLODIPINA / Ca++ANTAGONISTA/ ANTIPERTENSIVO",
-        "Bloccano il riassorbimento del GABA"
+        "Ketoprofene / miorilassante / antispastico",
+        "Amlodipina / calcio-antagonista / antiipertensivo",
+        "Propranololo / beta-agonista / broncodilatatore",
+        "Furosemide / risparmiatore di potassio / antiedemigeno",
+        "Enalapril / sartano / antiipertensivo"
       ],
       "correct": 1
     },
@@ -5361,11 +5361,11 @@
       "id": 12500180,
       "text": "I farmaci antiparkinson possono presentare attività?",
       "options": [
-        "Vomito",
-        "TUTTE LE INDICAZIONI SONO ESATTE (Agonista dopaminergica diretta - agonista dopaminergico indiretta - antagonistica muscarinica centrale anticolinergica)",
-        "Sindrome parkinson-simile",
-        "attivazione dei recettori beta presenti sulla muscolatura liscia bronchiale e conseguente broncodilatazione",
-        "effetto cronotropo e inotropo negativo con conseguente riduzione della pressione arteriosa"
+        "Agonista dopaminergica diretta",
+        "Tutte le indicazioni sono esatte",
+        "Agonista dopaminergica indiretta",
+        "Antagonista muscarinica centrale (anticolinergica)",
+        "Inibitrice delle MAO-B"
       ],
       "correct": 1
     },
@@ -5373,11 +5373,11 @@
       "id": 12500182,
       "text": "Indicare il tempo necessario perché la concentrazione plasmatica dimezzi per un farmaco con Ke = 0,693/ora?",
       "options": [
-        "volume apparente di distribuzione",
-        "Emivita",
-        "clearance",
+        "30 minuti",
+        "90 minuti",
+        "120 minuti",
         "60 minuti",
-        "biodisponibilità"
+        "6,9 ore"
       ],
       "correct": 3
     },
@@ -5385,11 +5385,11 @@
       "id": 12500183,
       "text": "Indicare quali tra i seguenti farmaci antipsicotici è quello in grado di migliorare sia sintomi positivi che negativi della schizofrenia con pochi effetti collaterali dovuti a blocco dopaminergico e per cui si richiede controllo ematico?",
       "options": [
-        "Ipokalemia, ototossicità,iperuricemia",
+        "Aloperidolo",
         "Clozapina",
-        "Ipermagnesemia, ipercalcemia, febbre",
-        "Vomito",
-        "Iperkalemia, alcalosi, nausea/vomito"
+        "Clorpromazina",
+        "Flufenazina",
+        "Tioridazina"
       ],
       "correct": 1
     },
@@ -5397,10 +5397,10 @@
       "id": 12500185,
       "text": "Definizione di emivita?",
       "options": [
-        "Direttamente proporzionale al volume di distribuzione",
-        "Nessuna delle precedenti",
-        "Diminuzione della risposta a un farmaco o meglio in seguito a somministrazioni ripetute, l’intensita’ dell’effetto di un farmaco a parita’ di dose diminuisce",
-        "Inversamente proporzionale al volume di distribuzione",
+        "Tempo necessario per raggiungere la concentrazione plasmatica massima",
+        "Tempo necessario per raggiungere lo stato stazionario",
+        "Quantità di plasma depurata dal farmaco nell'unità di tempo",
+        "Rapporto tra la quantità di farmaco nell'organismo e la sua concentrazione plasmatica",
         "Tempo necessario perche’ la concentrazione plasmatica si riduca del 50%"
       ],
       "correct": 4
@@ -5409,11 +5409,11 @@
       "id": 12500186,
       "text": "Una utilizzazione clinica approvata per la clindamicina è?",
       "options": [
-        "Astinenza da etanolo",
-        "Ansia generalizzata",
+        "Meningite da Neisseria meningitidis",
+        "Infezioni da Pseudomonas aeruginosa",
         "Gravi infezioni da spp bacteroides",
-        "Medicazione preanestetica",
-        "Assenze epilettiche"
+        "Infezioni da Enterobacteriaceae Gram-negative aerobie",
+        "Tubercolosi polmonare"
       ],
       "correct": 2
     },
@@ -5421,11 +5421,11 @@
       "id": 12500187,
       "text": "Solfato di protamina trova impiego per?",
       "options": [
-        "Eparina",
+        "Neutralizzare l'effetto del warfarin",
         "Neutralizzare tossicita’ da eparina",
-        "ulcera peptica",
-        "insonnia",
-        "morbo di Parkinson"
+        "Antagonizzare l'azione dei trombolitici",
+        "Prevenire la trombosi venosa profonda",
+        "Antagonizzare l'azione dei salicilati"
       ],
       "correct": 1
     },
@@ -5433,11 +5433,11 @@
       "id": 12500188,
       "text": "È necessario somministrare ad un paziente obeso un ipnoinducente serale; tenendo conto che russa ed è affetto da apnea morfeica indicare ipnoinducente di scelta?",
       "options": [
-        "degli antibiotici",
-        "delle amfetamine",
-        "degli antipressivi triciclici",
+        "Triazolam",
+        "Flurazepam",
+        "Fenobarbitale",
         "Nessuno di questi",
-        "dei barbiturici"
+        "Diazepam"
       ],
       "correct": 3
     },
@@ -5445,11 +5445,11 @@
       "id": 12500189,
       "text": "La dose di acido acetilsalicilico per il trattamento antitrombotico profilattico?",
       "options": [
-        "per l'inibizione delle lipoossigenasi",
-        "per inibire selettivamente la cicloossigenasi-2",
-        "per la capacità di prevenire il cancro del colon",
+        "Uguale alla dose analgesica-antipiretica",
+        "Più alta della dose analgesica-antipiretica",
+        "Uguale alla dose antinfiammatoria",
         "Piu’ bassa della dose analgesica-antipiretica",
-        "aumenta la produzione di prostacicline dall'endotelio"
+        "Almeno doppia rispetto alla dose antipiretica"
       ],
       "correct": 3
     },
@@ -5457,11 +5457,11 @@
       "id": 12500190,
       "text": "Gli effetti degli analgesici stupefacenti comprendono tutti i seguenti tranne?",
       "options": [
-        "colchicina",
-        "allopurinolo",
-        "indometacina",
+        "Depressione respiratoria",
+        "Miosi",
+        "Stipsi",
         "Azione anti- convulsivante",
-        "probenecid"
+        "Euforia"
       ],
       "correct": 3
     },
@@ -5469,11 +5469,11 @@
       "id": 12500192,
       "text": "L’aminofillina, la dobutamina e la digosssina?",
       "options": [
-        "Trombocitopenia",
-        "Come agonista dei recettori β1 adrenergici",
-        "aumento di I LIVELLI DI cAMP",
-        "non provoca tolleranza",
-        "dilata prevalentemente le vene"
+        "Hanno effetto inotropo negativo",
+        "Sono tutti antiaritmici di classe I",
+        "Hanno effetto inotropo positivo",
+        "Sono controindicati nello scompenso cardiaco",
+        "Provocano vasodilatazione venosa selettiva"
       ],
       "correct": 2
     },
@@ -5481,11 +5481,11 @@
       "id": 12500193,
       "text": "Indicare quali tra i seguenti β-lattamici sono resistenti alle penicillinasi?",
       "options": [
-        "Iperkalemia, alcalosi, nausea/vomito",
-        "Ipokalemia, iperglicemia, iperlipidemia",
-        "Ipokalemia, ototossicità,iperuricemia",
+        "Ampicillina, amoxicillina, bacampicillina",
+        "Penicillina G, penicillina V, fenossimetilpenicillina",
+        "Ticarcillina, piperacillina, carbenicillina",
         "Oxacillina, cloxacillina, dicloxacillina, meticillina, nafcillina",
-        "Aumento dell'azoto ureico plasmatici, iperkalemia, acidosi metabolica"
+        "Ampicillina, ticarcillina, piperacillina"
       ],
       "correct": 3
     },
@@ -5493,10 +5493,10 @@
       "id": 12500194,
       "text": "Via con maggiori rischi in caso di somministrazione eccedenti?",
       "options": [
-        "asma",
-        "aritmie",
-        "gastrite",
-        "ipertensione grave",
+        "Orale",
+        "Rettale",
+        "Sottocutanea",
+        "Intramuscolare",
         "Endovena"
       ],
       "correct": 4
@@ -5511,17 +5511,17 @@
         "atenololo",
         "timololo"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
       "id": 12500196,
       "text": "Non si usano i FANS per?",
       "options": [
         "Insufficienza renale",
-        "aminoglicosidi",
-        "cefalosporine",
-        "carbapenici",
-        "penicilline"
+        "Dolore osteoarticolare",
+        "Febbre",
+        "Dismenorrea",
+        "Artrite reumatoide"
       ],
       "correct": 0
     },
@@ -5532,20 +5532,20 @@
         "12,5 %",
         "50 %",
         "25%",
-        "93,75%",
+        "6,25 %",
         "37,5 %"
       ],
       "correct": 2
     },
     {
       "id": 12500198,
-      "text": "La figlia AZT indica?",
+      "text": "La sigla AZT indica?",
       "options": [
-        "Dipende esclusivamente dalla via di somministrazione",
+        "Aciclovir",
         "Zidovudina (azidotimidina)",
-        "Non è possibile determinarlo dai dati forniti",
-        "Nessuna delle altre risposte",
-        "Tutte le risposte sono errate"
+        "Zalcitabina",
+        "Lamivudina",
+        "Stavudina"
       ],
       "correct": 1
     },
@@ -5553,10 +5553,10 @@
       "id": 12500199,
       "text": "Il principale motivo per cui la carbidopa è efficace nel parkinsonismo se somministrato insieme a L-Dopa è che?",
       "options": [
-        "Inibitore della dopa decarbossilasi",
-        "Confusione mentale",
-        "Allucinazioni",
-        "Fenomeno on-off",
+        "Attraversa la barriera ematoencefalica e potenzia la sintesi centrale di dopamina",
+        "Stimola direttamente i recettori dopaminergici D2 striatali",
+        "Inibisce la COMT centrale",
+        "Inibisce le MAO-B nei neuroni dopaminergici",
         "La carbidopa inibisce perifericamente la aromatico-l- aminoacido decarbossilasi"
       ],
       "correct": 4
@@ -5565,11 +5565,11 @@
       "id": 12500200,
       "text": "Quale tra i meccanismi antiepilettici è falsa?",
       "options": [
-        "Sono tutte eliminate immodificate per via renale",
-        "Aloperidolo",
-        "Succinilcolina",
+        "Fenitoina blocca i canali del Na+ voltaggio-dipendenti",
+        "Carbamazepina blocca i canali del Na+ voltaggio-dipendenti",
+        "Le benzodiazepine potenziano l'azione del GABA sui recettori GABA-A",
         "Etosuccimide blocca i canali k+",
-        "L’etosuccinide blocca selettivamente i canali ionici del k+ nei neuroni talamici (blocca i canali del ca++ tipo t)"
+        "L'etosuccimide blocca i canali del Ca++ di tipo T nei neuroni talamici"
       ],
       "correct": 3
     },
@@ -5589,11 +5589,11 @@
       "id": 12500202,
       "text": "Un farmaco anti-anginoso somministrato per via inalatoria?",
       "options": [
-        "possono risultare bradicardizzanti, per stimolazione vagale",
+        "Isosorbide mononitrato",
         "Nitrito di amile",
-        "manifestano tossicità a livello cardiaco come quando somministrati per via endovenosa",
-        "non manifestano effetti cardiaci",
-        "E’ metabolizzata rapidamente a livello epatico"
+        "Ranolazina",
+        "Verapamil",
+        "Propranololo"
       ],
       "correct": 1
     },
@@ -5601,11 +5601,11 @@
       "id": 12500203,
       "text": "Indicare quale affermazione sui corticosteroidi è corretta?",
       "options": [
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
-        "la glipizide fa aumentare la secrezione del glucagone",
+        "Il cortisolo ha potenza antinfiammatoria maggiore del prednisolone",
+        "Il desametasone ha una marcata attività mineralcorticoide",
         "Il prednisolone ha potenza anti——— maggiore del cortisolo e potenza mineral-corticoide minore",
-        "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II"
+        "L'idrocortisone ha durata d'azione più lunga del betametasone",
+        "Il fludrocortisone ha attività antinfiammatoria superiore al desametasone"
       ],
       "correct": 2
     },
@@ -5613,11 +5613,11 @@
       "id": 12500204,
       "text": "Qual è un Ca++ antagonista della famiglia delle fenilalchilamine?",
       "options": [
-        "Nizatidina",
-        "un farmaco con attività intrinseca pari a -1",
-        "un farmaco dotato di attività farmacologica opposta a quella dei farmaci agonisti",
-        "Verapamil (gallopamil)",
-        "Reboxetina"
+        "Nifedipina",
+        "Diltiazem",
+        "Amlodipina",
+        "Verapamil",
+        "Nimodipina"
       ],
       "correct": 3
     },
@@ -5626,10 +5626,10 @@
       "text": "La tossina botulinica può essere usata per trattare il blefarospasmo perchè inibisce?",
       "options": [
         "Il rilascio di ach dalle vescicole sinaptiche",
-        "Propafenone",
-        "Cloramfenicolo e clindamicina",
-        "Procainamide",
-        "Lidocaina"
+        "La sintesi di acetilcolina inibendo la colina acetiltransferasi",
+        "La ricaptazione della colina nel terminale presinaptico",
+        "I recettori nicotinici della placca neuromuscolare",
+        "L'acetilcolinesterasi nella fessura sinaptica"
       ],
       "correct": 0
     },
@@ -5637,10 +5637,10 @@
       "id": 12500206,
       "text": "Farmaco per trattamento a breve termine dello shock cardiogeno?",
       "options": [
-        "possono risultare bradicardizzanti, per stimolazione vagale",
+        "Propranololo",
+        "Verapamil",
+        "Atropina",
         "Fludrocortisone",
-        "non manifestano effetti cardiaci",
-        "manifestano tossicità a livello cardiaco come quando somministrati per via endovenosa",
         "Dobutamina"
       ],
       "correct": 4
@@ -5649,11 +5649,11 @@
       "id": 12500207,
       "text": "Un farmaco antidepressivo adatto ad un pz con patologia vascolare coronarica?",
       "options": [
-        "escrezione",
-        "metabolismo",
+        "Amitriptilina",
+        "Imipramina",
         "Fluoxetina",
-        "assorbimento",
-        "Nadololo"
+        "Desipramina",
+        "Doxepina"
       ],
       "correct": 2
     },
@@ -5661,23 +5661,23 @@
       "id": 12500208,
       "text": "Antiepilettici che aumentano la concentrazione plasmatica di altri farmaci?",
       "options": [
-        "l'escrezione biliare",
+        "Carbamazepina",
         "Acido valproico",
-        "Fenitoina (idantoina)",
-        "la biotrasformazione metabolica",
-        "la distribuzione tissutale"
+        "Fenitoina",
+        "Fenobarbitale",
+        "Primidone"
       ],
-      "correct": 2
+      "correct": 1
     },
     {
       "id": 12500209,
       "text": "Un battericida somministrato per os attivo su gram + e gram -?",
       "options": [
+        "Eritromicina",
+        "Vancomicina",
+        "Sulfisossazolo",
         "Ofloxacina",
-        "Lattamasi, ha anche attivita’ verso alcuni gram-",
-        "Nitrito di amile",
-        "Sulfisossazolo (ofloxacina)",
-        "Degradata nello stomaco"
+        "Tetraciclina"
       ],
       "correct": 3
     },
@@ -5685,23 +5685,23 @@
       "id": 12500210,
       "text": "Quali delle seguenti esprime meglio la definizione di tolleranza?",
       "options": [
-        "Un farmaco CHE DEVE ESSERE TRASFORMATO METABOLICAMENTE PRIMA DI POTER SVOLGERE LA SUA AZIONE",
-        "Ipertensione arteriosa",
-        "Diminuzione della risposta a un farmaco o meglio in seguito a somministrazioni ripetute, l’intensita’ dell’effetto di un farmaco a parita’ di dose diminuisce",
-        "Nessuna delle precedenti",
-        "Tempo necessario perche’ la concentrazione plasmatica si riduca del 50%"
+        "Un farmaco che deve essere trasformato metabolicamente prima di poter svolgere la sua azione",
+        "Reazione abnorme a un farmaco su base genetica",
+        "Diminuzione della risposta a un farmaco in seguito a somministrazioni ripetute: l'intensità dell'effetto a parità di dose diminuisce",
+        "Aumento della risposta a un farmaco dopo somministrazioni ripetute",
+        "Tempo necessario perché la concentrazione plasmatica si riduca del 50%"
       ],
-      "correct": 3
+      "correct": 2
     },
     {
       "id": 12500211,
       "text": "I farmaci omologhi dell’amfetamina causano?",
       "options": [
         "Diminuzione dell’appetito",
-        "Antibiotici",
-        "Anticolinergici",
-        "Fibrinolitici",
-        "Stupefacenti"
+        "Aumento dell'appetito",
+        "Sedazione e sonnolenza",
+        "Bradicardia sinusale",
+        "Miosi marcata"
       ],
       "correct": 0
     },
@@ -5721,11 +5721,11 @@
       "id": 12500213,
       "text": "Patologie epatiche / età avanzata influenzano l’eliminazione di tutte le benzodiazepine tranne?",
       "options": [
-        "Dipendenza psichica",
-        "insonnia",
+        "Diazepam",
+        "Flurazepam",
+        "Lorazepam",
         "Midazolam",
-        "Parkinsonismo",
-        "convulsioni"
+        "Triazolam"
       ],
       "correct": 2
     },
@@ -5743,13 +5743,13 @@
     },
     {
       "id": 12500215,
-      "text": "L’attività nei confronti dei batteri gram+ dell’ampicillina è principalmente dovuta a E’ UNA PENICILLINA DI SINTESI, E’ UN FARMACO SUSCETTIBILA ALLA β-?",
+      "text": "Quale delle seguenti affermazioni sull'ampicillina è corretta?",
       "options": [
-        "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)",
-        "Capacita’ di superare la membrana esterna della parete batterica dei gram-",
-        "penicillina",
-        "Lattamasi, ha anche attivita’ verso alcuni gram-",
-        "carbonato di litio"
+        "È una penicillina resistente alle beta-lattamasi stafilococciche",
+        "È attiva solo sui Gram-negativi",
+        "È inattiva sugli streptococchi",
+        "È una penicillina semisintetica suscettibile alle beta-lattamasi, con attività anche verso alcuni Gram-negativi",
+        "È un glicopeptide che inibisce la sintesi della parete"
       ],
       "correct": 3
     },
@@ -5757,11 +5757,11 @@
       "id": 12500217,
       "text": "Indicare tra i seguenti farmaci l’antimicotico che inibisce gli enzimi P450-dipendenti necessari per la sintesi degli steroidi?",
       "options": [
-        "Difenidramina",
-        "Ketoconazolo (itraconazolo)",
-        "Succinilcolina",
-        "Zileuton",
-        "Iproniazide; isocarbossazide)"
+        "Anfotericina B",
+        "Ketoconazolo",
+        "Griseofulvina",
+        "Nistatina",
+        "Flucitosina"
       ],
       "correct": 1
     },
@@ -5769,23 +5769,23 @@
       "id": 12500218,
       "text": "Indicare quale delle seguenti affermazioni riguardo alle benzodiazepine è falsa?",
       "options": [
-        "le sulfaniluree riducono la secrezione di insulina",
-        "la glipizide fa aumentare la secrezione del glucagone",
+        "Possono causare dipendenza fisica e psichica",
+        "Il loro effetto è antagonizzato dal flumazenil",
         "Sono tutte eliminate immodificate per via renale",
-        "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)",
-        "le biguanidi possono indurre acidosi lattica"
+        "Potenziano l'azione del GABA sui recettori GABA-A",
+        "Sono metabolizzate prevalentemente a livello epatico"
       ],
       "correct": 2
     },
     {
       "id": 12500219,
-      "text": "Quale dei seguenti segni può contribuire a una DD tra sovradosaggio di eroina e quello di ———(fenobarbital) ?",
+      "text": "Quale dei seguenti segni può contribuire alla diagnosi differenziale tra sovradosaggio di eroina e quello di fenobarbital?",
       "options": [
-        "Calcitonina",
-        "Antistaminici",
-        "Miosi ———",
-        "Betabloccanti",
-        "Benzodiazepine"
+        "Depressione respiratoria",
+        "Ipotermia",
+        "Miosi",
+        "Ipotensione",
+        "Coma"
       ],
       "correct": 2
     },
@@ -5794,10 +5794,10 @@
       "text": "Gli analgesici oppioidi o devono essere impiegati con estrema prudenza o sono controindicati in diverse situazioni cliniche; per la morfina tali situazioni non comprendono?",
       "options": [
         "Edema polmonare",
-        "nell'ipertiroidismo",
-        "nel diabete di tipo I",
-        "in gravidanza",
-        "dopo la menopausa"
+        "Traumi cranici con ipertensione endocranica",
+        "Insufficienza respiratoria cronica",
+        "Ipotiroidismo",
+        "Insufficienza epatica grave"
       ],
       "correct": 0
     },
@@ -5818,10 +5818,10 @@
       "text": "Nel trattamento dell’ipertensione, il razionale per la somministrazione di propranololo in associazione con Minoxidil è?",
       "options": [
         "Prevenire la stimolazione cardiaca riflessa, conseguente alla vasodilatazione",
-        "in pazienti con sindrome dell'intestino corto",
-        "se l'emoglobina è < di 10 g/dL",
-        "aumento di RISCHIO EMORRAGICO",
-        "Pz con stenosi bilaterale ant. e inf. e gravidanza"
+        "Potenziare l'effetto vasodilatatore del minoxidil",
+        "Prevenire l'ipertricosi indotta dal minoxidil",
+        "Ridurre la ritenzione idrosalina da minoxidil",
+        "Prevenire l'ipotensione ortostatica"
       ],
       "correct": 0
     },
@@ -5829,11 +5829,11 @@
       "id": 12500223,
       "text": "L’alcalosi ipokaliemica è uno degli effetti avversi che può manifestarsi in seguito all’uso protratto di?",
       "options": [
-        "aritmie ventricolari",
+        "Spironolattone, amiloride",
         "Furosemide, acido etacrinico",
-        "emorragia cerebrale",
-        "Aumento transaminasi",
-        "aggravamento dei sintomi nei pazienti asmatici"
+        "Acetazolamide, dorzolamide",
+        "Mannitolo, urea",
+        "Captopril, enalapril"
       ],
       "correct": 1
     },
@@ -5842,10 +5842,10 @@
       "text": "Tutte le seguenti affermazioni sui Calcio antagonisti sono corrette, tranne?",
       "options": [
         "A dosi terapeutiche rilasciano preferenzialmente la muscolatura liscia dei vasi venosi",
-        "Riducono la concentrazione di ca++ sierico",
-        "La terapia immunosoppressiva con farmaci citotossici può causare inibizione midollare",
-        "Risultano utili nelle situazioni in cui la risposta dell'ospite è la causa della malattia",
-        "Può essere tranquillamente somministrato in associazione con b-bloccanti adrenergici"
+        "Possono ridurre la contrattilità miocardica",
+        "Il verapamil rallenta la conduzione atrioventricolare",
+        "La nifedipina provoca vasodilatazione arteriolare con tachicardia riflessa",
+        "Sono utili nell'angina da vasospasmo"
       ],
       "correct": 0
     },
@@ -5853,11 +5853,11 @@
       "id": 12500225,
       "text": "Uomo di 52 aa. con infarto 5 anni fa, giunge al PS in seguito a sovradosaggio di uno dei farmaci cardiovascolari che assume. Il pz è ipoteso, bradicardico, presenta bronco-spasmo, ECG mostra QRS normali e PR lungo, presenta ipoglicemia e imperkaliemia. Il farmaco in eccesso è presumibilmente?",
       "options": [
+        "Propranololo",
         "Enalapril",
-        "Cloruro di ammonio per via i.m. prima possibile",
-        "minoxidil",
-        "idralazina",
-        "nifedipina"
+        "Minoxidil",
+        "Idralazina",
+        "Nifedipina"
       ],
       "correct": 0
     },
@@ -5866,10 +5866,10 @@
       "text": "Tutti i seguenti sono sintomi e segni caratteristici della sindrome di Cushing tranne?",
       "options": [
         "Perdita di peso",
-        "Perdita di peso (anzi la aumentano)",
-        "Amikacina",
-        "Difenidrammina (anti-istaminico)",
-        "Azitromicina"
+        "Obesità centripeta",
+        "Ipertensione arteriosa",
+        "Strie cutanee rubre",
+        "Iperglicemia"
       ],
       "correct": 0
     },
@@ -5879,9 +5879,9 @@
       "options": [
         "Betametasone",
         "Metilprednisolone",
+        "Desametasone",
         "Idrocortisone",
-        "Fludrocortisone",
-        "Cortisone"
+        "Triamcinolone"
       ],
       "correct": 3
     },
@@ -5889,10 +5889,10 @@
       "id": 12500228,
       "text": "Indicare quale delle seguenti cefalosporine è ben assorbita per via orale?",
       "options": [
-        "l'insulina si può somministrare per os",
-        "Passando dalle cefalosporine di 1° quelle di 3° generazione aumento di ATTIVITÀ ANTIMICROBICA VERSO BATTERI GRAM-",
-        "Β-bloccante non selettivo con attività simpaticomimetica intrinseca (isa)",
-        "Diabete",
+        "Cefazolina",
+        "Ceftriaxone",
+        "Cefotaxime",
+        "Ceftazidima",
         "Cefalexina"
       ],
       "correct": 4
@@ -5902,10 +5902,10 @@
       "text": "Indicare fra i seguenti il meccanismo alla base dell’azione antineoplastica della ciclofosfamide?",
       "options": [
         "Formazione di legami crociati tra le basi del DNA",
-        "Fludrocortisone",
-        "Idrocortisone",
-        "Betametasone",
-        "Metilprednisolone"
+        "Inibizione della diidrofolato reduttasi",
+        "Inibizione della topoisomerasi II",
+        "Stabilizzazione dei microtubuli",
+        "Incorporazione come falso nucleotide nel DNA"
       ],
       "correct": 0
     },
@@ -5913,11 +5913,11 @@
       "id": 12500231,
       "text": "Indicare fra le seguenti associazioni di farmaci quella che non può essere usata nello stesso pz perchè in grado di agire in modo antagonistico?",
       "options": [
-        "Reumatismo articolare acuto",
-        "Il rilascio di ach dalle vescicole sinaptiche",
+        "Penicillina e gentamicina",
+        "Trimetoprim e sulfametossazolo",
         "Cloramfenicolo e clindamicina",
-        "aumento dell'escrezione di sodio",
-        "Iv, im, sc, os"
+        "Amoxicillina e acido clavulanico",
+        "Rifampicina e isoniazide"
       ],
       "correct": 2
     },
@@ -5925,10 +5925,10 @@
       "id": 12500232,
       "text": "Il milrinone è un farmaco?",
       "options": [
-        "Analgesico non stupefacente",
-        "Analgesico stupefacente",
-        "Antinfiammatorio analgesico",
-        "Antiaritmico",
+        "Antiaritmico di classe III",
+        "Calcio-antagonista",
+        "Diuretico dell'ansa",
+        "Vasocostrittore periferico",
         "Inotropo positivo (inibisce fosfodiesterasi iii)"
       ],
       "correct": 4
@@ -5938,10 +5938,10 @@
       "text": "Per efficacia di un farmaco si intende?",
       "options": [
         "L’effetto massimo che esso e’ in grado di produrre",
-        "Gli effetti neurologici che un farmaco dà nel suo primo passaggio nel sistema nervoso centrale",
-        "Il primo effetto che un farmaco determina quando ha raggiunto la sede d'azione",
-        "L'effeto intestinale di un farmaco somministrato per os",
-        "L'estesa eliminazione del farmaco nel suo primo passaggio attraverso il rene"
+        "La dose necessaria per ottenere un dato effetto",
+        "Il rapporto tra dose tossica e dose terapeutica",
+        "La capacità di legarsi al recettore",
+        "La frazione di dose che raggiunge la circolazione sistemica"
       ],
       "correct": 0
     },
@@ -5949,11 +5949,11 @@
       "id": 12500234,
       "text": "Indicare il parametro che condiziona il tempo necessario perchè la concentrazione plasmatica di un farmaco, non somministrato con dose di carico, raggiunga lo stato stazionario?",
       "options": [
-        "60 minuti",
-        "clearance",
+        "Dose somministrata",
+        "Clearance",
         "Volume di distribuzione",
         "Emivita",
-        "biodisponibilità"
+        "Biodisponibilità"
       ],
       "correct": 3
     },
@@ -5961,11 +5961,11 @@
       "id": 12500235,
       "text": "Un farmaco viene detto antagonista recettoriale quando?",
       "options": [
-        "un farmaco dotato di attività farmacologica opposta a quella dei farmaci agonisti",
-        "un farmaco dotato di affinità per un recettore ma privo di attività intrinseca",
-        "Nizatidina",
+        "È dotato di attività farmacologica opposta a quella dell'agonista",
+        "Ha attività intrinseca pari a +1",
+        "Non ha affinità per il recettore ma ha attività intrinseca",
         "Ha un’alta affinita’ per il recettore ma e’ privo di attivita’ intrinseca",
-        "un farmaco privo di affinità per un recettore ma dotato di attività intrinseca"
+        "Produce un effetto massimo inferiore a quello dell'agonista pieno"
       ],
       "correct": 3
     },
@@ -5973,11 +5973,11 @@
       "id": 12500236,
       "text": "Gli antidepressivi triciclici possono determinare a carico del sistema cardiovascolare, specie se somministrati a dosi elevate?",
       "options": [
-        "imipramina",
-        "amitriptilina",
-        "fluoxetina",
-        "IPOTENSIONE (riduzione di PA) E aumento di FC (B+C)",
-        "desipramina"
+        "Ipertensione grave e bradicardia sinusale",
+        "Ipertensione e aumento della frequenza cardiaca",
+        "Ipotensione e bradicardia sinusale",
+        "Ipotensione e aumento della frequenza cardiaca",
+        "Aumento della forza di contrazione con bradicardia"
       ],
       "correct": 3
     },
@@ -5985,11 +5985,11 @@
       "id": 12500237,
       "text": "Tutti i seguenti sono effetti avversi dell’imipramina tranne?",
       "options": [
-        "aumento della motilità uterina",
-        "Perdita di peso (anzi la aumentano)",
-        "reazioni di ipersensibilità",
-        "inibizione dell'aggregazione piastrinica",
-        "intolleranza gastrointestinale"
+        "Secchezza delle fauci",
+        "Perdita di peso",
+        "Stipsi",
+        "Tachicardia",
+        "Ritenzione urinaria"
       ],
       "correct": 1
     },
@@ -5997,11 +5997,11 @@
       "id": 12500239,
       "text": "Tutti i seguenti fattori vanno tenuti in considerazione nella scelta della dose di mantenimento della teofillina tranne?",
       "options": [
-        "la biotrasformazione metabolica",
-        "la distribuzione tissutale",
-        "l'escrezione biliare",
+        "Fumo di sigaretta",
+        "Insufficienza epatica",
+        "Età del paziente",
         "Insufficienza renale",
-        "0,25 mg/die"
+        "Scompenso cardiaco"
       ],
       "correct": 3
     },
@@ -6009,11 +6009,11 @@
       "id": 12500240,
       "text": "Per quanto riguarda l’assorbimento un farmaco idrosolubile, scegli fra le seguenti vie di somministrazione quella che va dalla più veloce alla più lenta?",
       "options": [
-        "Reumatismo articolare acuto",
+        "Os, sc, im, iv",
         "Iv, im, sc, os",
-        "Orale",
-        "E’ tipica di farmaci che vengono eliminati con meccanismi saturabili",
-        "Cloramfenicolo e clindamicina"
+        "Im, iv, sc, os",
+        "Sc, im, iv, os",
+        "Iv, os, im, sc"
       ],
       "correct": 1
     },
@@ -6021,11 +6021,11 @@
       "id": 12500241,
       "text": "L’aspirina è un acido organizzo debole con pKa: 3, quale percentuale di farmaco si troverà in forma ionizzata a livello gastrico quando il pH dello stomaco è 3,5?",
       "options": [
-        "135 %",
-        "45 %",
-        "180 %",
-        "67,5 %",
-        "90%"
+        "24 %",
+        "50 %",
+        "90 %",
+        "95 %",
+        "76 %"
       ],
       "correct": 4
     },
@@ -6033,11 +6033,11 @@
       "id": 12500242,
       "text": "L’idiosincrasia ai farmaci è?",
       "options": [
-        "non dipende mai dal meccanismo di trasduzione",
+        "Una risposta immunologica mediata da IgE",
         "Una risposta abnorme ai farmaci su base genetica",
-        "causa un aumento dell'effetto farmacologico",
-        "può essere espressione di un aumento dell'escrezione del farmaco",
-        "può essere dovuta ad un aumento della densità dei recettori"
+        "Una riduzione della risposta dopo somministrazioni ripetute",
+        "Un effetto collaterale prevedibile legato alla dose",
+        "Una reazione tossica da sovradosaggio"
       ],
       "correct": 1
     },
@@ -6046,10 +6046,10 @@
       "text": "Farmaci antimuscarinici, sebbene utili nella terapia del morbo di Parkinson, andrebbero evitati nei pz con?",
       "options": [
         "Glaucoma, stenosi pilorica, ileo paralitico",
-        "morfina per via orale",
-        "morfina per via sottocutanea",
-        "buprenorfina",
-        "la sequenza FANS - oppioide debole - oppioide forte"
+        "Bradicardia sinusale sintomatica",
+        "Intossicazione da organofosfati",
+        "Spasmi del tratto gastrointestinale",
+        "Sialorrea"
       ],
       "correct": 0
     },
@@ -6058,10 +6058,10 @@
       "text": "Il tempo di recupero dell’anestesia con tiopentale aumenta con l’aumentare della durata dell’anestesia indotta da questo agente. Il fenomeno può essere spiegato in base al fatto che il tempo di recupero dipende da?",
       "options": [
         "Ridistribuzione dal tessuto cerebrale a quello adiposo",
-        "Aumento del pH gastrico",
-        "Pentazocina",
-        "Naloxone",
-        "Buprenorfina"
+        "Metabolismo epatico di primo passaggio",
+        "Eliminazione renale immodificata",
+        "Legame irreversibile ai recettori GABA-A",
+        "Accumulo nel tessuto cerebrale"
       ],
       "correct": 0
     },
@@ -6069,11 +6069,11 @@
       "id": 12500246,
       "text": "I farmaci antipsicotici possono causare tutti i seguenti effetti collaterali tranne?",
       "options": [
-        "verapamil",
+        "Sedazione",
         "Vomito",
-        "alcalosi",
-        "chinidina",
-        "Petidina"
+        "Ipotensione ortostatica",
+        "Iperprolattinemia",
+        "Secchezza delle fauci"
       ],
       "correct": 1
     },
@@ -6081,11 +6081,11 @@
       "id": 12500247,
       "text": "L’uso di alcune classi di farmaci antipsicotici quali fenotiazine e tioxanteni è frequentemente associato a disturbi motori (tremori, rigidità, bradicinesie) dovuti a?",
       "options": [
-        "Betabloccanti",
-        "Vomito",
-        "Antagonismo dei recettori dopaminergici (tipo d2 - corticali)",
-        "ACE inibitori",
-        "Clozapina"
+        "Antagonismo dei recettori muscarinici",
+        "Antagonismo dei recettori istaminici H1",
+        "Antagonismo dei recettori dopaminergici D2 (via nigrostriatale)",
+        "Blocco dei recettori alfa-1 adrenergici",
+        "Antagonismo dei recettori serotoninergici 5-HT2"
       ],
       "correct": 2
     },
@@ -6105,11 +6105,11 @@
       "id": 12500249,
       "text": "Quali sono le caratteristiche che rendono un antipsicotico “non convenzionale”?",
       "options": [
-        "sono senza obbligo di prescrizione",
-        "sono utili per molteplici patologie in quanto non specifici",
-        "β-bloccante selettivo con attività simpaticomimetica intrinseca",
-        "sono bioequivalenti rispetto alla specialità di riferimento",
-        "Tutte quelle riportate (ridotta capacita’ di indurre sindromi extrap.- iperprolattinemia - potenziale massima efficacia su disturbi negativi)"
+        "Ridotta capacità di indurre sindromi extrapiramidali",
+        "Minore iperprolattinemia",
+        "Maggiore efficacia sui sintomi negativi",
+        "Antagonismo combinato dei recettori D2 e 5-HT2",
+        "Tutte quelle riportate"
       ],
       "correct": 4
     },
@@ -6117,11 +6117,11 @@
       "id": 12500250,
       "text": "Quali delle seguenti definizioni corrisponde meglio al termine “pro-farmaco”?",
       "options": [
-        "Ipertensione arteriosa",
-        "Nessuna delle precedenti",
-        "Passa difficilmente la bee",
-        "Quantità di farmaco che raggiunge la circolazione sistemica senza subire modificazioni chimiche",
-        "Un farmaco CHE DEVE ESSERE TRASFORMATO METABOLICAMENTE PRIMA DI POTER SVOLGERE LA SUA AZIONE"
+        "Un farmaco che non supera la barriera ematoencefalica",
+        "Un farmaco che viene eliminato immodificato dal rene",
+        "Un farmaco che attiva la sintesi di enzimi epatici",
+        "Quantità di farmaco che raggiunge la circolazione sistemica senza subire modificazioni",
+        "Un farmaco che deve essere trasformato metabolicamente prima di poter svolgere la sua azione"
       ],
       "correct": 4
     },
@@ -6129,10 +6129,10 @@
       "id": 12500251,
       "text": "Il principale meccanismo d’azione del cromoglicato di sodio?",
       "options": [
-        "Bloccano la ricaptazione di serotonina e noradrenalina",
-        "Bloccano il riassorbimento del GABA",
-        "Potenziano la trasmissione colinergica",
-        "Stimolano la sintesi della serotonina",
+        "Antagonismo dei recettori H1 dell'istamina",
+        "Antagonismo dei recettori dei leucotrieni",
+        "Stimolazione dei recettori beta-2 bronchiali",
+        "Blocco dei recettori muscarinici bronchiali",
         "Inibizione della degranulazione delle mast-cellule"
       ],
       "correct": 4
@@ -6142,22 +6142,22 @@
       "text": "Quale dei seg. è un effetto collaterale dei farmaci beta-2-antagonisti?",
       "options": [
         "Ipertensione arteriosa",
-        "Disturbi della minzione da iperplasia prostatica maligna",
+        "Tremori muscolari",
         "Broncospasmo",
-        "possono risultare bradicardizzanti, per stimolazione vagale",
-        "non manifestano effetti cardiaci"
+        "Broncodilatazione",
+        "Aumento della frequenza cardiaca"
       ],
       "correct": 2
     },
     {
       "id": 12500254,
-      "text": "Da cosa dipende la tossicità epatica da acetaminofene secondo il documento?",
+      "text": "Da cosa dipende la tossicità epatica del paracetamolo (acetaminofene)?",
       "options": [
-        "Naloxone",
-        "È aumentata dai farmaci che inducono il citocromo P450 ed è mediata da un metabolita tossico (benzochinone)",
-        "Pentazocina",
-        "Buprenorfina",
-        "Aumento del tempo di emorragia"
+        "È dovuta all'inibizione della ciclossigenasi epatica",
+        "È aumentata dai farmaci che inducono il citocromo P450 ed è mediata da un metabolita tossico (NAPQI)",
+        "È mediata dal paracetamolo immodificato e si riduce con gli induttori enzimatici",
+        "È antagonizzata dalla somministrazione di naloxone",
+        "È dovuta a una reazione di ipersensibilità immunomediata"
       ],
       "correct": 1
     },
@@ -6165,11 +6165,11 @@
       "id": 12500256,
       "text": "Tra i seguenti FANSè relativamente selettivo per COX-2?",
       "options": [
-        "Rischio di insufficienza renale acuta",
-        "Efficacia anti-infiammatoria",
+        "Indometacina",
+        "Ibuprofene",
         "Meloxicam",
-        "Rischio di reazioni idiosincrasiche",
-        "Rischio di nefropatia da analgesici"
+        "Naprossene",
+        "Piroxicam"
       ],
       "correct": 2
     },
@@ -6177,11 +6177,11 @@
       "id": 12500257,
       "text": "Dosi equipotenti di glucocorticoidi?",
       "options": [
-        "recettori intracellulari",
-        "tirosin chinasi",
-        "canali ionici",
+        "Prednisone 10 mg = desametasone 10 mg",
+        "Prednisone 10 mg = idrocortisone 10 mg",
+        "Prednisone 10 mg = betametasone 5 mg",
         "Prednisone 10mg = idrocortisone 40mg",
-        "proteine G"
+        "Prednisone 10 mg = metilprednisolone 20 mg"
       ],
       "correct": 3
     },
@@ -6189,11 +6189,11 @@
       "id": 12500258,
       "text": "Indicare quale dei seguenti farmaci può essere usato per inibire la contrazione dell’utero in una donna alla 20à settimana di gravidanza?",
       "options": [
-        "vitamina D",
-        "prednisolone",
+        "Ossitocina",
+        "Metilergometrina",
         "Ritodrina (simpatico-mimetico)",
-        "propranololo",
-        "tamoxifene"
+        "Misoprostolo",
+        "Dinoprostone"
       ],
       "correct": 2
     },
@@ -6201,11 +6201,11 @@
       "id": 12500260,
       "text": "Quale delle seguenti affermazioni sul destrometorfano è esatta?",
       "options": [
-        "le sulfaniluree riducono la secrezione di insulina",
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "I Ca++ antagonisti POSSONO RIDURRE LA CONTRATTILITA’ DEL MIOCARDIO",
+        "È un antitussivo oppioide con forte potere analgesico",
+        "Provoca depressione respiratoria più marcata della codeina",
+        "Ha un elevato potenziale di dipendenza fisica",
         "E’ un antitussivo non oppioide - rispetto alla codeina da una stipsi piu’ lieve",
-        "la tolbutamide è inefficace nei pazienti con diabete di tipo II"
+        "È un antagonista dei recettori oppioidi"
       ],
       "correct": 3
     },
@@ -6214,10 +6214,10 @@
       "text": "Farmaco controindicato in presenza di iperkaliemia?",
       "options": [
         "Spironolattone",
-        "cotrimossazolo",
-        "eritromicina",
-        "tetracicline",
-        "cefalosporine"
+        "Furosemide",
+        "Idroclorotiazide",
+        "Salbutamolo",
+        "Insulina"
       ],
       "correct": 0
     },
@@ -6225,10 +6225,10 @@
       "id": 12500262,
       "text": "La nitroglicerina come farmaco anti-anginoso è somministrato preferenzialmente per via sub- linguale piuttosto che orale perchè?",
       "options": [
-        "dilata prevalentemente le vene",
-        "dilata prevalentemente le arteriole",
-        "Nitrito di amile",
-        "non deve essere associata ad un beta-bloccante",
+        "Ha un effetto vasodilatatore troppo debole per via orale",
+        "Si lega in modo irreversibile alle proteine plasmatiche",
+        "Non viene assorbita a livello gastrico",
+        "Provoca meno tolleranza se assunta per via sublinguale",
         "E’ metabolizzata rapidamente a livello epatico"
       ],
       "correct": 4
@@ -6237,11 +6237,11 @@
       "id": 12500263,
       "text": "L’infusione di basse dosi di dopamina causa diminuzione delle resistenze periferiche preferenzialmente nel distretto vascolare?",
       "options": [
-        "Anestesia generale",
-        "cristalloidi",
+        "Cutaneo",
+        "Polmonare",
         "Renale",
-        "albumina",
-        "mannitolo"
+        "Cerebrale",
+        "Muscolare scheletrico"
       ],
       "correct": 2
     },
@@ -6249,11 +6249,11 @@
       "id": 12500264,
       "text": "Tutti i seguenti sono farmaci istamina-liberatori tranne?",
       "options": [
-        "Difenidrammina (anti-istaminico)",
-        "ACE-inibitori",
-        "Diuretici dell'ansa",
-        "Cimetidina",
-        "Diuretici risparmiatori di potassio"
+        "Difenidramina",
+        "Morfina",
+        "Tubocurarina",
+        "Vancomicina (infusione rapida)",
+        "Mezzi di contrasto iodati"
       ],
       "correct": 0
     },
@@ -6261,11 +6261,11 @@
       "id": 12500267,
       "text": "Tutte le seguenti sono indicazioni terapeutiche delle benzodiazepine tranne?",
       "options": [
-        "attacchi di panico",
-        "vertigine",
+        "Attacchi di panico",
+        "Insonnia",
         "Parkinsonismo",
-        "convulsioni",
-        "depressione"
+        "Convulsioni",
+        "Astinenza alcolica"
       ],
       "correct": 2
     },
@@ -6273,10 +6273,10 @@
       "id": 12500268,
       "text": "Le seguenti affermazioni sui Ca++-antagonisti sono vere tranne?",
       "options": [
-        "ha effetto sulla velocità di conduzione dello stimolo",
-        "la sua tossicità è aumentata dall'ipopotassiemia",
-        "A dosi terapeutiche rilasciano preferenzialmente la muscolatura liscia dei vasi venosi",
-        "sono efficaci solo se somministrati per via parenterale",
+        "Il verapamil rallenta la conduzione atrioventricolare",
+        "La nifedipina provoca vasodilatazione arteriolare con tachicardia riflessa",
+        "A dosi terapeutiche rilasciano preferenzialmente la muscolatura liscia dei vasi arteriosi",
+        "Possono ridurre la contrattilità del miocardio",
         "Riducono la concentrazione di ca++ sierico"
       ],
       "correct": 4
@@ -6285,11 +6285,11 @@
       "id": 12500269,
       "text": "Effetti indesiderati dell’insulina sono tutti tranne?",
       "options": [
-        "fotofobia",
-        "Ipotensione (invece ci sono tachicardia, ansia, orticaria, sudorazione)",
-        "paralisi spastica",
-        "disturbi extrapiramidali",
-        "Perdita di k+"
+        "Ipoglicemia",
+        "Ipotensione",
+        "Lipodistrofia al sito di iniezione",
+        "Aumento di peso",
+        "Ipokaliemia"
       ],
       "correct": 1
     },
@@ -6309,11 +6309,11 @@
       "id": 12500271,
       "text": "Il trastuzumab: individuare l’affermazione sbagliata?",
       "options": [
-        "E’ neurotossico (e’ usato per tumore mammella; e’ cardiotossico, e’ un ab anti her-2neu, e’ radiosensibilizzante)",
-        "Ha indicazioni non oncologiche; predispone ad infezioni; e’ indicato nel trattamento del linfoma non hodgkin; puo’ dare ipertensione entro le 24h di infusione)",
-        "(è un profarmaco) DEVE ESSERE TRASFORMATO METABOLICAMENTE IN UN COMPOSTO ATTIVO",
-        "E’ molto attiva nei confronti dei microrganismi gram-",
-        "E’ ANCHE DETTA FK-506 (QUELLO è IL TACROLIMUS)"
+        "È neurotossico",
+        "È un anticorpo monoclonale anti-HER2/neu",
+        "È indicato nel carcinoma mammario HER2-positivo",
+        "Può causare cardiotossicità",
+        "Si somministra per infusione endovenosa"
       ],
       "correct": 0
     },
@@ -6322,9 +6322,9 @@
       "text": "La daunorubicina dà luogo ad un effetto avverso peculiare quale?",
       "options": [
         "Cistite emorragica",
-        "Tromboflebite",
-        "Etambutolo",
-        "Ipokaliemia",
+        "Neurotossicità periferica dose-limitante",
+        "Fibrosi polmonare",
+        "Nefrotossicità tubulare",
         "Cardiotossicita’"
       ],
       "correct": 4
@@ -6345,11 +6345,11 @@
       "id": 12500275,
       "text": "Tutte le seguenti sono caratteristiche della via di somministrazione orale, tranne?",
       "options": [
-        "Possono essere somministrate solo formulazioni acquose o oleose",
-        "Amikacina",
+        "Soggetta al metabolismo di primo passaggio epatico",
+        "Assorbimento influenzato dalla presenza di cibo",
         "E’ utilizzabile per terapie di emergenza",
-        "presenta un basso rischio di effetti indesiderati",
-        "permette un accurato controllo della posologia"
+        "Via più comoda e sicura per l'autosomministrazione",
+        "Biodisponibilità variabile da farmaco a farmaco"
       ],
       "correct": 2
     },
@@ -6357,11 +6357,11 @@
       "id": 12500276,
       "text": "La ciclofosfamide dà luogo ad un effetto avverso peculiare?",
       "options": [
-        "Cardiotossicita’",
+        "Ototossicità",
         "Cistite emorragica",
-        "Etambutolo",
-        "Tromboflebite",
-        "Ipokaliemia"
+        "Fibrosi polmonare",
+        "Neuropatia periferica",
+        "Nefrotossicità tubulare"
       ],
       "correct": 1
     },
@@ -6369,11 +6369,11 @@
       "id": 12500277,
       "text": "Quale dei seguenti antiepilettici è molto probabile che innalzi la concentrazione plasmatica di altri farmaci somministrati contemporaneamente?",
       "options": [
-        "Fenitoina (idantoina)",
+        "Fenitoina",
         "Acido valproico",
-        "la distribuzione tissutale",
-        "la biotrasformazione metabolica",
-        "l'escrezione biliare"
+        "Carbamazepina",
+        "Fenobarbitale",
+        "Primidone"
       ],
       "correct": 1
     },
@@ -6381,7 +6381,7 @@
       "id": 12500278,
       "text": "Indicare quali dei seguenti farmaci riduce la nausea e il vomito aumentando il tono dello sfintere esofageo inferiore e facilitando lo svuotamento gastrico?",
       "options": [
-        "Betanecolo; domperidone; levosulpiride; metoclopramide",
+        "Domperidone, levosulpiride, metoclopramide",
         "Omeprazolo",
         "Idrossido di magnesio",
         "Cimetidina",
@@ -6393,11 +6393,11 @@
       "id": 12500279,
       "text": "Quale delle seguenti affermazioni inerenti ai opposti meccanismi d’azione dei farmaci antiepilettici è falsa?",
       "options": [
-        "Sono tutte eliminate immodificate per via renale",
-        "Alterazione della sintesi di fattori della coagulazione vii, ix e x",
-        "Etosuccimide blocca i canali k+",
-        "I fluorochinoloni inibiscono la DNA-girasi batterica",
-        "L’etosuccinide blocca selettivamente i canali ionici del k+ nei neuroni talamici (blocca i canali del ca++ tipo t)"
+        "Fenitoina blocca i canali del Na+ voltaggio-dipendenti",
+        "Carbamazepina blocca i canali del Na+ voltaggio-dipendenti",
+        "Le benzodiazepine potenziano l'azione del GABA sui recettori GABA-A",
+        "Il valproato aumenta la disponibilità di GABA e blocca i canali del Na+",
+        "L'etosuccimide blocca selettivamente i canali del K+ nei neuroni talamici"
       ],
       "correct": 4
     },
@@ -6405,11 +6405,11 @@
       "id": 12500280,
       "text": "Indicare quale tra i seguenti farmaci antitubercolari ha come effetto avverso la comparsa di disturbi visivi?",
       "options": [
-        "Adrenalina",
-        "Kanamicina",
-        "Aloperidolo",
+        "Isoniazide",
+        "Rifampicina",
+        "Pirazinamide",
         "Etambutolo",
-        "Pentazocina"
+        "Streptomicina"
       ],
       "correct": 3
     },
@@ -6417,10 +6417,10 @@
       "id": 12500281,
       "text": "Indicare quali delle seguenti affermazioni riguardanti la farmacocinetica dell’amfotericina B è corretta?",
       "options": [
-        "l'insulina si può somministrare per os",
-        "le biguanidi possono indurre acidosi lattica",
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "le sulfaniluree riducono la secrezione di insulina",
+        "È ben assorbita per via orale",
+        "Viene eliminata prevalentemente per metabolismo epatico",
+        "Raggiunge alte concentrazioni nel liquor",
+        "Ha un'emivita breve di circa 2 ore",
         "Passa difficilmente la bee"
       ],
       "correct": 4
@@ -6429,23 +6429,23 @@
       "id": 12500283,
       "text": "Affermazione errata riguardo la vancomicina?",
       "options": [
-        "Il suo uso va limitato al solo scopo di prevenire l’insorgenza di resistenze",
+        "È attiva sugli stafilococchi meticillino-resistenti",
         "E’ molto attiva nei confronti dei microrganismi gram-",
-        "La loro azione anti-ipertensiva è’ più pronunciata sui soggetti normali che su quelli ipertesi",
-        "In genere non influenza il calcolo della dose da somministrare per os",
-        "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni"
+        "Per via orale non viene assorbita ed è utile nella colite da Clostridium difficile",
+        "Può causare la sindrome dell'uomo rosso se infusa rapidamente",
+        "Agisce inibendo la sintesi della parete cellulare"
       ],
       "correct": 1
     },
     {
       "id": 12500284,
-      "text": "Indicare tra i seguenti farmaci l’inibitore reversibile e selettivo delle MAO con breve emivita (<12h): MOCLOBEMIDE (NON SELETTIVI?",
+      "text": "Indicare tra i seguenti farmaci l'inibitore reversibile e selettivo delle MAO-A con breve emivita (<12 h):",
       "options": [
-        "Ketoconazolo (itraconazolo)",
-        "Iproniazide; isocarbossazide)",
-        "Difenidramina",
-        "Selegilina",
-        "Succinilcolina"
+        "Iproniazide",
+        "Moclobemide",
+        "Isocarbossazide",
+        "Fenelzina",
+        "Selegilina"
       ],
       "correct": 1
     },
@@ -6453,11 +6453,11 @@
       "id": 12500285,
       "text": "Tutti i seguenti farmaci sono utili nelle infezioni da candida albicans tranne?",
       "options": [
-        "Rifampicina",
-        "Griseofulvina (solo topico)",
-        "Etambutolo",
-        "Rifabutina",
-        "Azitromicina"
+        "Fluconazolo",
+        "Griseofulvina",
+        "Nistatina",
+        "Anfotericina B",
+        "Ketoconazolo"
       ],
       "correct": 1
     },
@@ -6465,11 +6465,11 @@
       "id": 12500287,
       "text": "Quale affermazione è indicata come falsa riguardo ai fluorochinoloni?",
       "options": [
-        "E’ molto attiva nei confronti dei microrganismi gram-",
-        "Rilassamento della muscolatura liscia bronchiale",
+        "Inibiscono la DNA girasi batterica",
+        "Sono attivi sui microrganismi Gram-negativi",
         "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni",
-        "Il prednisolone ha potenza anti——— maggiore del cortisolo e potenza mineral-corticoide minore",
-        "A variazioni della DNA girasi"
+        "Possono causare tendinopatia",
+        "Sono ben assorbiti per via orale"
       ],
       "correct": 2
     },
@@ -6477,11 +6477,11 @@
       "id": 12500289,
       "text": "La resistenza dei gonococchi ai fluorochinoloni può essere dovuta?",
       "options": [
-        "Inibiscono il rilassamento del DNA a superelica positiva",
-        "Mutazione del bersaglio (DNA-girasi e topoisomerasi) (2) + alterazioni permeabilita’ - piu’ raramente degradazione enzimatica",
+        "Alla produzione di beta-lattamasi",
+        "All'alterazione della sintesi di acido folico",
         "A variazioni della DNA girasi",
-        "Antipertensivo",
-        "Che un fluorochinolone sia il farmaco d’elezione per un’infezione urinaria non complicata in una bambina di 10 anni"
+        "Alla metilazione dell'rRNA 23S",
+        "Alla mutazione della RNA polimerasi"
       ],
       "correct": 2
     },
@@ -6489,10 +6489,10 @@
       "id": 12500290,
       "text": "Quale meccanismo d’azione dei fluorochinoloni è riportato nel documento?",
       "options": [
-        "Bloccano il riassorbimento del GABA",
-        "Bloccano la ricaptazione di serotonina e noradrenalina",
-        "Potenziano la trasmissione colinergica",
-        "Stimolano la sintesi della serotonina",
+        "Inibiscono la sintesi della parete batterica",
+        "Inibiscono la sintesi proteica a livello ribosomiale",
+        "Inibiscono la sintesi dell'acido folico",
+        "Inibiscono la RNA polimerasi DNA-dipendente",
         "Inibiscono il rilassamento del DNA a superelica positiva"
       ],
       "correct": 4
@@ -6501,10 +6501,10 @@
       "id": 12500291,
       "text": "Se la clearance della cratinina di un pz è inferiore a 50 ml/min?",
       "options": [
-        "0,125 mg al giorno",
-        "Emivita di eliminazine",
-        "è direttamente proporzionale alla dose somministrata",
-        "non varia in funzione della via di somministrazione utilizzata",
+        "Non occorre modificare il dosaggio dei fluorochinoloni",
+        "I fluorochinoloni sono controindicati in tutti i casi",
+        "Occorre aumentare il dosaggio dei fluorochinoloni",
+        "Il dosaggio va modificato solo per i macrolidi",
         "Si richiede una modifica del dosaggio dei fluorochinoloni"
       ],
       "correct": 4
@@ -6513,23 +6513,23 @@
       "id": 12500292,
       "text": "Indicazione terapeutica dell’ormone della crescita?",
       "options": [
-        "Ipomagnesemia",
-        "Intossicazione da piombo",
-        "Infarto miocardio - tromboflebiti - embolia polmonare",
-        "Anti-iperlipidemici",
+        "Gigantismo ipofisario",
+        "Acromegalia",
+        "Obesità infantile",
+        "Pubertà precoce",
         "Bambini con carenza di gh"
       ],
       "correct": 4
     },
     {
       "id": 12500294,
-      "text": "Il blocco di canali cattolici voltaggio dipendenti è alla base del meccanismo di azione di tutti i seguenti tranne?",
+      "text": "Il blocco dei canali ionici voltaggio-dipendenti è alla base del meccanismo d'azione di tutti i seguenti tranne:",
       "options": [
-        "istamina",
+        "Lidocaina",
         "Curaro",
-        "dopamina",
-        "adrenalina",
-        "Gaba"
+        "Fenitoina",
+        "Verapamil",
+        "Carbamazepina"
       ],
       "correct": 1
     },
@@ -6537,11 +6537,11 @@
       "id": 12500295,
       "text": "La finasteride (rallenta la caduta dei capelli come Minoxidil) ha un’efficacia nella prevenzione dell’alopecia androgenetica in virtù della sua capacità di?",
       "options": [
-        "Riduzione della pressione arteriosa",
-        "Miglioramento della perfusione cardiaca",
-        "Aumento della contrattilità miocardica",
-        "Riduzione dell'incidenza di infarti",
-        "Ridurre la produzione di diidro-testosterone (inibisce la 5-α-reduttasi)"
+        "Aumentare la vasodilatazione del cuoio capelluto",
+        "Bloccare i recettori degli androgeni a livello del follicolo",
+        "Aumentare la produzione di estrogeni",
+        "Inibire la secrezione di testosterone da parte del testicolo",
+        "Ridurre la produzione di diidrotestosterone (inibisce la 5-α-reduttasi)"
       ],
       "correct": 4
     },
@@ -6549,10 +6549,10 @@
       "id": 12500296,
       "text": "La principale causa di gastrolesività degli antinfiammatori non steroidei è rappresentata da?",
       "options": [
-        "reazioni di ipersensibilità",
-        "aumento della motilità uterina",
-        "intolleranza gastrointestinale",
-        "inibizione dell'aggregazione piastrinica",
+        "Effetto irritante diretto per l'acidità del farmaco",
+        "Stimolazione diretta della secrezione di gastrina",
+        "Aumento della secrezione di istamina dalle cellule enterocromaffino-simili",
+        "Riduzione del flusso ematico mesenterico per vasocostrizione α-adrenergica",
         "Blocco della sintesi di prostaglandine ad azione citoprotettiva a livello gastrico"
       ],
       "correct": 4
@@ -6571,13 +6571,13 @@
     },
     {
       "id": 12500298,
-      "text": "Quale delle seguenti affermazioni che riguardano la fexofenadina è corretta?",
+      "text": "Quale delle seguenti affermazioni riguardanti la fexofenadina è corretta?",
       "options": [
-        "la glipizide fa aumentare la secrezione del glucagone",
-        "le biguanidi possono indurre acidosi lattica",
-        "l'insulina si può somministrare per os",
-        "le sulfaniluree riducono la secrezione di insulina",
-        "Tutte le indicazioni, tranne una, sono corrette"
+        "È un antagonista dei recettori H2 dell'istamina",
+        "Attraversa facilmente la barriera ematoencefalica causando sedazione marcata",
+        "È un anticolinergico ad azione antiemetica",
+        "È un inibitore della sintesi dei leucotrieni",
+        "È un antistaminico H1 di seconda generazione con scarsa sedazione"
       ],
       "correct": 4
     },
@@ -6585,23 +6585,23 @@
       "id": 12500299,
       "text": "Quale dei seguenti principi attivi è un antagonista recettoriale dei recettori H2?",
       "options": [
-        "un farmaco dotato di attività farmacologica opposta a quella dei farmaci agonisti",
-        "un farmaco con attività intrinseca pari a -1",
-        "Sotalolo",
-        "Selegilina",
+        "Terfenadina",
+        "Fexofenadina",
+        "Difenidramina",
+        "Omeprazolo",
         "Nizatidina"
       ],
       "correct": 4
     },
     {
       "id": 12500300,
-      "text": "Un farmaco basico nella sua forma prorogata ha un pKA = 7. Quando esso entra in una cellula dove il valore del pH inferiore di una unità rispetto a quello del fluido extracellulare, la concentrazione della forma ionizzata?",
+      "text": "Un farmaco basico nella sua forma protonata ha un pKa = 7. Quando esso entra in una cellula dove il valore del pH è inferiore di una unità rispetto a quello del fluido extracellulare, la concentrazione della forma ionizzata?",
       "options": [
-        "pH = 9",
-        "NON SI PUO’ CALCOLARE IN QUANTO MANCANO I VALORI NUMERICI DEL pH NEI DUE DISTRETTI",
-        "la ridotta biodisponibilità orale",
-        "Volume di distribuzione",
-        "Non cambia rispetto a quella presente nel fluido extracellulare"
+        "Diminuisce di 10 volte",
+        "Aumenta di 10 volte rispetto al fluido extracellulare",
+        "Non cambia rispetto al fluido extracellulare",
+        "Aumenta di 100 volte",
+        "Non si può calcolare perché mancano i valori numerici del pH nei due distretti"
       ],
       "correct": 1
     },
@@ -6609,11 +6609,11 @@
       "id": 12500301,
       "text": "I farmaci possono essere sommisnirtati attraverso molteplici vie. Quale, di quelle sotto indicate, presenta i maggiori rischi nel caso in cui siano state somministrate dosi eccedenti?",
       "options": [
-        "Corticosteroidi",
-        "Petidina",
-        "chinidina",
+        "Orale",
+        "Rettale",
+        "Sottocutanea",
         "Endovena",
-        "verapamil"
+        "Intramuscolare"
       ],
       "correct": 3
     },
@@ -6633,11 +6633,11 @@
       "id": 12500303,
       "text": "Se la biotrasformazione di un farmaco viene inibita, quale dei parametri farmacocinetici elencati viene prevalentemente modificato?",
       "options": [
-        "è proporzionale all'efficacia",
-        "è direttamente proporzionale alla dose somministrata",
-        "non varia in funzione della via di somministrazione utilizzata",
+        "Volume di distribuzione",
+        "Biodisponibilità per via endovenosa",
+        "Legame alle proteine plasmatiche",
         "Emivita di eliminazine",
-        "è minore per farmaci poco potenti"
+        "Costante di assorbimento"
       ],
       "correct": 3
     },
@@ -6645,11 +6645,11 @@
       "id": 12500304,
       "text": "Trattamento del sovradosaggio da eparina?",
       "options": [
-        "Agisce bloccando la sintesi di trombossano A2",
-        "Blocca la rigenerazione epatica di vitamina K",
+        "Somministrazione di vitamina K per via endovenosa",
+        "Somministrazione di acido tranexamico",
         "Somministraz. di solfato di protamina",
-        "Agisce legandosi all'antitrombina III",
-        "Possiede attività trombolitica"
+        "Somministrazione di fibrinogeno",
+        "Somministrazione di desmopressina"
       ],
       "correct": 2
     },
@@ -6657,11 +6657,11 @@
       "id": 12500307,
       "text": "Tutti i seguenti farmaci sono inibitori della sintesi proteica TRANNE?",
       "options": [
-        "Azitromicina / spectinomicina",
-        "Rifabutina",
-        "Etambutolo",
         "Rifampicina",
-        "Azitromicina"
+        "Azitromicina",
+        "Gentamicina",
+        "Doxiciclina",
+        "Cloramfenicolo"
       ],
       "correct": 0
     },
@@ -6670,10 +6670,10 @@
       "text": "La tossicità dei salicilati è associata a?",
       "options": [
         "Aumento del tempo di emorragia",
-        "Sodio nitroprussiato",
-        "Disturbi della coagulazione",
-        "Malattie ulcerative gastriche",
-        "Diminuita funzionalità uditiva"
+        "Bradipnea con ipotermia",
+        "Miosi puntiforme",
+        "Ipercalcemia",
+        "Bradicardia grave"
       ],
       "correct": 0
     },
@@ -6693,11 +6693,11 @@
       "id": 12500310,
       "text": "Indicare tra i seguenti farmaci quello significativamente efficace nelle cinetosi?",
       "options": [
-        "Succinilcolina",
-        "Kanamicina",
+        "Ranitidina",
+        "Ondansetrone",
         "Difenidramina",
-        "Pentazocina",
-        "Aloperidolo"
+        "Metoclopramide",
+        "Domperidone"
       ],
       "correct": 2
     },
@@ -6705,11 +6705,11 @@
       "id": 12500311,
       "text": "Indicare quale die seguenti meccanismi d’azione die chemioterapici è corretto?",
       "options": [
-        "Sulfamidici inibiscono la folico-reduttasi batterica",
-        "Alterazione della sintesi di fattori della coagulazione vii, ix e x",
-        "I fluorochinoloni inibiscono la DNA-girasi batterica",
-        "Aumenta l'uptake del glucosio da parte dei tessuti",
-        "Aumenta il rilascio di insulina dal pancreas"
+        "I sulfamidici inibiscono la sintesi batterica dell'acido folico",
+        "Le tetracicline inibiscono la sintesi della parete batterica",
+        "I fluorochinoloni inibiscono la sintesi proteica ribosomiale",
+        "I macrolidi inibiscono la DNA girasi",
+        "Gli aminoglicosidi inibiscono la RNA polimerasi"
       ],
       "correct": 0
     },
@@ -6718,10 +6718,10 @@
       "text": "Il farmaco X è un acido con pKa=8 . Indicare tre seguenti valori il pH urinario quello a cui corrisponde una maggiore eliminazione urinaria del farmaco?",
       "options": [
         "pH = 9",
-        "Non cambia rispetto a quella presente nel fluido extracellulare",
-        "0,04 l/kg",
-        "Antiaritmico",
-        "5 microgrammi/ml"
+        "pH = 5",
+        "pH = 6",
+        "pH = 7",
+        "pH = 8"
       ],
       "correct": 0
     },
@@ -6729,11 +6729,11 @@
       "id": 12500314,
       "text": "Il passaggio di un farmaco attraverso la membrana cellulare è influenzato da tutti i seguenti fattori, tranne?",
       "options": [
-        "l'escrezione biliare",
+        "Liposolubilità del farmaco",
         "Il meccanismo d’azione",
-        "la distribuzione tissutale",
-        "la biotrasformazione metabolica",
-        "la ridotta biodisponibilità orale"
+        "Grado di ionizzazione del farmaco",
+        "Peso molecolare",
+        "Gradiente di concentrazione"
       ],
       "correct": 1
     },
@@ -6741,11 +6741,11 @@
       "id": 12500315,
       "text": "Indicare quale trai seguenti valori del volume di distribuzione è compatibile con un farmaco che si distribuisce unicamente nel compartimento vascolare (Considerare un paziente di 70 kg)?",
       "options": [
-        "è proporzionale all'efficacia",
+        "0,6 L/kg",
         "0,04 l/kg",
-        "Superiore al volume dell’h2o corporea",
-        "pH = 9",
-        "5 microgrammi/ml"
+        "0,2 L/kg",
+        "1 L/kg",
+        "10 L/kg"
       ],
       "correct": 1
     },
@@ -6753,11 +6753,11 @@
       "id": 12500316,
       "text": "In seguito a sovradosaggio di fenobarbitale (Acido debole), l’escrezione renale del farmaco può essere aumentata somministrando?",
       "options": [
-        "Aumento del pH gastrico",
+        "Cloruro di ammonio per via i.m.",
         "Sodio bicarbonato per via endovenosa, prima possibile",
-        "Aumento della degradazione metabolica del farmaco",
-        "Cloruro di ammonio per via i.m. prima possibile",
-        "Enalapril"
+        "Acido ascorbico ad alte dosi",
+        "Atropina per via endovenosa",
+        "Naloxone per via endovenosa"
       ],
       "correct": 1
     },
@@ -6765,11 +6765,11 @@
       "id": 12500317,
       "text": "L’assorbimento gastrico di una base debole(ad esempio, morfina) può essere aumentata da?",
       "options": [
-        "Sodio bicarbonato per via endovenosa, prima possibile",
-        "Cloruro di ammonio per via i.m. prima possibile",
-        "Pentazocina",
+        "Sodio bicarbonato per via endovenosa",
+        "Cloruro di ammonio per via intramuscolare",
+        "Riduzione del pH gastrico",
         "Aumento del pH gastrico",
-        "Buprenorfina"
+        "Acidificazione delle urine"
       ],
       "correct": 3
     },
@@ -6777,11 +6777,11 @@
       "id": 12500318,
       "text": "Indicare la concentrazione plasmatica allo stato stazionario che si ottiene con una infusione continua di lidocaina iV alla dose di 1,92 mg/min , Tenendo conto che vd= 77L, clearance= 640 ml/min ed emivita 1,8 ore?",
       "options": [
-        "3,2 giorni",
-        "3 mg/l",
-        "12 mg/ora",
-        "1,2 mg/ora",
-        "93,75%"
+        "0,3 mg/L",
+        "3 mg/L",
+        "1,2 mg/L",
+        "6 mg/L",
+        "30 mg/L"
       ],
       "correct": 1
     },
@@ -6789,11 +6789,11 @@
       "id": 12500319,
       "text": "Tutte le affermazioni riguardo la biodisponibilità orale sono corrette tranne?",
       "options": [
-        "Possono essere somministrate solo formulazioni acquose o oleose",
-        "il verapamil può convertire la fibrillazione atriale in flutter",
+        "È la frazione di dose che raggiunge la circolazione sistemica",
+        "È ridotta dal metabolismo di primo passaggio",
         "In genere non influenza il calcolo della dose da somministrare per os",
-        "la procainamide è un antiaritmico di classe I",
-        "la disopiramide non va somministrata in caso di insufficienza cardiaca congestizia"
+        "Può essere influenzata dalla formulazione farmaceutica",
+        "Per via endovenosa è per definizione pari al 100%"
       ],
       "correct": 2
     },
@@ -6801,11 +6801,11 @@
       "id": 12500320,
       "text": "Nonostante abbiate seguito attentamente i principi fondamentali della farmacocinetica, il vostro paziente in terapia con digossina ha sviluppato tossicità digitalica . Il livello plasmatico di digossina è di 4 ng su millilitro. Tenendo conto che: l’eliminazione del farmaco segue una cinetica di prim’ordine; la sua emivita di 1,6 giorni; La funzionalità renale del paziente normale; indicare per quanto tempo dovresti sospendere la somministrazione del farmaco al fine di abbassare la concentrazione plasmatica a livello di 1 ng/ml?",
       "options": [
-        "3,2 gg",
+        "1,6 giorni",
         "3,2 giorni",
         "4,8 giorni",
-        "1,6 giorni",
-        "3 mg/l"
+        "6,4 giorni",
+        "0,8 giorni"
       ],
       "correct": 1
     },
@@ -6813,11 +6813,11 @@
       "id": 12500324,
       "text": "Indicare tra le seguenti situazioni patologiche quella che non costituisce indicazione clinica per l’uso della vitamina D?",
       "options": [
-        "Ipomagnesemia",
+        "Rachitismo",
         "Reumatismo articolare acuto",
-        "Nausea e vomito da chemioterapia",
-        "Glaucoma",
-        "Malattia di Parkinson"
+        "Osteomalacia",
+        "Ipoparatiroidismo",
+        "Osteoporosi"
       ],
       "correct": 1
     },
@@ -6827,9 +6827,9 @@
       "options": [
         "Asma bronchiale",
         "Ipertensione arteriosa",
-        "Disturbi della minzione da iperplasia prostatica maligna",
-        "sedazione preoperatoria",
-        "Broncospasmo"
+        "Broncospasmo acuto",
+        "Ipotensione ortostatica",
+        "Bradicardia sinusale"
       ],
       "correct": 1
     },
@@ -6837,11 +6837,11 @@
       "id": 12500327,
       "text": "Quale delle seguenti affermazioni riguardanti gli antagonisti beta adrenergici è errata?",
       "options": [
-        "in seguito ad un' interazione tra farmaci puo' verificarsi variazione della risposta farmacologica",
-        "in seguito ad un'interazioni tra farmaci puo' verificarsi una variazione della durata della risposta farmacologica",
-        "un farmaco puo' interferire con l'escrezione di un altro farmaco",
+        "Possono provocare broncocostrizione nei soggetti asmatici",
+        "Riducono la frequenza cardiaca e la gittata cardiaca",
+        "Riducono la secrezione di renina",
         "La loro azione antiipertensiva e’ piu’ pronunciata nei soggetti normali in quelli ipertesi",
-        "un farmaco puo' modificare la biodisponibilita' di un altro farmaco"
+        "La brusca sospensione può causare fenomeni da rimbalzo"
       ],
       "correct": 3
     },
@@ -6849,11 +6849,11 @@
       "id": 12500328,
       "text": "Nei pazienti con funzionalità epatica compromessa la posologia dei farmaci deve essere aggiustata in quanto?",
       "options": [
-        "Meningite criptococcica",
-        "Pneumocistosi e Toxoplasmosi",
+        "Il metabolismo epatico dei farmaci è ridotto",
+        "La sintesi di albumina e il legame proteico sono ridotti",
         "Tutte le indicazioni sono corrette",
-        "Candidosi orale",
-        "Herpes simplex disseminato"
+        "L'emivita dei farmaci metabolizzati dal fegato aumenta",
+        "Il flusso ematico epatico può essere alterato"
       ],
       "correct": 2
     },
@@ -6861,11 +6861,11 @@
       "id": 12500329,
       "text": "Quale attività farmacologica può essere ipotizzata per la cetirizina?",
       "options": [
-        "Dobutamina",
-        "Antistaminica / h1",
-        "Sodio nitroprussiato",
-        "Attivazione dell’antitrombina iii (inibitore di alcuni fattori della coagulazione)",
-        "Digitossina"
+        "Antagonista dei recettori H2",
+        "Antistaminica (antagonista H1)",
+        "Antagonista dei recettori muscarinici",
+        "Antagonista dei recettori dei leucotrieni",
+        "Stabilizzante dei mastociti"
       ],
       "correct": 1
     },
@@ -6873,11 +6873,11 @@
       "id": 12600020,
       "text": "Ke: 0,173/h, dopo 16 ore la CP?",
       "options": [
-        "46,85 %",
-        "140,55 %",
-        "187,4 %",
+        "6,25%",
+        "50%",
+        "87,5%",
         "93,7%",
-        "70,275 %"
+        "96,9%"
       ],
       "correct": 3
     },
@@ -6889,7 +6889,7 @@
         "25%",
         "12,5 %",
         "37,5 %",
-        "93,75%"
+        "6,25 %"
       ],
       "correct": 1
     },
@@ -6898,10 +6898,10 @@
       "text": "Cp 4 ng/ml, emivita 1,6 gg, in quanto tempo dalla sospensione la cp arriva a 1 ng/ml?",
       "options": [
         "4,8 gg",
-        "3,2 giorni",
+        "6,4 gg",
         "3,2 gg",
-        "1,2 mg/ora",
-        "1,6 gg"
+        "1,6 gg",
+        "0,8 gg"
       ],
       "correct": 2
     },
@@ -6909,11 +6909,11 @@
       "id": 12600044,
       "text": "farmaco con CL= 200 ml/min, Vd=60 L, emivita=3,5 ore, CP=1 mg/L, velocità di infusione?",
       "options": [
-        "3 mg/l",
-        "0,6 mg/ora",
-        "2,4 mg/ora",
-        "3,2 gg",
-        "1,2 mg/ora"
+        "1,2 mg/ora",
+        "6 mg/ora",
+        "60 mg/ora",
+        "3,5 mg/ora",
+        "12 mg/ora"
       ],
       "correct": 4
     }
