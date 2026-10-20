@@ -92,6 +92,10 @@
                     <input id="source-wrong" type="radio" name="source" value="wrong">
                     <span class="source-check" aria-hidden="true">✓</span><span class="source-text"><strong>Domande sbagliate</strong><small>Ripassa i quesiti ancora nel contenitore errori</small></span><span id="wrong-pool-count" class="source-count">0</span>
                   </label>
+                  <label class="source-option" for="source-skipped">
+                    <input id="source-skipped" type="radio" name="source" value="skipped">
+                    <span class="source-check" aria-hidden="true">✓</span><span class="source-text"><strong>Skipped questions</strong><small>Retry questions you preferred to skip instead of guessing</small></span><span id="skipped-pool-count" class="source-count">0</span>
+                  </label>
                 </fieldset>
                 <label class="field-label" for="question-count">Numero di domande</label>
                 <select id="question-count" name="count">
@@ -111,7 +115,8 @@
               <div class="rule-list">
                 <div class="rule-item"><span class="rule-number">01</span><div><strong>Rispondi</strong><p>Scegli una delle opzioni e controlla il risultato.</p></div></div>
                 <div class="rule-item"><span class="rule-number">02</span><div><strong>Se sbagli</strong><p>La domanda entra nel contenitore “Domande sbagliate”.</p></div></div>
-                <div class="rule-item"><span class="rule-number">03</span><div><strong>Se la correggi</strong><p>La domanda viene rimossa dal contenitore degli errori.</p></div></div>
+                <div class="rule-item"><span class="rule-number">03</span><div><strong>Skip it</strong><p>Press Skip without knowing: the correct answer is not revealed and the question is moved to the box “Skipped questions”.</p></div></div>
+                <div class="rule-item"><span class="rule-number">04</span><div><strong>Se la correggi</strong><p>La domanda viene rimossa dal contenitore degli errori.</p></div></div>
               </div>
               <div class="privacy-note"><span aria-hidden="true">ⓘ</span><p>Firebase gestisce l'account e Firestore sincronizza i progressi tra dispositivi. Le domande restano nel file statico questions.json.</p></div>
             </aside>
@@ -126,9 +131,10 @@
             <div class="question-meta"><span>DOMANDA <strong id="question-number">01</strong></span><span id="question-id">ID 12462684</span></div>
             <h1 id="question-text">Caricamento domanda…</h1>
             <p class="answer-instruction">Seleziona una risposta.</p>
+            <p class="muted small-text" id="skip-hint">If you do not know a question, do not guess: press the <strong>Skip it and put it away</strong> button and the question moves to the box “Skipped questions”, without revealing the correct answer.</p>
             <div id="option-list" class="option-list"></div>
             <div id="answer-feedback" class="answer-feedback" hidden aria-live="polite"></div>
-            <div class="question-actions"><span id="question-state-label" class="muted small-text">La risposta verrà verificata subito.</span><button id="next-question" class="button button-primary" type="button" disabled>Conferma risposta</button></div>
+            <div class="question-actions"><span id="question-state-label" class="muted small-text">La risposta verrà verificata subito.</span><button id="skip-question" class="button button-quiet button-skip" type="button" disabled>Skip it and put it away</button><button id="next-question" class="button button-primary" type="button" disabled>Conferma risposta</button></div>
           </article>
         </section>
 
@@ -138,8 +144,9 @@
             <article class="card result-stat"><span>Corrette</span><strong id="result-correct">0</strong></article>
             <article class="card result-stat"><span>Sbagliate</span><strong id="result-wrong">0</strong></article>
             <article class="card result-stat"><span>Precisione sessione</span><strong id="result-accuracy">0%</strong></article>
+            <article class="card result-stat"><span>Skipped</span><strong id="result-skipped">0</strong></article>
           </div>
-          <div class="result-actions"><button id="result-home" class="button button-primary" type="button">Torna alla panoramica</button><button id="retry-wrong" class="button button-secondary" type="button">Ripassa le domande sbagliate</button></div>
+          <div class="result-actions"><button id="result-home" class="button button-primary" type="button">Torna alla panoramica</button><button id="retry-skipped" class="button button-secondary button-skip" type="button" disabled>Skip skippede</button><button id="retry-wrong" class="button button-secondary" type="button">Ripassa le domande sbagliate</button></div>
         </section>
       </section>
 
