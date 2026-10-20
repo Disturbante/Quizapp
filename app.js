@@ -22,12 +22,13 @@ const state = {
   questions: [],
   questionById: new Map(),
   wrongIds: [],
-  stats: { answered: 0, correct: 0, wrong: 0 },
+  skippedIds: [],
+  stats: { answered: 0, correct: 0, wrong: 0, skipped: 0 },
   authMode: "login",
   mode: "general",
   sessionQuestions: [],
   sessionIndex: 0,
-  sessionStats: { correct: 0, wrong: 0 },
+  sessionStats: { correct: 0, wrong: 0, skipped: 0 },
   selectedOption: null,
   answeredCurrent: false,
   progressStorageKey: null,
@@ -38,7 +39,7 @@ const state = {
   db: null
 };
 
-const DEFAULT_STATS = Object.freeze({ answered: 0, correct: 0, wrong: 0 });
+const DEFAULT_STATS = Object.freeze({ answered: 0, correct: 0, wrong: 0, skipped: 0 });
 const QUIZ_ID = "85";
 
 function setHidden(element, hidden) {
@@ -92,13 +93,16 @@ function sanitizeProgress(progress) {
   const wrongIds = Array.isArray(progress?.wrongIds)
     ? [...new Set(progress.wrongIds.map(String).filter((id) => validIds.has(id)))]
     : [];
+  const skippedIds = Array.isArray(progress?.skippedIds)
+    ? [...new Set(progress.skippedIds.map(String).filter((id) => validIds.has(id)))]
+    : [];
   const rawStats = progress?.stats || {};
   const stats = {};
   for (const key of Object.keys(DEFAULT_STATS)) {
     const value = Number(rawStats[key]);
     stats[key] = Number.isFinite(value) && value >= 0 ? Math.floor(value) : 0;
   }
-  return { wrongIds, stats };
+  return { wrongIds, skippedIds, stats };
 }
 
 function readLocalProgress(user) {
@@ -116,13 +120,14 @@ function readLocalProgress(user) {
   } catch (error) {
     console.warn("Unable to read local quiz progress", error);
     showMessage("Non è stato possibile leggere i progressi locali del browser.", "warning");
-    return { wrongIds: [], stats: { ...DEFAULT_STATS }, exists: false, savedAt: null };
+    return { wrongIds: [], skippedIds: [], stats: { ...DEFAULT_STATS }, exists: false, savedAt: null };
   }
 }
 
 function applyProgress(progress) {
   const clean = sanitizeProgress(progress);
   state.wrongIds = clean.wrongIds;
+  state.skippedIds = clean.skippedIds;
   state.stats = clean.stats;
 }
 
@@ -147,6 +152,7 @@ function currentProgressPayload() {
     version: 1,
     quizId: QUIZ_ID,
     wrongIds: [...state.wrongIds],
+    skippedIds: [...state.skippedIds],
     stats: { ...state.stats }
   };
 }
@@ -191,7 +197,8 @@ async function loadProgress(user) {
       // Migrate progress from the previous localStorage-only version on first login.
       applyProgress(local);
       syncSucceeded = await saveProgress();
-      if (syncSucceeded && local.exists && (local.wrongIds.length > 0 || local.stats.answered > 0)) {
+      if (syncSucceeded && local.exists &&
+          (local.wrongIds.length > 0 || local.skippedIds.length > 0 || local.stats.answered > 0)) {
         showMessage("I progressi salvati in precedenza sono stati trasferiti a Firebase.", "success");
       }
     }
@@ -226,6 +233,7 @@ function saveProgress() {
       if (state.user?.uid === user.uid) {
         const current = currentProgressPayload();
         if (JSON.stringify(current.wrongIds) === JSON.stringify(payload.wrongIds) &&
+            JSON.stringify(current.skippedIds) === JSON.stringify(payload.skippedIds) &&
             JSON.stringify(current.stats) === JSON.stringify(payload.stats)) {
           writeLocalCache(user, payload, false);
         }
@@ -291,6 +299,12 @@ function showScreen(screen) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function selectedSource() {
+  if ($("source-wrong").checked) return "wrong";
+  if ($("source-skipped").checked) return "skipped";
+  return "general";
+}
+
 function renderDashboard() {
   const total = state.questions.length;
   const wrong = state.wrongIds.length;
@@ -301,18 +315,23 @@ function renderDashboard() {
   $("wrong-count").textContent = String(wrong);
   $("correct-count").textContent = String(state.stats.correct);
   $("accuracy").textContent = accuracy;
+  const skipped = state.skippedIds.length;
   $("general-pool-count").textContent = String(total);
   $("wrong-pool-count").textContent = String(wrong);
+  $("skipped-pool-count").textContent = String(skipped);
   const wrongRadio = $("source-wrong");
   wrongRadio.disabled = wrong === 0;
   if (wrong === 0 && wrongRadio.checked) $("source-general").checked = true;
+  const skippedRadio = $("source-skipped");
+  skippedRadio.disabled = skipped === 0;
+  if (skipped === 0 && skippedRadio.checked) $("source-general").checked = true;
   document.querySelectorAll(".source-option").forEach((label) => {
     const input = label.querySelector("input");
     label.classList.toggle("selected", Boolean(input?.checked));
     label.classList.toggle("disabled", Boolean(input?.disabled));
   });
-  const selected = $("source-wrong").checked ? "wrong" : "general";
-  const max = selected === "wrong" ? wrong : total;
+  const selected = selectedSource();
+  const max = selected === "wrong" ? wrong : selected === "skipped" ? skipped : total;
   const countSelect = $("question-count");
   const allOption = countSelect.querySelector('option[value="all"]');
   allOption.textContent = `Tutte quelle disponibili (${max})`;
@@ -320,11 +339,27 @@ function renderDashboard() {
   $("reset-progress").disabled = !state.progressReady;
 }
 
+function poolOf(mode) {
+  if (mode === "wrong") {
+    return state.questions.filter((question) => state.wrongIds.includes(String(question.id)));
+  }
+  if (mode === "skipped") {
+    return state.questions.filter((question) => state.skippedIds.includes(String(question.id)));
+  }
+  return state.questions;
+}
+
 function beginSession(mode, countChoice) {
-  const source = mode === "wrong"
-    ? state.questions.filter((question) => state.wrongIds.includes(String(question.id)))
-    : state.questions;
+  const source = poolOf(mode);
   if (source.length === 0) {
+    if (mode === "skipped") {
+      showMessage("The box of skipped questions is empty.", "warning");
+      return;
+    }
+    if (mode === "general") {
+      showMessage("There are no questions available.", "warning");
+      return;
+    }
     showMessage("Il contenitore delle domande sbagliate è vuoto.", "warning");
     return;
   }
@@ -332,7 +367,7 @@ function beginSession(mode, countChoice) {
   state.mode = mode;
   state.sessionQuestions = shuffle(source).slice(0, Math.min(count, source.length));
   state.sessionIndex = 0;
-  state.sessionStats = { correct: 0, wrong: 0 };
+  state.sessionStats = { correct: 0, wrong: 0, skipped: 0 };
   state.selectedOption = null;
   state.answeredCurrent = false;
   showScreen("quiz");
@@ -347,7 +382,7 @@ function renderQuestion() {
   }
   state.selectedOption = null;
   state.answeredCurrent = false;
-  $("quiz-mode-badge").textContent = state.mode === "wrong" ? "Domande sbagliate" : "Tutte le domande";
+  $("quiz-mode-badge").textContent = state.mode === "wrong" ? "Domande sbagliate" : state.mode === "skipped" ? "Skipped questions" : "Tutte le domande";
   $("quiz-progress-label").textContent = `Domanda ${state.sessionIndex + 1} di ${state.sessionQuestions.length}`;
   $("quiz-score-label").textContent = `${state.sessionStats.correct} corrette`;
   $("quiz-progress-bar").style.width = `${(state.sessionIndex / state.sessionQuestions.length) * 100}%`;
@@ -358,6 +393,7 @@ function renderQuestion() {
   $("answer-feedback").replaceChildren();
   setHidden($("answer-feedback"), true);
   $("question-state-label").textContent = "La risposta verrà verificata subito.";
+  $("skip-question").disabled = false;
   $("next-question").disabled = true;
   $("next-question").textContent = "Conferma risposta";
 
@@ -388,6 +424,7 @@ function selectOption(index) {
   document.querySelectorAll(".answer-option").forEach((button) => {
     button.classList.toggle("selected", Number(button.dataset.optionIndex) === index);
   });
+  $("skip-question").disabled = true;
   $("next-question").disabled = false;
   $("next-question").textContent = "Verifica risposta";
   $("question-state-label").textContent = "Risposta selezionata";
@@ -407,6 +444,40 @@ function addFeedback(correct, question) {
   setHidden(panel, false);
 }
 
+function skipFeedback() {
+  const panel = $("answer-feedback");
+  panel.replaceChildren();
+  panel.className = "answer-feedback is-skip";
+  const title = document.createElement("strong");
+  title.textContent = "Question skipped";
+  const description = document.createElement("p");
+  description.textContent = "The correct answer has not been revealed. The question has been moved to the box of questions skipped: if you answer it correctly, it will remove it.";
+  panel.append(title, description);
+  setHidden(panel, false);
+}
+
+function skipQuestion() {
+  if (state.answeredCurrent || state.selectedOption !== null) return;
+  const question = state.sessionQuestions[state.sessionIndex];
+  if (!question) return;
+  const id = String(question.id);
+  state.answeredCurrent = true;
+  state.stats.skipped += 1;
+  state.sessionStats.skipped += 1;
+  if (!state.skippedIds.includes(id)) state.skippedIds.push(id);
+  state.wrongIds = state.wrongIds.filter((value) => value !== id);
+  void saveProgress();
+  renderDashboard();
+  document.querySelectorAll(".answer-option").forEach((button) => button.disabled = true);
+  $("quiz-progress-bar").style.width = `${((state.sessionIndex + 1) / state.sessionQuestions.length) * 100}%`;
+  $("quiz-score-label").textContent = `${state.sessionStats.correct} correct`;
+  $("question-state-label").textContent = "Moved to the box of questions skipped.";
+  skipFeedback();
+  $("skip-question").disabled = true;
+  $("next-question").disabled = false;
+  $("next-question").textContent = state.sessionIndex === state.sessionQuestions.length - 1 ? "See result" : "Next question →";
+}
+
 function submitAnswer() {
   if (!state.answeredCurrent) {
     if (state.selectedOption === null) return;
@@ -418,11 +489,14 @@ function submitAnswer() {
       state.stats.correct += 1;
       state.sessionStats.correct += 1;
       state.wrongIds = state.wrongIds.filter((id) => id !== String(question.id));
+      state.skippedIds = state.skippedIds.filter((id) => id !== String(question.id));
     } else {
       state.stats.wrong += 1;
       state.sessionStats.wrong += 1;
       if (!state.wrongIds.includes(String(question.id))) state.wrongIds.push(String(question.id));
+      state.skippedIds = state.skippedIds.filter((id) => id !== String(question.id));
     }
+    $("skip-question").disabled = true;
     void saveProgress();
     renderDashboard();
     document.querySelectorAll(".answer-option").forEach((button) => {
@@ -449,11 +523,16 @@ function submitAnswer() {
 function renderResults() {
   showScreen("results");
   const total = state.sessionQuestions.length;
-  const accuracy = total ? Math.round((state.sessionStats.correct / total) * 100) : 0;
+  const attempted = state.sessionStats.correct + state.sessionStats.wrong;
+  const accuracy = attempted ? Math.round((state.sessionStats.correct / attempted) * 100) : 0;
   $("result-correct").textContent = String(state.sessionStats.correct);
   $("result-wrong").textContent = String(state.sessionStats.wrong);
   $("result-accuracy").textContent = `${accuracy}%`;
+  $("result-skipped").textContent = String(state.sessionStats.skipped);
   $("result-summary").textContent = `Hai completato ${total} ${total === 1 ? "domanda" : "domande"}. Nel contenitore degli errori restano ${state.wrongIds.length} ${state.wrongIds.length === 1 ? "domanda" : "domande"}.`;
+  const skippedTotal = state.skippedIds.length;
+  $("retry-skipped").disabled = skippedTotal === 0;
+  $("retry-skipped").textContent = skippedTotal ? `Retry the skipped questions (${skippedTotal})` : "No skipped question to retry";
   $("retry-wrong").disabled = state.wrongIds.length === 0;
   $("retry-wrong").textContent = state.wrongIds.length ? `Ripassa le domande sbagliate (${state.wrongIds.length})` : "Nessuna domanda da ripassare";
 }
@@ -561,20 +640,24 @@ $("sign-out").addEventListener("click", async () => {
 });
 $("session-form").addEventListener("submit", (event) => {
   event.preventDefault();
-  const mode = $("source-wrong").checked ? "wrong" : "general";
+  const mode = selectedSource();
   beginSession(mode, $("question-count").value);
 });
 $("source-general").addEventListener("change", renderDashboard);
 $("source-wrong").addEventListener("change", renderDashboard);
+$("source-skipped").addEventListener("change", renderDashboard);
+$("skip-question").addEventListener("click", skipQuestion);
 $("next-question").addEventListener("click", submitAnswer);
 $("back-home").addEventListener("click", () => { renderDashboard(); showScreen("home"); });
 $("result-home").addEventListener("click", () => { renderDashboard(); showScreen("home"); });
 $("retry-wrong").addEventListener("click", () => beginSession("wrong", "all"));
+$("retry-skipped").addEventListener("click", () => beginSession("skipped", "all"));
 $("reset-progress").addEventListener("click", async () => {
   if (!state.user || !state.progressReady) return;
   const confirmed = window.confirm("Vuoi cancellare le statistiche e svuotare le domande sbagliate per questo account su tutti i dispositivi sincronizzati?");
   if (!confirmed) return;
   state.wrongIds = [];
+  state.skippedIds = [];
   state.stats = { ...DEFAULT_STATS };
   renderDashboard();
   const savedToCloud = await saveProgress();
